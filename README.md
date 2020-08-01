@@ -18,3 +18,6 @@ rof\DELTARUNE.EXE
 
 <strike>Copyright, 2020.
               Упс, это здесь лишнее</strike>
+
+И кстати, советуем сначала пройти НОРМАЛЬНУЮ версию Deltarune, скачав ее <a href="https://deltarune.com">здесь</a>
+
