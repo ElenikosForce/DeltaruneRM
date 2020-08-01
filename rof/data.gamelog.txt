@@ -1,0 +1,5720 @@
+Create Error Form
+
+***************************************
+*     YoYo Games Runner v1.0(999)[r32908]    *
+***************************************	 
+RunnerLoadGame: C:\rof\rofout\data.win
+#########################################################################
+####!!!!$$$$$$ pwd - C:\rof\rofout\
+#########################################################################
+RunnerLoadGame() - C:\rof\rofout\data.win
+YYG Game launching. Game file: C:\rof\rofout\data.win
+Checking if INIFile exists at C:\rof\rofout/options.ini
+Reading File C:\rof\rofout\data.win
+Loaded File C:\rof\rofout\data.win(17176844)
+IFF wad found
+Get Resolution
+Get Header Information
+InitGMLFunctions
+HighScore..SavePrePend = C:\Users\555\AppData\Local\DELTARUNE\
+Game..Math..Graphic..Action..File..Resource..Interaction..3D..Particle..Misc..DS..Sound..Physics..Gamepad..Buffers..Networking..Shaders..InitPushFunctions...YoYo..Fini
+Code_Load()
+VARI_Load()
+got 2687 global variables
+got 2687 instance variables
+got 39 local variables
+ID_STRG
+Create Window
+GAMEPAD: 40 axis values (last) at 0x202f900
+GAMEPAD: 40 axis values (last) at 0x202f700
+GAMEPAD: 40 axis values (last) at 0x202f500
+GAMEPAD: 40 axis values (last) at 0x202f300
+GAMEPAD: 40 axis values (last) at 0x202f100
+GAMEPAD: 40 axis values (last) at 0x202ef00
+GAMEPAD: 40 axis values (last) at 0x202ed00
+GAMEPAD: 40 axis values (last) at 0x202eb00
+AdjustWindowRectEx
+RegisterClassEx
+CreateWindowEx
+GAMEPAD: 4 axis values (last) at 0x34eb90
+GAMEPAD: 4 axis values (last) at 0x34eb70
+GAMEPAD: 4 axis values (last) at 0x34eb50
+GAMEPAD: 4 axis values (last) at 0x34eb30
+Init Graphics
+GR_D3D_Init()
+Enable DwmEnableMMCSS
+DirectX11: Using hardware device
+Background_InitTextures()
+Sprite_InitTextures()
+Font_InitTextures()
+IO Init
+Process Messages
+Splash!
+Start Frame
+Part Create Textures
+Debug Init Remote Interface
+VM Init
+Create Score Form
+Create Load Form
+Do The Work
+LoadGameData()
+initialise everything!
+Process Chunk: GEN8   784
+Process Chunk: OPTN   88
+Process Chunk: LANG   24
+Process Chunk: EXTN   8
+Process Chunk: SOND   6056
+Audio_Load()
+Process Chunk: AGRP   24
+AudioGroup_Load()
+Process Chunk: SPRT   1616152
+Process Chunk: BGND   9448
+Process Chunk: PATH   8
+Process Chunk: SCPT   3016
+Process Chunk: GLOB   24
+Process Chunk: SHDR   8
+Process Chunk: FONT   179176
+Process Chunk: TMLN   8
+Process Chunk: OBJT   163096
+Process Chunk: ROOM   1819064
+Process Chunk: DAFL   8
+Process Chunk: EMBI   8
+Process Chunk: TPAG   76472
+Process Chunk: CODE   1497432
+Process Chunk: VARI   90936
+Process Chunk: FUNC   32296
+Process Chunk: STRG   475592
+Process Chunk: TXTR   4830968
+Process Chunk: AUDO   6375940
+Audio_WAVs()
+PrepareGame()
+Extension_Prepare() 
+Code_Constant_Prepare() 
+Script_Prepare() 
+TimeLine_Prepare() 
+Object_Prepare() 
+Preparing 342 objects:
+	Objects 0: obj_choicer_old
+	Objects 1: obj_choicer_neo
+	Objects 2: obj_face
+	Objects 3: obj_face_parent
+	Objects 4: obj_smallface
+	Objects 5: obj_dialoguer
+	Objects 6: obj_writer
+	Objects 7: obj_fallpaper
+	Objects 8: obj_insideclosetcutscene
+	Objects 9: obj_darkdoor
+	Objects 10: obj_classscene
+	Objects 11: obj_schoollobbycutscene
+	Objects 12: obj_schooldesk
+	Objects 13: obj_tem_school
+	Objects 14: obj_torielclass_event
+	Objects 15: obj_unusedclassevent
+	Objects 16: obj_alphysdesk
+	Objects 17: obj_rudy
+	Objects 18: obj_church_event
+	Objects 19: obj_town_shelter_event
+	Objects 20: obj_town_event
+	Objects 21: obj_alphysalley_event
+	Objects 22: obj_flowershop_event
+	Objects 23: obj_onionbody
+	Objects 24: obj_onion_event
+	Objects 25: obj_carcutscene
+	Objects 26: obj_hallway_mirror
+	Objects 27: obj_krisroom
+	Objects 28: obj_rurus_checker_event
+	Objects 29: obj_cc_event
+	Objects 30: obj_jokerbattleevent
+	Objects 31: obj_elevatorcontroller
+	Objects 32: obj_lancerbakesale_event
+	Objects 33: obj_cloverpuzzle_event
+	Objects 34: obj_prisonevent
+	Objects 35: obj_lancerbattle2_event
+	Objects 36: obj_lancerchase2
+	Objects 37: obj_castlefront_event
+	Objects 38: obj_susieandlancer_event
+	Objects 39: obj_thrashcontroller
+	Objects 40: obj_thrashmachine
+	Objects 41: obj_thrashmaker_event
+	Objects 42: obj_suitspuzzle_event
+	Objects 43: obj_susiebadguy_event
+	Objects 44: obj_thrashafter_event
+	Objects 45: obj_thrashafter_follow
+	Objects 46: obj_rurus_appear
+	Objects 47: obj_rurus_event
+	Objects 48: obj_lancerscare2
+	Objects 49: obj_scarelancerevent
+	Objects 50: obj_getsusieevent
+	Objects 51: obj_boxpuzzle_event
+	Objects 52: obj_hathyfightevent
+	Objects 53: obj_darkdoorevent
+	Objects 54: obj_tutorialbattleevent
+	Objects 55: obj_ralsei_runevent
+	Objects 56: obj_lancerguide
+	Objects 57: obj_thrashzone_event
+	Objects 58: obj_insultzone_event
+	Objects 59: obj_preforest_event
+	Objects 60: obj_candytree_event
+	Objects 61: obj_cloverhole
+	Objects 62: obj_npc_hammerguy
+	Objects 63: obj_shortcut_door
+	Objects 64: obj_npc_puzzlemaster1
+	Objects 65: obj_npc_puzzlemaster2
+	Objects 66: obj_cakesmoke
+	Objects 67: obj_npc_susiedark
+	Objects 68: obj_darkcastle_event
+	Objects 69: obj_darklanding
+	Objects 70: obj_wobblything_slide
+	Objects 71: obj_lancerslideevent
+	Objects 72: obj_lancerchaseevent
+	Objects 73: obj_darkslide
+	Objects 74: obj_darkwakeevent
+	Objects 75: obj_savepoint
+	Objects 76: obj_readable
+	Objects 77: obj_animation
+	Objects 78: obj_marker
+	Objects 79: obj_marker2
+	Objects 80: obj_readable_room1
+	Objects 81: obj_interactablesolid
+	Objects 82: obj_npc_toriel
+	Objects 83: obj_npc_facing
+	Objects 84: obj_npc_room
+	Objects 85: obj_npc_room_animated
+	Objects 86: obj_treasure_room
+	Objects 87: obj_npc_sign
+	Objects 88: obj_event_room
+	Objects 89: obj_interactable
+	Objects 90: obj_doorA
+	Objects 91: obj_doorA_musfade
+	Objects 92: obj_doorB_musfade
+	Objects 93: obj_doorB
+	Objects 94: obj_doorC
+	Objects 95: obj_doorC_musfade
+	Objects 96: obj_doorD
+	Objects 97: obj_doorD_musfade
+	Objects 98: obj_doorE
+	Objects 99: obj_doorF
+	Objects 100: obj_doorX
+	Objects 101: obj_doorX_musfade
+	Objects 102: obj_doorw_musfade
+	Objects 103: obj_doorparent
+	Objects 104: obj_markerA
+	Objects 105: obj_markerB
+	Objects 106: obj_markerC
+	Objects 107: obj_markerD
+	Objects 108: obj_markerE
+	Objects 109: obj_markerF
+	Objects 110: obj_markerr
+	Objects 111: obj_markers
+	Objects 112: obj_markert
+	Objects 113: obj_markeru
+	Objects 114: obj_markerv
+	Objects 115: obj_markerw
+	Objects 116: obj_markerX
+	Objects 117: obj_doorW
+	Objects 118: obj_musicer
+	Objects 119: obj_musicer_darkcliff
+	Objects 120: obj_musicer_town
+	Objects 121: obj_musicer_field
+	Objects 122: obj_musicer_forest
+	Objects 123: obj_musicer_quietforest
+	Objects 124: obj_musicer_man
+	Objects 125: obj_musicer_darkcastle
+	Objects 126: obj_musicer_bird
+	Objects 127: obj_wave_fx
+	Objects 128: obj_astream
+	Objects 129: obj_gameover_init
+	Objects 130: obj_ralseibook
+	Objects 131: obj_jokerbg_triangle_real
+	Objects 132: obj_fieldmuslogo
+	Objects 133: obj_backgrounder_standard
+	Objects 134: obj_backgrounder_sprite
+	Objects 135: obj_backgrounderparent
+	Objects 136: obj_panner
+	Objects 137: obj_fadeout
+	Objects 138: obj_fadein
+	Objects 139: obj_persistentfadein
+	Objects 140: obj_shake
+	Objects 141: obj_castle_torch
+	Objects 142: obj_castle_house
+	Objects 143: obj_bluhpainting
+	Objects 144: obj_lightfairy
+	Objects 145: obj_blocktree_bg
+	Objects 146: obj_purplegrass
+	Objects 147: obj_slidedust
+	Objects 148: obj_darklancer
+	Objects 149: obj_dustball
+	Objects 150: obj_dustball_pilebreak
+	Objects 151: obj_dustpile
+	Objects 152: obj_dustpile_susie
+	Objects 153: obj_wobblything
+	Objects 154: obj_wobblything_evil
+	Objects 155: obj_anim
+	Objects 156: obj_kingcutscene
+	Objects 157: obj_shakeobj
+	Objects 158: obj_darkfountain
+	Objects 159: obj_darkfountain_event
+	Objects 160: obj_fountainkris
+	Objects 161: obj_chaseenemy
+	Objects 162: obj_excblcon
+	Objects 163: obj_testoverworldenemy
+	Objects 164: obj_encounterbasic
+	Objects 165: obj_caterpillarchara
+	Objects 166: obj_darkcontroller
+	Objects 167: obj_healwriter
+	Objects 168: obj_menuwriter
+	Objects 169: obj_battlealphaer
+	Objects 170: obj_starwalker_battle
+	Objects 171: obj_starwalker_overworld
+	Objects 172: obj_starwalker_offswitch
+	Objects 173: obj_overworldheart
+	Objects 174: obj_scissordancer
+	Objects 175: obj_dancer_gen
+	Objects 176: obj_darkponman_ow
+	Objects 177: obj_ob_gen
+	Objects 178: obj_ob_checkertile
+	Objects 179: obj_overworld_spade_homing
+	Objects 180: obj_overworld_spade
+	Objects 181: obj_overworld_spademaker
+	Objects 182: obj_overworldbulletparent
+	Objects 183: obj_afterimage
+	Objects 184: obj_afterimage_grow
+	Objects 185: obj_attackpress
+	Objects 186: obj_basicattack
+	Objects 187: obj_battlecontroller
+	Objects 188: obj_battlesolid
+	Objects 189: obj_bulletgenparent
+	Objects 190: obj_bulletparent
+	Objects 191: obj_burstbolt
+	Objects 192: obj_chasebullet
+	Objects 193: obj_collidebullet
+	Objects 194: obj_regularbullet_permanent
+	Objects 195: obj_darkener
+	Objects 196: obj_grazebox
+	Objects 197: obj_healeffect
+	Objects 198: obj_healsparkle
+	Objects 199: obj_heartburst
+	Objects 200: obj_heartmarker
+	Objects 201: obj_lancerbike
+	Objects 202: obj_herokris
+	Objects 203: obj_herosusie
+	Objects 204: obj_heroralsei
+	Objects 205: obj_heroparent
+	Objects 206: obj_initializer
+	Objects 207: obj_krisplace
+	Objects 208: obj_monster1
+	Objects 209: obj_moveheart
+	Objects 210: obj_regularbullet
+	Objects 211: obj_returnheart
+	Objects 212: obj_tensionbar
+	Objects 213: obj_whiteedge
+	Objects 214: obj_forest_area5_puzzle
+	Objects 215: obj_forestmaze_controller
+	Objects 216: obj_tempblock_room
+	Objects 217: obj_suitspuzz
+	Objects 218: obj_suitspuzz_button
+	Objects 219: obj_pushableblock
+	Objects 220: obj_glowtile
+	Objects 221: obj_blocktile
+	Objects 222: obj_glowtilepuzz
+	Objects 223: obj_darkeyepuzzle_switch
+	Objects 224: obj_darkeyepuzzle
+	Objects 225: obj_dicebul
+	Objects 226: obj_heartblcon
+	Objects 227: obj_clubsbullet
+	Objects 228: obj_clubsbullet_dark
+	Objects 229: obj_dbullet_maker
+	Objects 230: obj_dbullet_vert
+	Objects 231: obj_heartshaper
+	Objects 232: obj_spinheart
+	Objects 233: obj_dbulletcontroller
+	Objects 234: obj_monsterparent
+	Objects 235: obj_ralseibullet
+	Objects 236: obj_dummyenemy
+	Objects 237: obj_ralseienemy
+	Objects 238: obj_placeholderenemy
+	Objects 239: obj_chain_of_hell
+	Objects 240: obj_chainking
+	Objects 241: obj_chainpiece
+	Objects 242: obj_fadechain
+	Objects 243: obj_finalchain
+	Objects 244: obj_king_body
+	Objects 245: obj_growtangle_bouncer
+	Objects 246: obj_nonsolid_growtangle
+	Objects 247: obj_skychain
+	Objects 248: obj_wavechain
+	Objects 249: obj_dknight_slasher
+	Objects 250: obj_rudinnranger
+	Objects 251: obj_jigsawbullet
+	Objects 252: obj_jigsawryenemy
+	Objects 253: obj_checkers_enemy
+	Objects 254: obj_checker_animtest
+	Objects 255: obj_ralseithrown
+	Objects 256: obj_throwralsei
+	Objects 257: obj_throwtarget
+	Objects 258: obj_checkers_leap
+	Objects 259: obj_ponman_appear
+	Objects 260: obj_ponman_enemy
+	Objects 261: obj_heartbomb_blast
+	Objects 262: obj_suitbomb
+	Objects 263: obj_joker_body
+	Objects 264: obj_centerscythe
+	Objects 265: obj_laserscythe
+	Objects 266: obj_bigscythe
+	Objects 267: obj_carouselbullet
+	Objects 268: obj_joker_teleport
+	Objects 269: obj_spadering
+	Objects 270: obj_rabbick_bush
+	Objects 271: obj_carrotthrower
+	Objects 272: obj_rabbitbullet
+	Objects 273: obj_rabbick_enemy
+	Objects 274: obj_blockbullet_fall
+	Objects 275: obj_bloxer_enemy
+	Objects 276: obj_lancerbike_neo
+	Objects 277: obj_axebullet
+	Objects 278: obj_lancerboss
+	Objects 279: obj_lancerboss2
+	Objects 280: obj_diamondenemy
+	Objects 281: obj_susieenemy
+	Objects 282: obj_lancerboss3
+	Objects 283: obj_king_boss
+	Objects 284: obj_joker
+	Objects 285: obj_clubsenemy
+	Objects 286: obj_clubsenemy_old
+	Objects 287: obj_heartenemy
+	Objects 288: obj_headhathy
+	Objects 289: obj_smallcheckers_enemy
+	Objects 290: obj_pacifyspell
+	Objects 291: obj_deathanim
+	Objects 292: obj_defeatanim
+	Objects 293: obj_healanim
+	Objects 294: obj_oflash
+	Objects 295: obj_rudebuster_anim
+	Objects 296: obj_rudebuster_bolt
+	Objects 297: obj_hypnofx
+	Objects 298: obj_spareanim
+	Objects 299: obj_battleback
+	Objects 300: obj_spellphase
+	Objects 301: obj_battleblcon
+	Objects 302: obj_endbattle
+	Objects 303: obj_growtangle
+	Objects 304: obj_dmgwriter
+	Objects 305: obj_heart
+	Objects 306: obj_shop1
+	Objects 307: obj_shop2
+	Objects 308: DEVICE_APPEARANCE
+	Objects 309: DEVICE_CHOICE
+	Objects 310: DEVICE_CONTACT
+	Objects 311: DEVICE_FAILURE
+	Objects 312: DEVICE_GONERMAKER
+	Objects 313: DEVICE_MENU
+	Objects 314: DEVICE_OBACK_4
+	Objects 315: PROCESS_LOGO
+	Objects 316: PROCESS_DOG
+	Objects 317: obj_credits
+	Objects 318: obj_dkris_event
+	Objects 319: obj_darkphone_event
+	Objects 320: obj_time
+	Objects 321: obj_move_to_point
+	Objects 322: obj_legend
+	Objects 323: obj_savemenu
+	Objects 324: obj_initializer2
+	Objects 325: obj_overworldc
+	Objects 326: obj_mainchara
+	Objects 327: obj_sdl
+	Objects 328: obj_sdr
+	Objects 329: obj_sul
+	Objects 330: obj_sur
+	Objects 331: obj_soliddark
+	Objects 332: obj_sur_dark
+	Objects 333: obj_sdl_dark
+	Objects 334: obj_solidenemy
+	Objects 335: obj_solidenemy_2
+	Objects 336: obj_solidblock
+	Objects 337: obj_solidlong
+	Objects 338: obj_solidcircle
+	Objects 339: obj_diag
+	Objects 340: obj_diamond
+	Objects 341: obj_84_lang_helper
+Room_Prepare() 
+Sound_Prepare() 
+InitGraphics() 
+Finished PrepareGame() 
+Run_Start
+Audio group 1 -> Loading...
+Audio_WAVs()
+**********************************.
+Entering main loop.
+**********************************.
+Audio group 1 -> Loaded
+create stream 300000
+Resizing swap chain...Create Error Form
+
+***************************************
+*     YoYo Games Runner v1.0(999)[r32908]    *
+***************************************	 
+RunnerLoadGame: C:\rof\rofout\data.win
+#########################################################################
+####!!!!$$$$$$ pwd - C:\rof\rofout\
+#########################################################################
+RunnerLoadGame() - C:\rof\rofout\data.win
+YYG Game launching. Game file: C:\rof\rofout\data.win
+Checking if INIFile exists at C:\rof\rofout/options.ini
+Reading File C:\rof\rofout\data.win
+Loaded File C:\rof\rofout\data.win(17176844)
+IFF wad found
+Get Resolution
+Get Header Information
+InitGMLFunctions
+HighScore..SavePrePend = C:\Users\555\AppData\Local\DELTARUNE\
+Game..Math..Graphic..Action..File..Resource..Interaction..3D..Particle..Misc..DS..Sound..Physics..Gamepad..Buffers..Networking..Shaders..InitPushFunctions...YoYo..Fini
+Code_Load()
+VARI_Load()
+got 2687 global variables
+got 2687 instance variables
+got 39 local variables
+ID_STRG
+Create Window
+GAMEPAD: 40 axis values (last) at 0x1c6f900
+GAMEPAD: 40 axis values (last) at 0x1c6f700
+GAMEPAD: 40 axis values (last) at 0x1c6f500
+GAMEPAD: 40 axis values (last) at 0x1c6f300
+GAMEPAD: 40 axis values (last) at 0x1c6f100
+GAMEPAD: 40 axis values (last) at 0x1c6ef00
+GAMEPAD: 40 axis values (last) at 0x1c6ed00
+GAMEPAD: 40 axis values (last) at 0x1c6eb00
+AdjustWindowRectEx
+RegisterClassEx
+CreateWindowEx
+GAMEPAD: 4 axis values (last) at 0x31eb90
+GAMEPAD: 4 axis values (last) at 0x31eb70
+GAMEPAD: 4 axis values (last) at 0x31eb50
+GAMEPAD: 4 axis values (last) at 0x31eb30
+Init Graphics
+GR_D3D_Init()
+Enable DwmEnableMMCSS
+DirectX11: Using hardware device
+Background_InitTextures()
+Sprite_InitTextures()
+Font_InitTextures()
+IO Init
+Process Messages
+Splash!
+Start Frame
+Part Create Textures
+Debug Init Remote Interface
+VM Init
+Create Score Form
+Create Load Form
+Do The Work
+LoadGameData()
+initialise everything!
+Process Chunk: GEN8   784
+Process Chunk: OPTN   88
+Process Chunk: LANG   24
+Process Chunk: EXTN   8
+Process Chunk: SOND   6056
+Audio_Load()
+Process Chunk: AGRP   24
+AudioGroup_Load()
+Process Chunk: SPRT   1616152
+Process Chunk: BGND   9448
+Process Chunk: PATH   8
+Process Chunk: SCPT   3016
+Process Chunk: GLOB   24
+Process Chunk: SHDR   8
+Process Chunk: FONT   179176
+Process Chunk: TMLN   8
+Process Chunk: OBJT   163096
+Process Chunk: ROOM   1819064
+Process Chunk: DAFL   8
+Process Chunk: EMBI   8
+Process Chunk: TPAG   76472
+Process Chunk: CODE   1497432
+Process Chunk: VARI   90936
+Process Chunk: FUNC   32296
+Process Chunk: STRG   475592
+Process Chunk: TXTR   4830968
+Process Chunk: AUDO   6375940
+Audio_WAVs()
+PrepareGame()
+Extension_Prepare() 
+Code_Constant_Prepare() 
+Script_Prepare() 
+TimeLine_Prepare() 
+Object_Prepare() 
+Preparing 342 objects:
+	Objects 0: obj_choicer_old
+	Objects 1: obj_choicer_neo
+	Objects 2: obj_face
+	Objects 3: obj_face_parent
+	Objects 4: obj_smallface
+	Objects 5: obj_dialoguer
+	Objects 6: obj_writer
+	Objects 7: obj_fallpaper
+	Objects 8: obj_insideclosetcutscene
+	Objects 9: obj_darkdoor
+	Objects 10: obj_classscene
+	Objects 11: obj_schoollobbycutscene
+	Objects 12: obj_schooldesk
+	Objects 13: obj_tem_school
+	Objects 14: obj_torielclass_event
+	Objects 15: obj_unusedclassevent
+	Objects 16: obj_alphysdesk
+	Objects 17: obj_rudy
+	Objects 18: obj_church_event
+	Objects 19: obj_town_shelter_event
+	Objects 20: obj_town_event
+	Objects 21: obj_alphysalley_event
+	Objects 22: obj_flowershop_event
+	Objects 23: obj_onionbody
+	Objects 24: obj_onion_event
+	Objects 25: obj_carcutscene
+	Objects 26: obj_hallway_mirror
+	Objects 27: obj_krisroom
+	Objects 28: obj_rurus_checker_event
+	Objects 29: obj_cc_event
+	Objects 30: obj_jokerbattleevent
+	Objects 31: obj_elevatorcontroller
+	Objects 32: obj_lancerbakesale_event
+	Objects 33: obj_cloverpuzzle_event
+	Objects 34: obj_prisonevent
+	Objects 35: obj_lancerbattle2_event
+	Objects 36: obj_lancerchase2
+	Objects 37: obj_castlefront_event
+	Objects 38: obj_susieandlancer_event
+	Objects 39: obj_thrashcontroller
+	Objects 40: obj_thrashmachine
+	Objects 41: obj_thrashmaker_event
+	Objects 42: obj_suitspuzzle_event
+	Objects 43: obj_susiebadguy_event
+	Objects 44: obj_thrashafter_event
+	Objects 45: obj_thrashafter_follow
+	Objects 46: obj_rurus_appear
+	Objects 47: obj_rurus_event
+	Objects 48: obj_lancerscare2
+	Objects 49: obj_scarelancerevent
+	Objects 50: obj_getsusieevent
+	Objects 51: obj_boxpuzzle_event
+	Objects 52: obj_hathyfightevent
+	Objects 53: obj_darkdoorevent
+	Objects 54: obj_tutorialbattleevent
+	Objects 55: obj_ralsei_runevent
+	Objects 56: obj_lancerguide
+	Objects 57: obj_thrashzone_event
+	Objects 58: obj_insultzone_event
+	Objects 59: obj_preforest_event
+	Objects 60: obj_candytree_event
+	Objects 61: obj_cloverhole
+	Objects 62: obj_npc_hammerguy
+	Objects 63: obj_shortcut_door
+	Objects 64: obj_npc_puzzlemaster1
+	Objects 65: obj_npc_puzzlemaster2
+	Objects 66: obj_cakesmoke
+	Objects 67: obj_npc_susiedark
+	Objects 68: obj_darkcastle_event
+	Objects 69: obj_darklanding
+	Objects 70: obj_wobblything_slide
+	Objects 71: obj_lancerslideevent
+	Objects 72: obj_lancerchaseevent
+	Objects 73: obj_darkslide
+	Objects 74: obj_darkwakeevent
+	Objects 75: obj_savepoint
+	Objects 76: obj_readable
+	Objects 77: obj_animation
+	Objects 78: obj_marker
+	Objects 79: obj_marker2
+	Objects 80: obj_readable_room1
+	Objects 81: obj_interactablesolid
+	Objects 82: obj_npc_toriel
+	Objects 83: obj_npc_facing
+	Objects 84: obj_npc_room
+	Objects 85: obj_npc_room_animated
+	Objects 86: obj_treasure_room
+	Objects 87: obj_npc_sign
+	Objects 88: obj_event_room
+	Objects 89: obj_interactable
+	Objects 90: obj_doorA
+	Objects 91: obj_doorA_musfade
+	Objects 92: obj_doorB_musfade
+	Objects 93: obj_doorB
+	Objects 94: obj_doorC
+	Objects 95: obj_doorC_musfade
+	Objects 96: obj_doorD
+	Objects 97: obj_doorD_musfade
+	Objects 98: obj_doorE
+	Objects 99: obj_doorF
+	Objects 100: obj_doorX
+	Objects 101: obj_doorX_musfade
+	Objects 102: obj_doorw_musfade
+	Objects 103: obj_doorparent
+	Objects 104: obj_markerA
+	Objects 105: obj_markerB
+	Objects 106: obj_markerC
+	Objects 107: obj_markerD
+	Objects 108: obj_markerE
+	Objects 109: obj_markerF
+	Objects 110: obj_markerr
+	Objects 111: obj_markers
+	Objects 112: obj_markert
+	Objects 113: obj_markeru
+	Objects 114: obj_markerv
+	Objects 115: obj_markerw
+	Objects 116: obj_markerX
+	Objects 117: obj_doorW
+	Objects 118: obj_musicer
+	Objects 119: obj_musicer_darkcliff
+	Objects 120: obj_musicer_town
+	Objects 121: obj_musicer_field
+	Objects 122: obj_musicer_forest
+	Objects 123: obj_musicer_quietforest
+	Objects 124: obj_musicer_man
+	Objects 125: obj_musicer_darkcastle
+	Objects 126: obj_musicer_bird
+	Objects 127: obj_wave_fx
+	Objects 128: obj_astream
+	Objects 129: obj_gameover_init
+	Objects 130: obj_ralseibook
+	Objects 131: obj_jokerbg_triangle_real
+	Objects 132: obj_fieldmuslogo
+	Objects 133: obj_backgrounder_standard
+	Objects 134: obj_backgrounder_sprite
+	Objects 135: obj_backgrounderparent
+	Objects 136: obj_panner
+	Objects 137: obj_fadeout
+	Objects 138: obj_fadein
+	Objects 139: obj_persistentfadein
+	Objects 140: obj_shake
+	Objects 141: obj_castle_torch
+	Objects 142: obj_castle_house
+	Objects 143: obj_bluhpainting
+	Objects 144: obj_lightfairy
+	Objects 145: obj_blocktree_bg
+	Objects 146: obj_purplegrass
+	Objects 147: obj_slidedust
+	Objects 148: obj_darklancer
+	Objects 149: obj_dustball
+	Objects 150: obj_dustball_pilebreak
+	Objects 151: obj_dustpile
+	Objects 152: obj_dustpile_susie
+	Objects 153: obj_wobblything
+	Objects 154: obj_wobblything_evil
+	Objects 155: obj_anim
+	Objects 156: obj_kingcutscene
+	Objects 157: obj_shakeobj
+	Objects 158: obj_darkfountain
+	Objects 159: obj_darkfountain_event
+	Objects 160: obj_fountainkris
+	Objects 161: obj_chaseenemy
+	Objects 162: obj_excblcon
+	Objects 163: obj_testoverworldenemy
+	Objects 164: obj_encounterbasic
+	Objects 165: obj_caterpillarchara
+	Objects 166: obj_darkcontroller
+	Objects 167: obj_healwriter
+	Objects 168: obj_menuwriter
+	Objects 169: obj_battlealphaer
+	Objects 170: obj_starwalker_battle
+	Objects 171: obj_starwalker_overworld
+	Objects 172: obj_starwalker_offswitch
+	Objects 173: obj_overworldheart
+	Objects 174: obj_scissordancer
+	Objects 175: obj_dancer_gen
+	Objects 176: obj_darkponman_ow
+	Objects 177: obj_ob_gen
+	Objects 178: obj_ob_checkertile
+	Objects 179: obj_overworld_spade_homing
+	Objects 180: obj_overworld_spade
+	Objects 181: obj_overworld_spademaker
+	Objects 182: obj_overworldbulletparent
+	Objects 183: obj_afterimage
+	Objects 184: obj_afterimage_grow
+	Objects 185: obj_attackpress
+	Objects 186: obj_basicattack
+	Objects 187: obj_battlecontroller
+	Objects 188: obj_battlesolid
+	Objects 189: obj_bulletgenparent
+	Objects 190: obj_bulletparent
+	Objects 191: obj_burstbolt
+	Objects 192: obj_chasebullet
+	Objects 193: obj_collidebullet
+	Objects 194: obj_regularbullet_permanent
+	Objects 195: obj_darkener
+	Objects 196: obj_grazebox
+	Objects 197: obj_healeffect
+	Objects 198: obj_healsparkle
+	Objects 199: obj_heartburst
+	Objects 200: obj_heartmarker
+	Objects 201: obj_lancerbike
+	Objects 202: obj_herokris
+	Objects 203: obj_herosusie
+	Objects 204: obj_heroralsei
+	Objects 205: obj_heroparent
+	Objects 206: obj_initializer
+	Objects 207: obj_krisplace
+	Objects 208: obj_monster1
+	Objects 209: obj_moveheart
+	Objects 210: obj_regularbullet
+	Objects 211: obj_returnheart
+	Objects 212: obj_tensionbar
+	Objects 213: obj_whiteedge
+	Objects 214: obj_forest_area5_puzzle
+	Objects 215: obj_forestmaze_controller
+	Objects 216: obj_tempblock_room
+	Objects 217: obj_suitspuzz
+	Objects 218: obj_suitspuzz_button
+	Objects 219: obj_pushableblock
+	Objects 220: obj_glowtile
+	Objects 221: obj_blocktile
+	Objects 222: obj_glowtilepuzz
+	Objects 223: obj_darkeyepuzzle_switch
+	Objects 224: obj_darkeyepuzzle
+	Objects 225: obj_dicebul
+	Objects 226: obj_heartblcon
+	Objects 227: obj_clubsbullet
+	Objects 228: obj_clubsbullet_dark
+	Objects 229: obj_dbullet_maker
+	Objects 230: obj_dbullet_vert
+	Objects 231: obj_heartshaper
+	Objects 232: obj_spinheart
+	Objects 233: obj_dbulletcontroller
+	Objects 234: obj_monsterparent
+	Objects 235: obj_ralseibullet
+	Objects 236: obj_dummyenemy
+	Objects 237: obj_ralseienemy
+	Objects 238: obj_placeholderenemy
+	Objects 239: obj_chain_of_hell
+	Objects 240: obj_chainking
+	Objects 241: obj_chainpiece
+	Objects 242: obj_fadechain
+	Objects 243: obj_finalchain
+	Objects 244: obj_king_body
+	Objects 245: obj_growtangle_bouncer
+	Objects 246: obj_nonsolid_growtangle
+	Objects 247: obj_skychain
+	Objects 248: obj_wavechain
+	Objects 249: obj_dknight_slasher
+	Objects 250: obj_rudinnranger
+	Objects 251: obj_jigsawbullet
+	Objects 252: obj_jigsawryenemy
+	Objects 253: obj_checkers_enemy
+	Objects 254: obj_checker_animtest
+	Objects 255: obj_ralseithrown
+	Objects 256: obj_throwralsei
+	Objects 257: obj_throwtarget
+	Objects 258: obj_checkers_leap
+	Objects 259: obj_ponman_appear
+	Objects 260: obj_ponman_enemy
+	Objects 261: obj_heartbomb_blast
+	Objects 262: obj_suitbomb
+	Objects 263: obj_joker_body
+	Objects 264: obj_centerscythe
+	Objects 265: obj_laserscythe
+	Objects 266: obj_bigscythe
+	Objects 267: obj_carouselbullet
+	Objects 268: obj_joker_teleport
+	Objects 269: obj_spadering
+	Objects 270: obj_rabbick_bush
+	Objects 271: obj_carrotthrower
+	Objects 272: obj_rabbitbullet
+	Objects 273: obj_rabbick_enemy
+	Objects 274: obj_blockbullet_fall
+	Objects 275: obj_bloxer_enemy
+	Objects 276: obj_lancerbike_neo
+	Objects 277: obj_axebullet
+	Objects 278: obj_lancerboss
+	Objects 279: obj_lancerboss2
+	Objects 280: obj_diamondenemy
+	Objects 281: obj_susieenemy
+	Objects 282: obj_lancerboss3
+	Objects 283: obj_king_boss
+	Objects 284: obj_joker
+	Objects 285: obj_clubsenemy
+	Objects 286: obj_clubsenemy_old
+	Objects 287: obj_heartenemy
+	Objects 288: obj_headhathy
+	Objects 289: obj_smallcheckers_enemy
+	Objects 290: obj_pacifyspell
+	Objects 291: obj_deathanim
+	Objects 292: obj_defeatanim
+	Objects 293: obj_healanim
+	Objects 294: obj_oflash
+	Objects 295: obj_rudebuster_anim
+	Objects 296: obj_rudebuster_bolt
+	Objects 297: obj_hypnofx
+	Objects 298: obj_spareanim
+	Objects 299: obj_battleback
+	Objects 300: obj_spellphase
+	Objects 301: obj_battleblcon
+	Objects 302: obj_endbattle
+	Objects 303: obj_growtangle
+	Objects 304: obj_dmgwriter
+	Objects 305: obj_heart
+	Objects 306: obj_shop1
+	Objects 307: obj_shop2
+	Objects 308: DEVICE_APPEARANCE
+	Objects 309: DEVICE_CHOICE
+	Objects 310: DEVICE_CONTACT
+	Objects 311: DEVICE_FAILURE
+	Objects 312: DEVICE_GONERMAKER
+	Objects 313: DEVICE_MENU
+	Objects 314: DEVICE_OBACK_4
+	Objects 315: PROCESS_LOGO
+	Objects 316: PROCESS_DOG
+	Objects 317: obj_credits
+	Objects 318: obj_dkris_event
+	Objects 319: obj_darkphone_event
+	Objects 320: obj_time
+	Objects 321: obj_move_to_point
+	Objects 322: obj_legend
+	Objects 323: obj_savemenu
+	Objects 324: obj_initializer2
+	Objects 325: obj_overworldc
+	Objects 326: obj_mainchara
+	Objects 327: obj_sdl
+	Objects 328: obj_sdr
+	Objects 329: obj_sul
+	Objects 330: obj_sur
+	Objects 331: obj_soliddark
+	Objects 332: obj_sur_dark
+	Objects 333: obj_sdl_dark
+	Objects 334: obj_solidenemy
+	Objects 335: obj_solidenemy_2
+	Objects 336: obj_solidblock
+	Objects 337: obj_solidlong
+	Objects 338: obj_solidcircle
+	Objects 339: obj_diag
+	Objects 340: obj_diamond
+	Objects 341: obj_84_lang_helper
+Room_Prepare() 
+Sound_Prepare() 
+InitGraphics() 
+Finished PrepareGame() 
+Run_Start
+Audio group 1 -> Loading...
+Audio_WAVs()
+**********************************.
+Entering main loop.
+**********************************.
+Audio group 1 -> Loaded
+create stream 300000
+Resizing swap chain...Pause event has been registered for this frame
+Pause event has been unregistered
+---------------------------------------------------------------
+minFPS, maxFPS, avgFPS
+10, 217, 55
+---------------------------------------------------------------
+---------------------------------------------------------------
+minFPS, maxFPS, avgFPS
+10, 217, 55
+---------------------------------------------------------------
+---------------------------------------------------------------
+minFPS, maxFPS, avgFPS
+4, 410, 54
+---------------------------------------------------------------
+---------------------------------------------------------------
+minFPS, maxFPS, avgFPS
+4, 410, 54
+---------------------------------------------------------------
+Create Error Form
+
+***************************************
+*     YoYo Games Runner v1.0(999)[r32908]    *
+***************************************	 
+RunnerLoadGame: C:\rof\rofout\data.win
+#########################################################################
+####!!!!$$$$$$ pwd - C:\rof\rofout\
+#########################################################################
+RunnerLoadGame() - C:\rof\rofout\data.win
+YYG Game launching. Game file: C:\rof\rofout\data.win
+Checking if INIFile exists at C:\rof\rofout/options.ini
+Reading File C:\rof\rofout\data.win
+Loaded File C:\rof\rofout\data.win(17176844)
+IFF wad found
+Get Resolution
+Get Header Information
+InitGMLFunctions
+HighScore..SavePrePend = C:\Users\555\AppData\Local\DELTARUNE\
+Game..Math..Graphic..Action..File..Resource..Interaction..3D..Particle..Misc..DS..Sound..Physics..Gamepad..Buffers..Networking..Shaders..InitPushFunctions...YoYo..Fini
+Code_Load()
+VARI_Load()
+got 2687 global variables
+got 2687 instance variables
+got 39 local variables
+ID_STRG
+Create Window
+GAMEPAD: 40 axis values (last) at 0x1bff900
+GAMEPAD: 40 axis values (last) at 0x1bff700
+GAMEPAD: 40 axis values (last) at 0x1bff500
+GAMEPAD: 40 axis values (last) at 0x1bff300
+GAMEPAD: 40 axis values (last) at 0x1bff100
+GAMEPAD: 40 axis values (last) at 0x1bfef00
+GAMEPAD: 40 axis values (last) at 0x1bfed00
+GAMEPAD: 40 axis values (last) at 0x1bfeb00
+AdjustWindowRectEx
+RegisterClassEx
+CreateWindowEx
+GAMEPAD: 4 axis values (last) at 0x28eb90
+GAMEPAD: 4 axis values (last) at 0x28eb70
+GAMEPAD: 4 axis values (last) at 0x28eb50
+GAMEPAD: 4 axis values (last) at 0x28eb30
+Init Graphics
+GR_D3D_Init()
+Enable DwmEnableMMCSS
+DirectX11: Using hardware device
+Background_InitTextures()
+Sprite_InitTextures()
+Font_InitTextures()
+IO Init
+Process Messages
+Splash!
+Start Frame
+Part Create Textures
+Debug Init Remote Interface
+VM Init
+Create Score Form
+Create Load Form
+Do The Work
+LoadGameData()
+initialise everything!
+Process Chunk: GEN8   784
+Process Chunk: OPTN   88
+Process Chunk: LANG   24
+Process Chunk: EXTN   8
+Process Chunk: SOND   6056
+Audio_Load()
+Process Chunk: AGRP   24
+AudioGroup_Load()
+Process Chunk: SPRT   1616152
+Process Chunk: BGND   9448
+Process Chunk: PATH   8
+Process Chunk: SCPT   3016
+Process Chunk: GLOB   24
+Process Chunk: SHDR   8
+Process Chunk: FONT   179176
+Process Chunk: TMLN   8
+Process Chunk: OBJT   163096
+Process Chunk: ROOM   1819064
+Process Chunk: DAFL   8
+Process Chunk: EMBI   8
+Process Chunk: TPAG   76472
+Process Chunk: CODE   1497432
+Process Chunk: VARI   90936
+Process Chunk: FUNC   32296
+Process Chunk: STRG   475592
+Process Chunk: TXTR   4830968
+Process Chunk: AUDO   6375940
+Audio_WAVs()
+PrepareGame()
+Extension_Prepare() 
+Code_Constant_Prepare() 
+Script_Prepare() 
+TimeLine_Prepare() 
+Object_Prepare() 
+Preparing 342 objects:
+	Objects 0: obj_choicer_old
+	Objects 1: obj_choicer_neo
+	Objects 2: obj_face
+	Objects 3: obj_face_parent
+	Objects 4: obj_smallface
+	Objects 5: obj_dialoguer
+	Objects 6: obj_writer
+	Objects 7: obj_fallpaper
+	Objects 8: obj_insideclosetcutscene
+	Objects 9: obj_darkdoor
+	Objects 10: obj_classscene
+	Objects 11: obj_schoollobbycutscene
+	Objects 12: obj_schooldesk
+	Objects 13: obj_tem_school
+	Objects 14: obj_torielclass_event
+	Objects 15: obj_unusedclassevent
+	Objects 16: obj_alphysdesk
+	Objects 17: obj_rudy
+	Objects 18: obj_church_event
+	Objects 19: obj_town_shelter_event
+	Objects 20: obj_town_event
+	Objects 21: obj_alphysalley_event
+	Objects 22: obj_flowershop_event
+	Objects 23: obj_onionbody
+	Objects 24: obj_onion_event
+	Objects 25: obj_carcutscene
+	Objects 26: obj_hallway_mirror
+	Objects 27: obj_krisroom
+	Objects 28: obj_rurus_checker_event
+	Objects 29: obj_cc_event
+	Objects 30: obj_jokerbattleevent
+	Objects 31: obj_elevatorcontroller
+	Objects 32: obj_lancerbakesale_event
+	Objects 33: obj_cloverpuzzle_event
+	Objects 34: obj_prisonevent
+	Objects 35: obj_lancerbattle2_event
+	Objects 36: obj_lancerchase2
+	Objects 37: obj_castlefront_event
+	Objects 38: obj_susieandlancer_event
+	Objects 39: obj_thrashcontroller
+	Objects 40: obj_thrashmachine
+	Objects 41: obj_thrashmaker_event
+	Objects 42: obj_suitspuzzle_event
+	Objects 43: obj_susiebadguy_event
+	Objects 44: obj_thrashafter_event
+	Objects 45: obj_thrashafter_follow
+	Objects 46: obj_rurus_appear
+	Objects 47: obj_rurus_event
+	Objects 48: obj_lancerscare2
+	Objects 49: obj_scarelancerevent
+	Objects 50: obj_getsusieevent
+	Objects 51: obj_boxpuzzle_event
+	Objects 52: obj_hathyfightevent
+	Objects 53: obj_darkdoorevent
+	Objects 54: obj_tutorialbattleevent
+	Objects 55: obj_ralsei_runevent
+	Objects 56: obj_lancerguide
+	Objects 57: obj_thrashzone_event
+	Objects 58: obj_insultzone_event
+	Objects 59: obj_preforest_event
+	Objects 60: obj_candytree_event
+	Objects 61: obj_cloverhole
+	Objects 62: obj_npc_hammerguy
+	Objects 63: obj_shortcut_door
+	Objects 64: obj_npc_puzzlemaster1
+	Objects 65: obj_npc_puzzlemaster2
+	Objects 66: obj_cakesmoke
+	Objects 67: obj_npc_susiedark
+	Objects 68: obj_darkcastle_event
+	Objects 69: obj_darklanding
+	Objects 70: obj_wobblything_slide
+	Objects 71: obj_lancerslideevent
+	Objects 72: obj_lancerchaseevent
+	Objects 73: obj_darkslide
+	Objects 74: obj_darkwakeevent
+	Objects 75: obj_savepoint
+	Objects 76: obj_readable
+	Objects 77: obj_animation
+	Objects 78: obj_marker
+	Objects 79: obj_marker2
+	Objects 80: obj_readable_room1
+	Objects 81: obj_interactablesolid
+	Objects 82: obj_npc_toriel
+	Objects 83: obj_npc_facing
+	Objects 84: obj_npc_room
+	Objects 85: obj_npc_room_animated
+	Objects 86: obj_treasure_room
+	Objects 87: obj_npc_sign
+	Objects 88: obj_event_room
+	Objects 89: obj_interactable
+	Objects 90: obj_doorA
+	Objects 91: obj_doorA_musfade
+	Objects 92: obj_doorB_musfade
+	Objects 93: obj_doorB
+	Objects 94: obj_doorC
+	Objects 95: obj_doorC_musfade
+	Objects 96: obj_doorD
+	Objects 97: obj_doorD_musfade
+	Objects 98: obj_doorE
+	Objects 99: obj_doorF
+	Objects 100: obj_doorX
+	Objects 101: obj_doorX_musfade
+	Objects 102: obj_doorw_musfade
+	Objects 103: obj_doorparent
+	Objects 104: obj_markerA
+	Objects 105: obj_markerB
+	Objects 106: obj_markerC
+	Objects 107: obj_markerD
+	Objects 108: obj_markerE
+	Objects 109: obj_markerF
+	Objects 110: obj_markerr
+	Objects 111: obj_markers
+	Objects 112: obj_markert
+	Objects 113: obj_markeru
+	Objects 114: obj_markerv
+	Objects 115: obj_markerw
+	Objects 116: obj_markerX
+	Objects 117: obj_doorW
+	Objects 118: obj_musicer
+	Objects 119: obj_musicer_darkcliff
+	Objects 120: obj_musicer_town
+	Objects 121: obj_musicer_field
+	Objects 122: obj_musicer_forest
+	Objects 123: obj_musicer_quietforest
+	Objects 124: obj_musicer_man
+	Objects 125: obj_musicer_darkcastle
+	Objects 126: obj_musicer_bird
+	Objects 127: obj_wave_fx
+	Objects 128: obj_astream
+	Objects 129: obj_gameover_init
+	Objects 130: obj_ralseibook
+	Objects 131: obj_jokerbg_triangle_real
+	Objects 132: obj_fieldmuslogo
+	Objects 133: obj_backgrounder_standard
+	Objects 134: obj_backgrounder_sprite
+	Objects 135: obj_backgrounderparent
+	Objects 136: obj_panner
+	Objects 137: obj_fadeout
+	Objects 138: obj_fadein
+	Objects 139: obj_persistentfadein
+	Objects 140: obj_shake
+	Objects 141: obj_castle_torch
+	Objects 142: obj_castle_house
+	Objects 143: obj_bluhpainting
+	Objects 144: obj_lightfairy
+	Objects 145: obj_blocktree_bg
+	Objects 146: obj_purplegrass
+	Objects 147: obj_slidedust
+	Objects 148: obj_darklancer
+	Objects 149: obj_dustball
+	Objects 150: obj_dustball_pilebreak
+	Objects 151: obj_dustpile
+	Objects 152: obj_dustpile_susie
+	Objects 153: obj_wobblything
+	Objects 154: obj_wobblything_evil
+	Objects 155: obj_anim
+	Objects 156: obj_kingcutscene
+	Objects 157: obj_shakeobj
+	Objects 158: obj_darkfountain
+	Objects 159: obj_darkfountain_event
+	Objects 160: obj_fountainkris
+	Objects 161: obj_chaseenemy
+	Objects 162: obj_excblcon
+	Objects 163: obj_testoverworldenemy
+	Objects 164: obj_encounterbasic
+	Objects 165: obj_caterpillarchara
+	Objects 166: obj_darkcontroller
+	Objects 167: obj_healwriter
+	Objects 168: obj_menuwriter
+	Objects 169: obj_battlealphaer
+	Objects 170: obj_starwalker_battle
+	Objects 171: obj_starwalker_overworld
+	Objects 172: obj_starwalker_offswitch
+	Objects 173: obj_overworldheart
+	Objects 174: obj_scissordancer
+	Objects 175: obj_dancer_gen
+	Objects 176: obj_darkponman_ow
+	Objects 177: obj_ob_gen
+	Objects 178: obj_ob_checkertile
+	Objects 179: obj_overworld_spade_homing
+	Objects 180: obj_overworld_spade
+	Objects 181: obj_overworld_spademaker
+	Objects 182: obj_overworldbulletparent
+	Objects 183: obj_afterimage
+	Objects 184: obj_afterimage_grow
+	Objects 185: obj_attackpress
+	Objects 186: obj_basicattack
+	Objects 187: obj_battlecontroller
+	Objects 188: obj_battlesolid
+	Objects 189: obj_bulletgenparent
+	Objects 190: obj_bulletparent
+	Objects 191: obj_burstbolt
+	Objects 192: obj_chasebullet
+	Objects 193: obj_collidebullet
+	Objects 194: obj_regularbullet_permanent
+	Objects 195: obj_darkener
+	Objects 196: obj_grazebox
+	Objects 197: obj_healeffect
+	Objects 198: obj_healsparkle
+	Objects 199: obj_heartburst
+	Objects 200: obj_heartmarker
+	Objects 201: obj_lancerbike
+	Objects 202: obj_herokris
+	Objects 203: obj_herosusie
+	Objects 204: obj_heroralsei
+	Objects 205: obj_heroparent
+	Objects 206: obj_initializer
+	Objects 207: obj_krisplace
+	Objects 208: obj_monster1
+	Objects 209: obj_moveheart
+	Objects 210: obj_regularbullet
+	Objects 211: obj_returnheart
+	Objects 212: obj_tensionbar
+	Objects 213: obj_whiteedge
+	Objects 214: obj_forest_area5_puzzle
+	Objects 215: obj_forestmaze_controller
+	Objects 216: obj_tempblock_room
+	Objects 217: obj_suitspuzz
+	Objects 218: obj_suitspuzz_button
+	Objects 219: obj_pushableblock
+	Objects 220: obj_glowtile
+	Objects 221: obj_blocktile
+	Objects 222: obj_glowtilepuzz
+	Objects 223: obj_darkeyepuzzle_switch
+	Objects 224: obj_darkeyepuzzle
+	Objects 225: obj_dicebul
+	Objects 226: obj_heartblcon
+	Objects 227: obj_clubsbullet
+	Objects 228: obj_clubsbullet_dark
+	Objects 229: obj_dbullet_maker
+	Objects 230: obj_dbullet_vert
+	Objects 231: obj_heartshaper
+	Objects 232: obj_spinheart
+	Objects 233: obj_dbulletcontroller
+	Objects 234: obj_monsterparent
+	Objects 235: obj_ralseibullet
+	Objects 236: obj_dummyenemy
+	Objects 237: obj_ralseienemy
+	Objects 238: obj_placeholderenemy
+	Objects 239: obj_chain_of_hell
+	Objects 240: obj_chainking
+	Objects 241: obj_chainpiece
+	Objects 242: obj_fadechain
+	Objects 243: obj_finalchain
+	Objects 244: obj_king_body
+	Objects 245: obj_growtangle_bouncer
+	Objects 246: obj_nonsolid_growtangle
+	Objects 247: obj_skychain
+	Objects 248: obj_wavechain
+	Objects 249: obj_dknight_slasher
+	Objects 250: obj_rudinnranger
+	Objects 251: obj_jigsawbullet
+	Objects 252: obj_jigsawryenemy
+	Objects 253: obj_checkers_enemy
+	Objects 254: obj_checker_animtest
+	Objects 255: obj_ralseithrown
+	Objects 256: obj_throwralsei
+	Objects 257: obj_throwtarget
+	Objects 258: obj_checkers_leap
+	Objects 259: obj_ponman_appear
+	Objects 260: obj_ponman_enemy
+	Objects 261: obj_heartbomb_blast
+	Objects 262: obj_suitbomb
+	Objects 263: obj_joker_body
+	Objects 264: obj_centerscythe
+	Objects 265: obj_laserscythe
+	Objects 266: obj_bigscythe
+	Objects 267: obj_carouselbullet
+	Objects 268: obj_joker_teleport
+	Objects 269: obj_spadering
+	Objects 270: obj_rabbick_bush
+	Objects 271: obj_carrotthrower
+	Objects 272: obj_rabbitbullet
+	Objects 273: obj_rabbick_enemy
+	Objects 274: obj_blockbullet_fall
+	Objects 275: obj_bloxer_enemy
+	Objects 276: obj_lancerbike_neo
+	Objects 277: obj_axebullet
+	Objects 278: obj_lancerboss
+	Objects 279: obj_lancerboss2
+	Objects 280: obj_diamondenemy
+	Objects 281: obj_susieenemy
+	Objects 282: obj_lancerboss3
+	Objects 283: obj_king_boss
+	Objects 284: obj_joker
+	Objects 285: obj_clubsenemy
+	Objects 286: obj_clubsenemy_old
+	Objects 287: obj_heartenemy
+	Objects 288: obj_headhathy
+	Objects 289: obj_smallcheckers_enemy
+	Objects 290: obj_pacifyspell
+	Objects 291: obj_deathanim
+	Objects 292: obj_defeatanim
+	Objects 293: obj_healanim
+	Objects 294: obj_oflash
+	Objects 295: obj_rudebuster_anim
+	Objects 296: obj_rudebuster_bolt
+	Objects 297: obj_hypnofx
+	Objects 298: obj_spareanim
+	Objects 299: obj_battleback
+	Objects 300: obj_spellphase
+	Objects 301: obj_battleblcon
+	Objects 302: obj_endbattle
+	Objects 303: obj_growtangle
+	Objects 304: obj_dmgwriter
+	Objects 305: obj_heart
+	Objects 306: obj_shop1
+	Objects 307: obj_shop2
+	Objects 308: DEVICE_APPEARANCE
+	Objects 309: DEVICE_CHOICE
+	Objects 310: DEVICE_CONTACT
+	Objects 311: DEVICE_FAILURE
+	Objects 312: DEVICE_GONERMAKER
+	Objects 313: DEVICE_MENU
+	Objects 314: DEVICE_OBACK_4
+	Objects 315: PROCESS_LOGO
+	Objects 316: PROCESS_DOG
+	Objects 317: obj_credits
+	Objects 318: obj_dkris_event
+	Objects 319: obj_darkphone_event
+	Objects 320: obj_time
+	Objects 321: obj_move_to_point
+	Objects 322: obj_legend
+	Objects 323: obj_savemenu
+	Objects 324: obj_initializer2
+	Objects 325: obj_overworldc
+	Objects 326: obj_mainchara
+	Objects 327: obj_sdl
+	Objects 328: obj_sdr
+	Objects 329: obj_sul
+	Objects 330: obj_sur
+	Objects 331: obj_soliddark
+	Objects 332: obj_sur_dark
+	Objects 333: obj_sdl_dark
+	Objects 334: obj_solidenemy
+	Objects 335: obj_solidenemy_2
+	Objects 336: obj_solidblock
+	Objects 337: obj_solidlong
+	Objects 338: obj_solidcircle
+	Objects 339: obj_diag
+	Objects 340: obj_diamond
+	Objects 341: obj_84_lang_helper
+Room_Prepare() 
+Sound_Prepare() 
+InitGraphics() 
+Finished PrepareGame() 
+Run_Start
+Audio group 1 -> Loading...
+Audio_WAVs()
+**********************************.
+Entering main loop.
+**********************************.
+Audio group 1 -> Loaded
+create stream 300000
+Resizing swap chain...create stream 300001
+Pause event has been registered for this frame
+Pause event has been unregistered
+Pause event has been registered for this frame
+Pause event has been unregistered
+Pause event has been registered for this frame
+Pause event has been unregistered
+Pause event has been registered for this frame
+Pause event has been unregistered
+Resizing swap chain...Pause event has been registered for this frame
+Pause event has been unregistered
+Resizing swap chain...create stream 300000
+Pause event has been registered for this frame
+Pause event has been unregistered
+---------------------------------------------------------------
+minFPS, maxFPS, avgFPS
+-104, 825, -31
+---------------------------------------------------------------
+---------------------------------------------------------------
+minFPS, maxFPS, avgFPS
+-104, 825, -31
+---------------------------------------------------------------
+Create Error Form
+
+***************************************
+*     YoYo Games Runner v1.0(999)[r32908]    *
+***************************************	 
+RunnerLoadGame: C:\rof\rofout\data.win
+#########################################################################
+####!!!!$$$$$$ pwd - C:\rof\rofout\
+#########################################################################
+RunnerLoadGame() - C:\rof\rofout\data.win
+YYG Game launching. Game file: C:\rof\rofout\data.win
+Checking if INIFile exists at C:\rof\rofout/options.ini
+Reading File C:\rof\rofout\data.win
+Loaded File C:\rof\rofout\data.win(17176844)
+IFF wad found
+Get Resolution
+Get Header Information
+InitGMLFunctions
+HighScore..SavePrePend = C:\Users\555\AppData\Local\DELTARUNE\
+Game..Math..Graphic..Action..File..Resource..Interaction..3D..Particle..Misc..DS..Sound..Physics..Gamepad..Buffers..Networking..Shaders..InitPushFunctions...YoYo..Fini
+Code_Load()
+VARI_Load()
+got 2687 global variables
+got 2687 instance variables
+got 39 local variables
+ID_STRG
+Create Window
+GAMEPAD: 40 axis values (last) at 0x1f8f900
+GAMEPAD: 40 axis values (last) at 0x1f8f700
+GAMEPAD: 40 axis values (last) at 0x1f8f500
+GAMEPAD: 40 axis values (last) at 0x1f8f300
+GAMEPAD: 40 axis values (last) at 0x1f8f100
+GAMEPAD: 40 axis values (last) at 0x1f8ef00
+GAMEPAD: 40 axis values (last) at 0x1f8ed00
+GAMEPAD: 40 axis values (last) at 0x1f8eb00
+AdjustWindowRectEx
+RegisterClassEx
+CreateWindowEx
+GAMEPAD: 4 axis values (last) at 0x2deb90
+GAMEPAD: 4 axis values (last) at 0x2deb70
+GAMEPAD: 4 axis values (last) at 0x2deb50
+GAMEPAD: 4 axis values (last) at 0x2deb30
+Init Graphics
+GR_D3D_Init()
+Enable DwmEnableMMCSS
+DirectX11: Using hardware device
+Background_InitTextures()
+Sprite_InitTextures()
+Font_InitTextures()
+IO Init
+Process Messages
+Splash!
+Start Frame
+Part Create Textures
+Debug Init Remote Interface
+VM Init
+Create Score Form
+Create Load Form
+Do The Work
+LoadGameData()
+initialise everything!
+Process Chunk: GEN8   784
+Process Chunk: OPTN   88
+Process Chunk: LANG   24
+Process Chunk: EXTN   8
+Process Chunk: SOND   6056
+Audio_Load()
+Process Chunk: AGRP   24
+AudioGroup_Load()
+Process Chunk: SPRT   1616152
+Process Chunk: BGND   9448
+Process Chunk: PATH   8
+Process Chunk: SCPT   3016
+Process Chunk: GLOB   24
+Process Chunk: SHDR   8
+Process Chunk: FONT   179176
+Process Chunk: TMLN   8
+Process Chunk: OBJT   163096
+Process Chunk: ROOM   1819064
+Process Chunk: DAFL   8
+Process Chunk: EMBI   8
+Process Chunk: TPAG   76472
+Process Chunk: CODE   1497432
+Process Chunk: VARI   90936
+Process Chunk: FUNC   32296
+Process Chunk: STRG   475592
+Process Chunk: TXTR   4830968
+Process Chunk: AUDO   6375940
+Audio_WAVs()
+PrepareGame()
+Extension_Prepare() 
+Code_Constant_Prepare() 
+Script_Prepare() 
+TimeLine_Prepare() 
+Object_Prepare() 
+Preparing 342 objects:
+	Objects 0: obj_choicer_old
+	Objects 1: obj_choicer_neo
+	Objects 2: obj_face
+	Objects 3: obj_face_parent
+	Objects 4: obj_smallface
+	Objects 5: obj_dialoguer
+	Objects 6: obj_writer
+	Objects 7: obj_fallpaper
+	Objects 8: obj_insideclosetcutscene
+	Objects 9: obj_darkdoor
+	Objects 10: obj_classscene
+	Objects 11: obj_schoollobbycutscene
+	Objects 12: obj_schooldesk
+	Objects 13: obj_tem_school
+	Objects 14: obj_torielclass_event
+	Objects 15: obj_unusedclassevent
+	Objects 16: obj_alphysdesk
+	Objects 17: obj_rudy
+	Objects 18: obj_church_event
+	Objects 19: obj_town_shelter_event
+	Objects 20: obj_town_event
+	Objects 21: obj_alphysalley_event
+	Objects 22: obj_flowershop_event
+	Objects 23: obj_onionbody
+	Objects 24: obj_onion_event
+	Objects 25: obj_carcutscene
+	Objects 26: obj_hallway_mirror
+	Objects 27: obj_krisroom
+	Objects 28: obj_rurus_checker_event
+	Objects 29: obj_cc_event
+	Objects 30: obj_jokerbattleevent
+	Objects 31: obj_elevatorcontroller
+	Objects 32: obj_lancerbakesale_event
+	Objects 33: obj_cloverpuzzle_event
+	Objects 34: obj_prisonevent
+	Objects 35: obj_lancerbattle2_event
+	Objects 36: obj_lancerchase2
+	Objects 37: obj_castlefront_event
+	Objects 38: obj_susieandlancer_event
+	Objects 39: obj_thrashcontroller
+	Objects 40: obj_thrashmachine
+	Objects 41: obj_thrashmaker_event
+	Objects 42: obj_suitspuzzle_event
+	Objects 43: obj_susiebadguy_event
+	Objects 44: obj_thrashafter_event
+	Objects 45: obj_thrashafter_follow
+	Objects 46: obj_rurus_appear
+	Objects 47: obj_rurus_event
+	Objects 48: obj_lancerscare2
+	Objects 49: obj_scarelancerevent
+	Objects 50: obj_getsusieevent
+	Objects 51: obj_boxpuzzle_event
+	Objects 52: obj_hathyfightevent
+	Objects 53: obj_darkdoorevent
+	Objects 54: obj_tutorialbattleevent
+	Objects 55: obj_ralsei_runevent
+	Objects 56: obj_lancerguide
+	Objects 57: obj_thrashzone_event
+	Objects 58: obj_insultzone_event
+	Objects 59: obj_preforest_event
+	Objects 60: obj_candytree_event
+	Objects 61: obj_cloverhole
+	Objects 62: obj_npc_hammerguy
+	Objects 63: obj_shortcut_door
+	Objects 64: obj_npc_puzzlemaster1
+	Objects 65: obj_npc_puzzlemaster2
+	Objects 66: obj_cakesmoke
+	Objects 67: obj_npc_susiedark
+	Objects 68: obj_darkcastle_event
+	Objects 69: obj_darklanding
+	Objects 70: obj_wobblything_slide
+	Objects 71: obj_lancerslideevent
+	Objects 72: obj_lancerchaseevent
+	Objects 73: obj_darkslide
+	Objects 74: obj_darkwakeevent
+	Objects 75: obj_savepoint
+	Objects 76: obj_readable
+	Objects 77: obj_animation
+	Objects 78: obj_marker
+	Objects 79: obj_marker2
+	Objects 80: obj_readable_room1
+	Objects 81: obj_interactablesolid
+	Objects 82: obj_npc_toriel
+	Objects 83: obj_npc_facing
+	Objects 84: obj_npc_room
+	Objects 85: obj_npc_room_animated
+	Objects 86: obj_treasure_room
+	Objects 87: obj_npc_sign
+	Objects 88: obj_event_room
+	Objects 89: obj_interactable
+	Objects 90: obj_doorA
+	Objects 91: obj_doorA_musfade
+	Objects 92: obj_doorB_musfade
+	Objects 93: obj_doorB
+	Objects 94: obj_doorC
+	Objects 95: obj_doorC_musfade
+	Objects 96: obj_doorD
+	Objects 97: obj_doorD_musfade
+	Objects 98: obj_doorE
+	Objects 99: obj_doorF
+	Objects 100: obj_doorX
+	Objects 101: obj_doorX_musfade
+	Objects 102: obj_doorw_musfade
+	Objects 103: obj_doorparent
+	Objects 104: obj_markerA
+	Objects 105: obj_markerB
+	Objects 106: obj_markerC
+	Objects 107: obj_markerD
+	Objects 108: obj_markerE
+	Objects 109: obj_markerF
+	Objects 110: obj_markerr
+	Objects 111: obj_markers
+	Objects 112: obj_markert
+	Objects 113: obj_markeru
+	Objects 114: obj_markerv
+	Objects 115: obj_markerw
+	Objects 116: obj_markerX
+	Objects 117: obj_doorW
+	Objects 118: obj_musicer
+	Objects 119: obj_musicer_darkcliff
+	Objects 120: obj_musicer_town
+	Objects 121: obj_musicer_field
+	Objects 122: obj_musicer_forest
+	Objects 123: obj_musicer_quietforest
+	Objects 124: obj_musicer_man
+	Objects 125: obj_musicer_darkcastle
+	Objects 126: obj_musicer_bird
+	Objects 127: obj_wave_fx
+	Objects 128: obj_astream
+	Objects 129: obj_gameover_init
+	Objects 130: obj_ralseibook
+	Objects 131: obj_jokerbg_triangle_real
+	Objects 132: obj_fieldmuslogo
+	Objects 133: obj_backgrounder_standard
+	Objects 134: obj_backgrounder_sprite
+	Objects 135: obj_backgrounderparent
+	Objects 136: obj_panner
+	Objects 137: obj_fadeout
+	Objects 138: obj_fadein
+	Objects 139: obj_persistentfadein
+	Objects 140: obj_shake
+	Objects 141: obj_castle_torch
+	Objects 142: obj_castle_house
+	Objects 143: obj_bluhpainting
+	Objects 144: obj_lightfairy
+	Objects 145: obj_blocktree_bg
+	Objects 146: obj_purplegrass
+	Objects 147: obj_slidedust
+	Objects 148: obj_darklancer
+	Objects 149: obj_dustball
+	Objects 150: obj_dustball_pilebreak
+	Objects 151: obj_dustpile
+	Objects 152: obj_dustpile_susie
+	Objects 153: obj_wobblything
+	Objects 154: obj_wobblything_evil
+	Objects 155: obj_anim
+	Objects 156: obj_kingcutscene
+	Objects 157: obj_shakeobj
+	Objects 158: obj_darkfountain
+	Objects 159: obj_darkfountain_event
+	Objects 160: obj_fountainkris
+	Objects 161: obj_chaseenemy
+	Objects 162: obj_excblcon
+	Objects 163: obj_testoverworldenemy
+	Objects 164: obj_encounterbasic
+	Objects 165: obj_caterpillarchara
+	Objects 166: obj_darkcontroller
+	Objects 167: obj_healwriter
+	Objects 168: obj_menuwriter
+	Objects 169: obj_battlealphaer
+	Objects 170: obj_starwalker_battle
+	Objects 171: obj_starwalker_overworld
+	Objects 172: obj_starwalker_offswitch
+	Objects 173: obj_overworldheart
+	Objects 174: obj_scissordancer
+	Objects 175: obj_dancer_gen
+	Objects 176: obj_darkponman_ow
+	Objects 177: obj_ob_gen
+	Objects 178: obj_ob_checkertile
+	Objects 179: obj_overworld_spade_homing
+	Objects 180: obj_overworld_spade
+	Objects 181: obj_overworld_spademaker
+	Objects 182: obj_overworldbulletparent
+	Objects 183: obj_afterimage
+	Objects 184: obj_afterimage_grow
+	Objects 185: obj_attackpress
+	Objects 186: obj_basicattack
+	Objects 187: obj_battlecontroller
+	Objects 188: obj_battlesolid
+	Objects 189: obj_bulletgenparent
+	Objects 190: obj_bulletparent
+	Objects 191: obj_burstbolt
+	Objects 192: obj_chasebullet
+	Objects 193: obj_collidebullet
+	Objects 194: obj_regularbullet_permanent
+	Objects 195: obj_darkener
+	Objects 196: obj_grazebox
+	Objects 197: obj_healeffect
+	Objects 198: obj_healsparkle
+	Objects 199: obj_heartburst
+	Objects 200: obj_heartmarker
+	Objects 201: obj_lancerbike
+	Objects 202: obj_herokris
+	Objects 203: obj_herosusie
+	Objects 204: obj_heroralsei
+	Objects 205: obj_heroparent
+	Objects 206: obj_initializer
+	Objects 207: obj_krisplace
+	Objects 208: obj_monster1
+	Objects 209: obj_moveheart
+	Objects 210: obj_regularbullet
+	Objects 211: obj_returnheart
+	Objects 212: obj_tensionbar
+	Objects 213: obj_whiteedge
+	Objects 214: obj_forest_area5_puzzle
+	Objects 215: obj_forestmaze_controller
+	Objects 216: obj_tempblock_room
+	Objects 217: obj_suitspuzz
+	Objects 218: obj_suitspuzz_button
+	Objects 219: obj_pushableblock
+	Objects 220: obj_glowtile
+	Objects 221: obj_blocktile
+	Objects 222: obj_glowtilepuzz
+	Objects 223: obj_darkeyepuzzle_switch
+	Objects 224: obj_darkeyepuzzle
+	Objects 225: obj_dicebul
+	Objects 226: obj_heartblcon
+	Objects 227: obj_clubsbullet
+	Objects 228: obj_clubsbullet_dark
+	Objects 229: obj_dbullet_maker
+	Objects 230: obj_dbullet_vert
+	Objects 231: obj_heartshaper
+	Objects 232: obj_spinheart
+	Objects 233: obj_dbulletcontroller
+	Objects 234: obj_monsterparent
+	Objects 235: obj_ralseibullet
+	Objects 236: obj_dummyenemy
+	Objects 237: obj_ralseienemy
+	Objects 238: obj_placeholderenemy
+	Objects 239: obj_chain_of_hell
+	Objects 240: obj_chainking
+	Objects 241: obj_chainpiece
+	Objects 242: obj_fadechain
+	Objects 243: obj_finalchain
+	Objects 244: obj_king_body
+	Objects 245: obj_growtangle_bouncer
+	Objects 246: obj_nonsolid_growtangle
+	Objects 247: obj_skychain
+	Objects 248: obj_wavechain
+	Objects 249: obj_dknight_slasher
+	Objects 250: obj_rudinnranger
+	Objects 251: obj_jigsawbullet
+	Objects 252: obj_jigsawryenemy
+	Objects 253: obj_checkers_enemy
+	Objects 254: obj_checker_animtest
+	Objects 255: obj_ralseithrown
+	Objects 256: obj_throwralsei
+	Objects 257: obj_throwtarget
+	Objects 258: obj_checkers_leap
+	Objects 259: obj_ponman_appear
+	Objects 260: obj_ponman_enemy
+	Objects 261: obj_heartbomb_blast
+	Objects 262: obj_suitbomb
+	Objects 263: obj_joker_body
+	Objects 264: obj_centerscythe
+	Objects 265: obj_laserscythe
+	Objects 266: obj_bigscythe
+	Objects 267: obj_carouselbullet
+	Objects 268: obj_joker_teleport
+	Objects 269: obj_spadering
+	Objects 270: obj_rabbick_bush
+	Objects 271: obj_carrotthrower
+	Objects 272: obj_rabbitbullet
+	Objects 273: obj_rabbick_enemy
+	Objects 274: obj_blockbullet_fall
+	Objects 275: obj_bloxer_enemy
+	Objects 276: obj_lancerbike_neo
+	Objects 277: obj_axebullet
+	Objects 278: obj_lancerboss
+	Objects 279: obj_lancerboss2
+	Objects 280: obj_diamondenemy
+	Objects 281: obj_susieenemy
+	Objects 282: obj_lancerboss3
+	Objects 283: obj_king_boss
+	Objects 284: obj_joker
+	Objects 285: obj_clubsenemy
+	Objects 286: obj_clubsenemy_old
+	Objects 287: obj_heartenemy
+	Objects 288: obj_headhathy
+	Objects 289: obj_smallcheckers_enemy
+	Objects 290: obj_pacifyspell
+	Objects 291: obj_deathanim
+	Objects 292: obj_defeatanim
+	Objects 293: obj_healanim
+	Objects 294: obj_oflash
+	Objects 295: obj_rudebuster_anim
+	Objects 296: obj_rudebuster_bolt
+	Objects 297: obj_hypnofx
+	Objects 298: obj_spareanim
+	Objects 299: obj_battleback
+	Objects 300: obj_spellphase
+	Objects 301: obj_battleblcon
+	Objects 302: obj_endbattle
+	Objects 303: obj_growtangle
+	Objects 304: obj_dmgwriter
+	Objects 305: obj_heart
+	Objects 306: obj_shop1
+	Objects 307: obj_shop2
+	Objects 308: DEVICE_APPEARANCE
+	Objects 309: DEVICE_CHOICE
+	Objects 310: DEVICE_CONTACT
+	Objects 311: DEVICE_FAILURE
+	Objects 312: DEVICE_GONERMAKER
+	Objects 313: DEVICE_MENU
+	Objects 314: DEVICE_OBACK_4
+	Objects 315: PROCESS_LOGO
+	Objects 316: PROCESS_DOG
+	Objects 317: obj_credits
+	Objects 318: obj_dkris_event
+	Objects 319: obj_darkphone_event
+	Objects 320: obj_time
+	Objects 321: obj_move_to_point
+	Objects 322: obj_legend
+	Objects 323: obj_savemenu
+	Objects 324: obj_initializer2
+	Objects 325: obj_overworldc
+	Objects 326: obj_mainchara
+	Objects 327: obj_sdl
+	Objects 328: obj_sdr
+	Objects 329: obj_sul
+	Objects 330: obj_sur
+	Objects 331: obj_soliddark
+	Objects 332: obj_sur_dark
+	Objects 333: obj_sdl_dark
+	Objects 334: obj_solidenemy
+	Objects 335: obj_solidenemy_2
+	Objects 336: obj_solidblock
+	Objects 337: obj_solidlong
+	Objects 338: obj_solidcircle
+	Objects 339: obj_diag
+	Objects 340: obj_diamond
+	Objects 341: obj_84_lang_helper
+Room_Prepare() 
+Sound_Prepare() 
+InitGraphics() 
+Finished PrepareGame() 
+Run_Start
+Audio group 1 -> Loading...
+Audio_WAVs()
+**********************************.
+Entering main loop.
+**********************************.
+Audio group 1 -> Loaded
+create stream 300000
+Resizing swap chain...create stream 300001
+create stream 300000
+Pause event has been registered for this frame
+Pause event has been unregistered
+---------------------------------------------------------------
+minFPS, maxFPS, avgFPS
+-72, 255, -5
+---------------------------------------------------------------
+---------------------------------------------------------------
+minFPS, maxFPS, avgFPS
+-72, 255, -5
+---------------------------------------------------------------
+Create Error Form
+
+***************************************
+*     YoYo Games Runner v1.0(999)[r32908]    *
+***************************************	 
+RunnerLoadGame: C:\rof\rofout\data.win
+#########################################################################
+####!!!!$$$$$$ pwd - C:\rof\rofout\
+#########################################################################
+RunnerLoadGame() - C:\rof\rofout\data.win
+YYG Game launching. Game file: C:\rof\rofout\data.win
+Checking if INIFile exists at C:\rof\rofout/options.ini
+Reading File C:\rof\rofout\data.win
+Loaded File C:\rof\rofout\data.win(17176844)
+IFF wad found
+Get Resolution
+Get Header Information
+InitGMLFunctions
+HighScore..SavePrePend = C:\Users\555\AppData\Local\DELTARUNE\
+Game..Math..Graphic..Action..File..Resource..Interaction..3D..Particle..Misc..DS..Sound..Physics..Gamepad..Buffers..Networking..Shaders..InitPushFunctions...YoYo..Fini
+Code_Load()
+VARI_Load()
+got 2687 global variables
+got 2687 instance variables
+got 39 local variables
+ID_STRG
+Create Window
+GAMEPAD: 40 axis values (last) at 0x1c0f900
+GAMEPAD: 40 axis values (last) at 0x1c0f700
+GAMEPAD: 40 axis values (last) at 0x1c0f500
+GAMEPAD: 40 axis values (last) at 0x1c0f300
+GAMEPAD: 40 axis values (last) at 0x1c0f100
+GAMEPAD: 40 axis values (last) at 0x1c0ef00
+GAMEPAD: 40 axis values (last) at 0x1c0ed00
+GAMEPAD: 40 axis values (last) at 0x1c0eb00
+AdjustWindowRectEx
+RegisterClassEx
+CreateWindowEx
+GAMEPAD: 4 axis values (last) at 0x25eb90
+GAMEPAD: 4 axis values (last) at 0x25eb70
+GAMEPAD: 4 axis values (last) at 0x25eb50
+GAMEPAD: 4 axis values (last) at 0x25eb30
+Init Graphics
+GR_D3D_Init()
+Enable DwmEnableMMCSS
+DirectX11: Using hardware device
+Background_InitTextures()
+Sprite_InitTextures()
+Font_InitTextures()
+IO Init
+Process Messages
+Splash!
+Start Frame
+Part Create Textures
+Debug Init Remote Interface
+VM Init
+Create Score Form
+Create Load Form
+Do The Work
+LoadGameData()
+initialise everything!
+Process Chunk: GEN8   784
+Process Chunk: OPTN   88
+Process Chunk: LANG   24
+Process Chunk: EXTN   8
+Process Chunk: SOND   6056
+Audio_Load()
+Process Chunk: AGRP   24
+AudioGroup_Load()
+Process Chunk: SPRT   1616152
+Process Chunk: BGND   9448
+Process Chunk: PATH   8
+Process Chunk: SCPT   3016
+Process Chunk: GLOB   24
+Process Chunk: SHDR   8
+Process Chunk: FONT   179176
+Process Chunk: TMLN   8
+Process Chunk: OBJT   163096
+Process Chunk: ROOM   1819064
+Process Chunk: DAFL   8
+Process Chunk: EMBI   8
+Process Chunk: TPAG   76472
+Process Chunk: CODE   1497432
+Process Chunk: VARI   90936
+Process Chunk: FUNC   32296
+Process Chunk: STRG   475592
+Process Chunk: TXTR   4830968
+Process Chunk: AUDO   6375940
+Audio_WAVs()
+PrepareGame()
+Extension_Prepare() 
+Code_Constant_Prepare() 
+Script_Prepare() 
+TimeLine_Prepare() 
+Object_Prepare() 
+Preparing 342 objects:
+	Objects 0: obj_choicer_old
+	Objects 1: obj_choicer_neo
+	Objects 2: obj_face
+	Objects 3: obj_face_parent
+	Objects 4: obj_smallface
+	Objects 5: obj_dialoguer
+	Objects 6: obj_writer
+	Objects 7: obj_fallpaper
+	Objects 8: obj_insideclosetcutscene
+	Objects 9: obj_darkdoor
+	Objects 10: obj_classscene
+	Objects 11: obj_schoollobbycutscene
+	Objects 12: obj_schooldesk
+	Objects 13: obj_tem_school
+	Objects 14: obj_torielclass_event
+	Objects 15: obj_unusedclassevent
+	Objects 16: obj_alphysdesk
+	Objects 17: obj_rudy
+	Objects 18: obj_church_event
+	Objects 19: obj_town_shelter_event
+	Objects 20: obj_town_event
+	Objects 21: obj_alphysalley_event
+	Objects 22: obj_flowershop_event
+	Objects 23: obj_onionbody
+	Objects 24: obj_onion_event
+	Objects 25: obj_carcutscene
+	Objects 26: obj_hallway_mirror
+	Objects 27: obj_krisroom
+	Objects 28: obj_rurus_checker_event
+	Objects 29: obj_cc_event
+	Objects 30: obj_jokerbattleevent
+	Objects 31: obj_elevatorcontroller
+	Objects 32: obj_lancerbakesale_event
+	Objects 33: obj_cloverpuzzle_event
+	Objects 34: obj_prisonevent
+	Objects 35: obj_lancerbattle2_event
+	Objects 36: obj_lancerchase2
+	Objects 37: obj_castlefront_event
+	Objects 38: obj_susieandlancer_event
+	Objects 39: obj_thrashcontroller
+	Objects 40: obj_thrashmachine
+	Objects 41: obj_thrashmaker_event
+	Objects 42: obj_suitspuzzle_event
+	Objects 43: obj_susiebadguy_event
+	Objects 44: obj_thrashafter_event
+	Objects 45: obj_thrashafter_follow
+	Objects 46: obj_rurus_appear
+	Objects 47: obj_rurus_event
+	Objects 48: obj_lancerscare2
+	Objects 49: obj_scarelancerevent
+	Objects 50: obj_getsusieevent
+	Objects 51: obj_boxpuzzle_event
+	Objects 52: obj_hathyfightevent
+	Objects 53: obj_darkdoorevent
+	Objects 54: obj_tutorialbattleevent
+	Objects 55: obj_ralsei_runevent
+	Objects 56: obj_lancerguide
+	Objects 57: obj_thrashzone_event
+	Objects 58: obj_insultzone_event
+	Objects 59: obj_preforest_event
+	Objects 60: obj_candytree_event
+	Objects 61: obj_cloverhole
+	Objects 62: obj_npc_hammerguy
+	Objects 63: obj_shortcut_door
+	Objects 64: obj_npc_puzzlemaster1
+	Objects 65: obj_npc_puzzlemaster2
+	Objects 66: obj_cakesmoke
+	Objects 67: obj_npc_susiedark
+	Objects 68: obj_darkcastle_event
+	Objects 69: obj_darklanding
+	Objects 70: obj_wobblything_slide
+	Objects 71: obj_lancerslideevent
+	Objects 72: obj_lancerchaseevent
+	Objects 73: obj_darkslide
+	Objects 74: obj_darkwakeevent
+	Objects 75: obj_savepoint
+	Objects 76: obj_readable
+	Objects 77: obj_animation
+	Objects 78: obj_marker
+	Objects 79: obj_marker2
+	Objects 80: obj_readable_room1
+	Objects 81: obj_interactablesolid
+	Objects 82: obj_npc_toriel
+	Objects 83: obj_npc_facing
+	Objects 84: obj_npc_room
+	Objects 85: obj_npc_room_animated
+	Objects 86: obj_treasure_room
+	Objects 87: obj_npc_sign
+	Objects 88: obj_event_room
+	Objects 89: obj_interactable
+	Objects 90: obj_doorA
+	Objects 91: obj_doorA_musfade
+	Objects 92: obj_doorB_musfade
+	Objects 93: obj_doorB
+	Objects 94: obj_doorC
+	Objects 95: obj_doorC_musfade
+	Objects 96: obj_doorD
+	Objects 97: obj_doorD_musfade
+	Objects 98: obj_doorE
+	Objects 99: obj_doorF
+	Objects 100: obj_doorX
+	Objects 101: obj_doorX_musfade
+	Objects 102: obj_doorw_musfade
+	Objects 103: obj_doorparent
+	Objects 104: obj_markerA
+	Objects 105: obj_markerB
+	Objects 106: obj_markerC
+	Objects 107: obj_markerD
+	Objects 108: obj_markerE
+	Objects 109: obj_markerF
+	Objects 110: obj_markerr
+	Objects 111: obj_markers
+	Objects 112: obj_markert
+	Objects 113: obj_markeru
+	Objects 114: obj_markerv
+	Objects 115: obj_markerw
+	Objects 116: obj_markerX
+	Objects 117: obj_doorW
+	Objects 118: obj_musicer
+	Objects 119: obj_musicer_darkcliff
+	Objects 120: obj_musicer_town
+	Objects 121: obj_musicer_field
+	Objects 122: obj_musicer_forest
+	Objects 123: obj_musicer_quietforest
+	Objects 124: obj_musicer_man
+	Objects 125: obj_musicer_darkcastle
+	Objects 126: obj_musicer_bird
+	Objects 127: obj_wave_fx
+	Objects 128: obj_astream
+	Objects 129: obj_gameover_init
+	Objects 130: obj_ralseibook
+	Objects 131: obj_jokerbg_triangle_real
+	Objects 132: obj_fieldmuslogo
+	Objects 133: obj_backgrounder_standard
+	Objects 134: obj_backgrounder_sprite
+	Objects 135: obj_backgrounderparent
+	Objects 136: obj_panner
+	Objects 137: obj_fadeout
+	Objects 138: obj_fadein
+	Objects 139: obj_persistentfadein
+	Objects 140: obj_shake
+	Objects 141: obj_castle_torch
+	Objects 142: obj_castle_house
+	Objects 143: obj_bluhpainting
+	Objects 144: obj_lightfairy
+	Objects 145: obj_blocktree_bg
+	Objects 146: obj_purplegrass
+	Objects 147: obj_slidedust
+	Objects 148: obj_darklancer
+	Objects 149: obj_dustball
+	Objects 150: obj_dustball_pilebreak
+	Objects 151: obj_dustpile
+	Objects 152: obj_dustpile_susie
+	Objects 153: obj_wobblything
+	Objects 154: obj_wobblything_evil
+	Objects 155: obj_anim
+	Objects 156: obj_kingcutscene
+	Objects 157: obj_shakeobj
+	Objects 158: obj_darkfountain
+	Objects 159: obj_darkfountain_event
+	Objects 160: obj_fountainkris
+	Objects 161: obj_chaseenemy
+	Objects 162: obj_excblcon
+	Objects 163: obj_testoverworldenemy
+	Objects 164: obj_encounterbasic
+	Objects 165: obj_caterpillarchara
+	Objects 166: obj_darkcontroller
+	Objects 167: obj_healwriter
+	Objects 168: obj_menuwriter
+	Objects 169: obj_battlealphaer
+	Objects 170: obj_starwalker_battle
+	Objects 171: obj_starwalker_overworld
+	Objects 172: obj_starwalker_offswitch
+	Objects 173: obj_overworldheart
+	Objects 174: obj_scissordancer
+	Objects 175: obj_dancer_gen
+	Objects 176: obj_darkponman_ow
+	Objects 177: obj_ob_gen
+	Objects 178: obj_ob_checkertile
+	Objects 179: obj_overworld_spade_homing
+	Objects 180: obj_overworld_spade
+	Objects 181: obj_overworld_spademaker
+	Objects 182: obj_overworldbulletparent
+	Objects 183: obj_afterimage
+	Objects 184: obj_afterimage_grow
+	Objects 185: obj_attackpress
+	Objects 186: obj_basicattack
+	Objects 187: obj_battlecontroller
+	Objects 188: obj_battlesolid
+	Objects 189: obj_bulletgenparent
+	Objects 190: obj_bulletparent
+	Objects 191: obj_burstbolt
+	Objects 192: obj_chasebullet
+	Objects 193: obj_collidebullet
+	Objects 194: obj_regularbullet_permanent
+	Objects 195: obj_darkener
+	Objects 196: obj_grazebox
+	Objects 197: obj_healeffect
+	Objects 198: obj_healsparkle
+	Objects 199: obj_heartburst
+	Objects 200: obj_heartmarker
+	Objects 201: obj_lancerbike
+	Objects 202: obj_herokris
+	Objects 203: obj_herosusie
+	Objects 204: obj_heroralsei
+	Objects 205: obj_heroparent
+	Objects 206: obj_initializer
+	Objects 207: obj_krisplace
+	Objects 208: obj_monster1
+	Objects 209: obj_moveheart
+	Objects 210: obj_regularbullet
+	Objects 211: obj_returnheart
+	Objects 212: obj_tensionbar
+	Objects 213: obj_whiteedge
+	Objects 214: obj_forest_area5_puzzle
+	Objects 215: obj_forestmaze_controller
+	Objects 216: obj_tempblock_room
+	Objects 217: obj_suitspuzz
+	Objects 218: obj_suitspuzz_button
+	Objects 219: obj_pushableblock
+	Objects 220: obj_glowtile
+	Objects 221: obj_blocktile
+	Objects 222: obj_glowtilepuzz
+	Objects 223: obj_darkeyepuzzle_switch
+	Objects 224: obj_darkeyepuzzle
+	Objects 225: obj_dicebul
+	Objects 226: obj_heartblcon
+	Objects 227: obj_clubsbullet
+	Objects 228: obj_clubsbullet_dark
+	Objects 229: obj_dbullet_maker
+	Objects 230: obj_dbullet_vert
+	Objects 231: obj_heartshaper
+	Objects 232: obj_spinheart
+	Objects 233: obj_dbulletcontroller
+	Objects 234: obj_monsterparent
+	Objects 235: obj_ralseibullet
+	Objects 236: obj_dummyenemy
+	Objects 237: obj_ralseienemy
+	Objects 238: obj_placeholderenemy
+	Objects 239: obj_chain_of_hell
+	Objects 240: obj_chainking
+	Objects 241: obj_chainpiece
+	Objects 242: obj_fadechain
+	Objects 243: obj_finalchain
+	Objects 244: obj_king_body
+	Objects 245: obj_growtangle_bouncer
+	Objects 246: obj_nonsolid_growtangle
+	Objects 247: obj_skychain
+	Objects 248: obj_wavechain
+	Objects 249: obj_dknight_slasher
+	Objects 250: obj_rudinnranger
+	Objects 251: obj_jigsawbullet
+	Objects 252: obj_jigsawryenemy
+	Objects 253: obj_checkers_enemy
+	Objects 254: obj_checker_animtest
+	Objects 255: obj_ralseithrown
+	Objects 256: obj_throwralsei
+	Objects 257: obj_throwtarget
+	Objects 258: obj_checkers_leap
+	Objects 259: obj_ponman_appear
+	Objects 260: obj_ponman_enemy
+	Objects 261: obj_heartbomb_blast
+	Objects 262: obj_suitbomb
+	Objects 263: obj_joker_body
+	Objects 264: obj_centerscythe
+	Objects 265: obj_laserscythe
+	Objects 266: obj_bigscythe
+	Objects 267: obj_carouselbullet
+	Objects 268: obj_joker_teleport
+	Objects 269: obj_spadering
+	Objects 270: obj_rabbick_bush
+	Objects 271: obj_carrotthrower
+	Objects 272: obj_rabbitbullet
+	Objects 273: obj_rabbick_enemy
+	Objects 274: obj_blockbullet_fall
+	Objects 275: obj_bloxer_enemy
+	Objects 276: obj_lancerbike_neo
+	Objects 277: obj_axebullet
+	Objects 278: obj_lancerboss
+	Objects 279: obj_lancerboss2
+	Objects 280: obj_diamondenemy
+	Objects 281: obj_susieenemy
+	Objects 282: obj_lancerboss3
+	Objects 283: obj_king_boss
+	Objects 284: obj_joker
+	Objects 285: obj_clubsenemy
+	Objects 286: obj_clubsenemy_old
+	Objects 287: obj_heartenemy
+	Objects 288: obj_headhathy
+	Objects 289: obj_smallcheckers_enemy
+	Objects 290: obj_pacifyspell
+	Objects 291: obj_deathanim
+	Objects 292: obj_defeatanim
+	Objects 293: obj_healanim
+	Objects 294: obj_oflash
+	Objects 295: obj_rudebuster_anim
+	Objects 296: obj_rudebuster_bolt
+	Objects 297: obj_hypnofx
+	Objects 298: obj_spareanim
+	Objects 299: obj_battleback
+	Objects 300: obj_spellphase
+	Objects 301: obj_battleblcon
+	Objects 302: obj_endbattle
+	Objects 303: obj_growtangle
+	Objects 304: obj_dmgwriter
+	Objects 305: obj_heart
+	Objects 306: obj_shop1
+	Objects 307: obj_shop2
+	Objects 308: DEVICE_APPEARANCE
+	Objects 309: DEVICE_CHOICE
+	Objects 310: DEVICE_CONTACT
+	Objects 311: DEVICE_FAILURE
+	Objects 312: DEVICE_GONERMAKER
+	Objects 313: DEVICE_MENU
+	Objects 314: DEVICE_OBACK_4
+	Objects 315: PROCESS_LOGO
+	Objects 316: PROCESS_DOG
+	Objects 317: obj_credits
+	Objects 318: obj_dkris_event
+	Objects 319: obj_darkphone_event
+	Objects 320: obj_time
+	Objects 321: obj_move_to_point
+	Objects 322: obj_legend
+	Objects 323: obj_savemenu
+	Objects 324: obj_initializer2
+	Objects 325: obj_overworldc
+	Objects 326: obj_mainchara
+	Objects 327: obj_sdl
+	Objects 328: obj_sdr
+	Objects 329: obj_sul
+	Objects 330: obj_sur
+	Objects 331: obj_soliddark
+	Objects 332: obj_sur_dark
+	Objects 333: obj_sdl_dark
+	Objects 334: obj_solidenemy
+	Objects 335: obj_solidenemy_2
+	Objects 336: obj_solidblock
+	Objects 337: obj_solidlong
+	Objects 338: obj_solidcircle
+	Objects 339: obj_diag
+	Objects 340: obj_diamond
+	Objects 341: obj_84_lang_helper
+Room_Prepare() 
+Sound_Prepare() 
+InitGraphics() 
+Finished PrepareGame() 
+Run_Start
+Audio group 1 -> Loading...
+Audio_WAVs()
+**********************************.
+Entering main loop.
+**********************************.
+Audio group 1 -> Loaded
+create stream 300000
+Resizing swap chain...create stream 300001
+create stream 300000
+Pause event has been registered for this frame
+Pause event has been unregistered
+---------------------------------------------------------------
+minFPS, maxFPS, avgFPS
+4, 343, 49
+---------------------------------------------------------------
+---------------------------------------------------------------
+minFPS, maxFPS, avgFPS
+4, 343, 49
+---------------------------------------------------------------
+Create Error Form
+
+***************************************
+*     YoYo Games Runner v1.0(999)[r32908]    *
+***************************************	 
+RunnerLoadGame: C:\rof\rofout\data.win
+#########################################################################
+####!!!!$$$$$$ pwd - C:\rof\rofout\
+#########################################################################
+RunnerLoadGame() - C:\rof\rofout\data.win
+YYG Game launching. Game file: C:\rof\rofout\data.win
+Checking if INIFile exists at C:\rof\rofout/options.ini
+Reading File C:\rof\rofout\data.win
+Loaded File C:\rof\rofout\data.win(17176844)
+IFF wad found
+Get Resolution
+Get Header Information
+InitGMLFunctions
+HighScore..SavePrePend = C:\Users\555\AppData\Local\DELTARUNE\
+Game..Math..Graphic..Action..File..Resource..Interaction..3D..Particle..Misc..DS..Sound..Physics..Gamepad..Buffers..Networking..Shaders..InitPushFunctions...YoYo..Fini
+Code_Load()
+VARI_Load()
+got 2687 global variables
+got 2687 instance variables
+got 39 local variables
+ID_STRG
+Create Window
+GAMEPAD: 40 axis values (last) at 0x1f8f900
+GAMEPAD: 40 axis values (last) at 0x1f8f700
+GAMEPAD: 40 axis values (last) at 0x1f8f500
+GAMEPAD: 40 axis values (last) at 0x1f8f300
+GAMEPAD: 40 axis values (last) at 0x1f8f100
+GAMEPAD: 40 axis values (last) at 0x1f8ef00
+GAMEPAD: 40 axis values (last) at 0x1f8ed00
+GAMEPAD: 40 axis values (last) at 0x1f8eb00
+AdjustWindowRectEx
+RegisterClassEx
+CreateWindowEx
+GAMEPAD: 4 axis values (last) at 0x2eeb90
+GAMEPAD: 4 axis values (last) at 0x2eeb70
+GAMEPAD: 4 axis values (last) at 0x2eeb50
+GAMEPAD: 4 axis values (last) at 0x2eeb30
+Init Graphics
+GR_D3D_Init()
+Enable DwmEnableMMCSS
+DirectX11: Using hardware device
+Background_InitTextures()
+Sprite_InitTextures()
+Font_InitTextures()
+IO Init
+Process Messages
+Splash!
+Start Frame
+Part Create Textures
+Debug Init Remote Interface
+VM Init
+Create Score Form
+Create Load Form
+Do The Work
+LoadGameData()
+initialise everything!
+Process Chunk: GEN8   784
+Process Chunk: OPTN   88
+Process Chunk: LANG   24
+Process Chunk: EXTN   8
+Process Chunk: SOND   6056
+Audio_Load()
+Process Chunk: AGRP   24
+AudioGroup_Load()
+Process Chunk: SPRT   1616152
+Process Chunk: BGND   9448
+Process Chunk: PATH   8
+Process Chunk: SCPT   3016
+Process Chunk: GLOB   24
+Process Chunk: SHDR   8
+Process Chunk: FONT   179176
+Process Chunk: TMLN   8
+Process Chunk: OBJT   163096
+Process Chunk: ROOM   1819064
+Process Chunk: DAFL   8
+Process Chunk: EMBI   8
+Process Chunk: TPAG   76472
+Process Chunk: CODE   1497432
+Process Chunk: VARI   90936
+Process Chunk: FUNC   32296
+Process Chunk: STRG   475592
+Process Chunk: TXTR   4830968
+Process Chunk: AUDO   6375940
+Audio_WAVs()
+PrepareGame()
+Extension_Prepare() 
+Code_Constant_Prepare() 
+Script_Prepare() 
+TimeLine_Prepare() 
+Object_Prepare() 
+Preparing 342 objects:
+	Objects 0: obj_choicer_old
+	Objects 1: obj_choicer_neo
+	Objects 2: obj_face
+	Objects 3: obj_face_parent
+	Objects 4: obj_smallface
+	Objects 5: obj_dialoguer
+	Objects 6: obj_writer
+	Objects 7: obj_fallpaper
+	Objects 8: obj_insideclosetcutscene
+	Objects 9: obj_darkdoor
+	Objects 10: obj_classscene
+	Objects 11: obj_schoollobbycutscene
+	Objects 12: obj_schooldesk
+	Objects 13: obj_tem_school
+	Objects 14: obj_torielclass_event
+	Objects 15: obj_unusedclassevent
+	Objects 16: obj_alphysdesk
+	Objects 17: obj_rudy
+	Objects 18: obj_church_event
+	Objects 19: obj_town_shelter_event
+	Objects 20: obj_town_event
+	Objects 21: obj_alphysalley_event
+	Objects 22: obj_flowershop_event
+	Objects 23: obj_onionbody
+	Objects 24: obj_onion_event
+	Objects 25: obj_carcutscene
+	Objects 26: obj_hallway_mirror
+	Objects 27: obj_krisroom
+	Objects 28: obj_rurus_checker_event
+	Objects 29: obj_cc_event
+	Objects 30: obj_jokerbattleevent
+	Objects 31: obj_elevatorcontroller
+	Objects 32: obj_lancerbakesale_event
+	Objects 33: obj_cloverpuzzle_event
+	Objects 34: obj_prisonevent
+	Objects 35: obj_lancerbattle2_event
+	Objects 36: obj_lancerchase2
+	Objects 37: obj_castlefront_event
+	Objects 38: obj_susieandlancer_event
+	Objects 39: obj_thrashcontroller
+	Objects 40: obj_thrashmachine
+	Objects 41: obj_thrashmaker_event
+	Objects 42: obj_suitspuzzle_event
+	Objects 43: obj_susiebadguy_event
+	Objects 44: obj_thrashafter_event
+	Objects 45: obj_thrashafter_follow
+	Objects 46: obj_rurus_appear
+	Objects 47: obj_rurus_event
+	Objects 48: obj_lancerscare2
+	Objects 49: obj_scarelancerevent
+	Objects 50: obj_getsusieevent
+	Objects 51: obj_boxpuzzle_event
+	Objects 52: obj_hathyfightevent
+	Objects 53: obj_darkdoorevent
+	Objects 54: obj_tutorialbattleevent
+	Objects 55: obj_ralsei_runevent
+	Objects 56: obj_lancerguide
+	Objects 57: obj_thrashzone_event
+	Objects 58: obj_insultzone_event
+	Objects 59: obj_preforest_event
+	Objects 60: obj_candytree_event
+	Objects 61: obj_cloverhole
+	Objects 62: obj_npc_hammerguy
+	Objects 63: obj_shortcut_door
+	Objects 64: obj_npc_puzzlemaster1
+	Objects 65: obj_npc_puzzlemaster2
+	Objects 66: obj_cakesmoke
+	Objects 67: obj_npc_susiedark
+	Objects 68: obj_darkcastle_event
+	Objects 69: obj_darklanding
+	Objects 70: obj_wobblything_slide
+	Objects 71: obj_lancerslideevent
+	Objects 72: obj_lancerchaseevent
+	Objects 73: obj_darkslide
+	Objects 74: obj_darkwakeevent
+	Objects 75: obj_savepoint
+	Objects 76: obj_readable
+	Objects 77: obj_animation
+	Objects 78: obj_marker
+	Objects 79: obj_marker2
+	Objects 80: obj_readable_room1
+	Objects 81: obj_interactablesolid
+	Objects 82: obj_npc_toriel
+	Objects 83: obj_npc_facing
+	Objects 84: obj_npc_room
+	Objects 85: obj_npc_room_animated
+	Objects 86: obj_treasure_room
+	Objects 87: obj_npc_sign
+	Objects 88: obj_event_room
+	Objects 89: obj_interactable
+	Objects 90: obj_doorA
+	Objects 91: obj_doorA_musfade
+	Objects 92: obj_doorB_musfade
+	Objects 93: obj_doorB
+	Objects 94: obj_doorC
+	Objects 95: obj_doorC_musfade
+	Objects 96: obj_doorD
+	Objects 97: obj_doorD_musfade
+	Objects 98: obj_doorE
+	Objects 99: obj_doorF
+	Objects 100: obj_doorX
+	Objects 101: obj_doorX_musfade
+	Objects 102: obj_doorw_musfade
+	Objects 103: obj_doorparent
+	Objects 104: obj_markerA
+	Objects 105: obj_markerB
+	Objects 106: obj_markerC
+	Objects 107: obj_markerD
+	Objects 108: obj_markerE
+	Objects 109: obj_markerF
+	Objects 110: obj_markerr
+	Objects 111: obj_markers
+	Objects 112: obj_markert
+	Objects 113: obj_markeru
+	Objects 114: obj_markerv
+	Objects 115: obj_markerw
+	Objects 116: obj_markerX
+	Objects 117: obj_doorW
+	Objects 118: obj_musicer
+	Objects 119: obj_musicer_darkcliff
+	Objects 120: obj_musicer_town
+	Objects 121: obj_musicer_field
+	Objects 122: obj_musicer_forest
+	Objects 123: obj_musicer_quietforest
+	Objects 124: obj_musicer_man
+	Objects 125: obj_musicer_darkcastle
+	Objects 126: obj_musicer_bird
+	Objects 127: obj_wave_fx
+	Objects 128: obj_astream
+	Objects 129: obj_gameover_init
+	Objects 130: obj_ralseibook
+	Objects 131: obj_jokerbg_triangle_real
+	Objects 132: obj_fieldmuslogo
+	Objects 133: obj_backgrounder_standard
+	Objects 134: obj_backgrounder_sprite
+	Objects 135: obj_backgrounderparent
+	Objects 136: obj_panner
+	Objects 137: obj_fadeout
+	Objects 138: obj_fadein
+	Objects 139: obj_persistentfadein
+	Objects 140: obj_shake
+	Objects 141: obj_castle_torch
+	Objects 142: obj_castle_house
+	Objects 143: obj_bluhpainting
+	Objects 144: obj_lightfairy
+	Objects 145: obj_blocktree_bg
+	Objects 146: obj_purplegrass
+	Objects 147: obj_slidedust
+	Objects 148: obj_darklancer
+	Objects 149: obj_dustball
+	Objects 150: obj_dustball_pilebreak
+	Objects 151: obj_dustpile
+	Objects 152: obj_dustpile_susie
+	Objects 153: obj_wobblything
+	Objects 154: obj_wobblything_evil
+	Objects 155: obj_anim
+	Objects 156: obj_kingcutscene
+	Objects 157: obj_shakeobj
+	Objects 158: obj_darkfountain
+	Objects 159: obj_darkfountain_event
+	Objects 160: obj_fountainkris
+	Objects 161: obj_chaseenemy
+	Objects 162: obj_excblcon
+	Objects 163: obj_testoverworldenemy
+	Objects 164: obj_encounterbasic
+	Objects 165: obj_caterpillarchara
+	Objects 166: obj_darkcontroller
+	Objects 167: obj_healwriter
+	Objects 168: obj_menuwriter
+	Objects 169: obj_battlealphaer
+	Objects 170: obj_starwalker_battle
+	Objects 171: obj_starwalker_overworld
+	Objects 172: obj_starwalker_offswitch
+	Objects 173: obj_overworldheart
+	Objects 174: obj_scissordancer
+	Objects 175: obj_dancer_gen
+	Objects 176: obj_darkponman_ow
+	Objects 177: obj_ob_gen
+	Objects 178: obj_ob_checkertile
+	Objects 179: obj_overworld_spade_homing
+	Objects 180: obj_overworld_spade
+	Objects 181: obj_overworld_spademaker
+	Objects 182: obj_overworldbulletparent
+	Objects 183: obj_afterimage
+	Objects 184: obj_afterimage_grow
+	Objects 185: obj_attackpress
+	Objects 186: obj_basicattack
+	Objects 187: obj_battlecontroller
+	Objects 188: obj_battlesolid
+	Objects 189: obj_bulletgenparent
+	Objects 190: obj_bulletparent
+	Objects 191: obj_burstbolt
+	Objects 192: obj_chasebullet
+	Objects 193: obj_collidebullet
+	Objects 194: obj_regularbullet_permanent
+	Objects 195: obj_darkener
+	Objects 196: obj_grazebox
+	Objects 197: obj_healeffect
+	Objects 198: obj_healsparkle
+	Objects 199: obj_heartburst
+	Objects 200: obj_heartmarker
+	Objects 201: obj_lancerbike
+	Objects 202: obj_herokris
+	Objects 203: obj_herosusie
+	Objects 204: obj_heroralsei
+	Objects 205: obj_heroparent
+	Objects 206: obj_initializer
+	Objects 207: obj_krisplace
+	Objects 208: obj_monster1
+	Objects 209: obj_moveheart
+	Objects 210: obj_regularbullet
+	Objects 211: obj_returnheart
+	Objects 212: obj_tensionbar
+	Objects 213: obj_whiteedge
+	Objects 214: obj_forest_area5_puzzle
+	Objects 215: obj_forestmaze_controller
+	Objects 216: obj_tempblock_room
+	Objects 217: obj_suitspuzz
+	Objects 218: obj_suitspuzz_button
+	Objects 219: obj_pushableblock
+	Objects 220: obj_glowtile
+	Objects 221: obj_blocktile
+	Objects 222: obj_glowtilepuzz
+	Objects 223: obj_darkeyepuzzle_switch
+	Objects 224: obj_darkeyepuzzle
+	Objects 225: obj_dicebul
+	Objects 226: obj_heartblcon
+	Objects 227: obj_clubsbullet
+	Objects 228: obj_clubsbullet_dark
+	Objects 229: obj_dbullet_maker
+	Objects 230: obj_dbullet_vert
+	Objects 231: obj_heartshaper
+	Objects 232: obj_spinheart
+	Objects 233: obj_dbulletcontroller
+	Objects 234: obj_monsterparent
+	Objects 235: obj_ralseibullet
+	Objects 236: obj_dummyenemy
+	Objects 237: obj_ralseienemy
+	Objects 238: obj_placeholderenemy
+	Objects 239: obj_chain_of_hell
+	Objects 240: obj_chainking
+	Objects 241: obj_chainpiece
+	Objects 242: obj_fadechain
+	Objects 243: obj_finalchain
+	Objects 244: obj_king_body
+	Objects 245: obj_growtangle_bouncer
+	Objects 246: obj_nonsolid_growtangle
+	Objects 247: obj_skychain
+	Objects 248: obj_wavechain
+	Objects 249: obj_dknight_slasher
+	Objects 250: obj_rudinnranger
+	Objects 251: obj_jigsawbullet
+	Objects 252: obj_jigsawryenemy
+	Objects 253: obj_checkers_enemy
+	Objects 254: obj_checker_animtest
+	Objects 255: obj_ralseithrown
+	Objects 256: obj_throwralsei
+	Objects 257: obj_throwtarget
+	Objects 258: obj_checkers_leap
+	Objects 259: obj_ponman_appear
+	Objects 260: obj_ponman_enemy
+	Objects 261: obj_heartbomb_blast
+	Objects 262: obj_suitbomb
+	Objects 263: obj_joker_body
+	Objects 264: obj_centerscythe
+	Objects 265: obj_laserscythe
+	Objects 266: obj_bigscythe
+	Objects 267: obj_carouselbullet
+	Objects 268: obj_joker_teleport
+	Objects 269: obj_spadering
+	Objects 270: obj_rabbick_bush
+	Objects 271: obj_carrotthrower
+	Objects 272: obj_rabbitbullet
+	Objects 273: obj_rabbick_enemy
+	Objects 274: obj_blockbullet_fall
+	Objects 275: obj_bloxer_enemy
+	Objects 276: obj_lancerbike_neo
+	Objects 277: obj_axebullet
+	Objects 278: obj_lancerboss
+	Objects 279: obj_lancerboss2
+	Objects 280: obj_diamondenemy
+	Objects 281: obj_susieenemy
+	Objects 282: obj_lancerboss3
+	Objects 283: obj_king_boss
+	Objects 284: obj_joker
+	Objects 285: obj_clubsenemy
+	Objects 286: obj_clubsenemy_old
+	Objects 287: obj_heartenemy
+	Objects 288: obj_headhathy
+	Objects 289: obj_smallcheckers_enemy
+	Objects 290: obj_pacifyspell
+	Objects 291: obj_deathanim
+	Objects 292: obj_defeatanim
+	Objects 293: obj_healanim
+	Objects 294: obj_oflash
+	Objects 295: obj_rudebuster_anim
+	Objects 296: obj_rudebuster_bolt
+	Objects 297: obj_hypnofx
+	Objects 298: obj_spareanim
+	Objects 299: obj_battleback
+	Objects 300: obj_spellphase
+	Objects 301: obj_battleblcon
+	Objects 302: obj_endbattle
+	Objects 303: obj_growtangle
+	Objects 304: obj_dmgwriter
+	Objects 305: obj_heart
+	Objects 306: obj_shop1
+	Objects 307: obj_shop2
+	Objects 308: DEVICE_APPEARANCE
+	Objects 309: DEVICE_CHOICE
+	Objects 310: DEVICE_CONTACT
+	Objects 311: DEVICE_FAILURE
+	Objects 312: DEVICE_GONERMAKER
+	Objects 313: DEVICE_MENU
+	Objects 314: DEVICE_OBACK_4
+	Objects 315: PROCESS_LOGO
+	Objects 316: PROCESS_DOG
+	Objects 317: obj_credits
+	Objects 318: obj_dkris_event
+	Objects 319: obj_darkphone_event
+	Objects 320: obj_time
+	Objects 321: obj_move_to_point
+	Objects 322: obj_legend
+	Objects 323: obj_savemenu
+	Objects 324: obj_initializer2
+	Objects 325: obj_overworldc
+	Objects 326: obj_mainchara
+	Objects 327: obj_sdl
+	Objects 328: obj_sdr
+	Objects 329: obj_sul
+	Objects 330: obj_sur
+	Objects 331: obj_soliddark
+	Objects 332: obj_sur_dark
+	Objects 333: obj_sdl_dark
+	Objects 334: obj_solidenemy
+	Objects 335: obj_solidenemy_2
+	Objects 336: obj_solidblock
+	Objects 337: obj_solidlong
+	Objects 338: obj_solidcircle
+	Objects 339: obj_diag
+	Objects 340: obj_diamond
+	Objects 341: obj_84_lang_helper
+Room_Prepare() 
+Sound_Prepare() 
+InitGraphics() 
+Finished PrepareGame() 
+Run_Start
+Audio group 1 -> Loading...
+Audio_WAVs()
+**********************************.
+Entering main loop.
+**********************************.
+Audio group 1 -> Loaded
+create stream 300000
+Resizing swap chain...Pause event has been registered for this frame
+Pause event has been unregistered
+Pause event has been registered for this frame
+Pause event has been unregistered
+create stream 300001
+create stream 300000
+Pause event has been registered for this frame
+Pause event has been unregistered
+Pause event has been registered for this frame
+Pause event has been unregistered
+create stream 300000
+create stream 300000
+create stream 300001
+---------------------------------------------------------------
+minFPS, maxFPS, avgFPS
+-88, 593, -7
+---------------------------------------------------------------
+---------------------------------------------------------------
+minFPS, maxFPS, avgFPS
+-88, 593, -7
+---------------------------------------------------------------
+Create Error Form
+
+***************************************
+*     YoYo Games Runner v1.0(999)[r32908]    *
+***************************************	 
+RunnerLoadGame: C:\rof\rofout\data.win
+#########################################################################
+####!!!!$$$$$$ pwd - C:\rof\rofout\
+#########################################################################
+RunnerLoadGame() - C:\rof\rofout\data.win
+YYG Game launching. Game file: C:\rof\rofout\data.win
+Checking if INIFile exists at C:\rof\rofout/options.ini
+Reading File C:\rof\rofout\data.win
+Loaded File C:\rof\rofout\data.win(17176844)
+IFF wad found
+Get Resolution
+Get Header Information
+InitGMLFunctions
+HighScore..SavePrePend = C:\Users\555\AppData\Local\DELTARUNE\
+Game..Math..Graphic..Action..File..Resource..Interaction..3D..Particle..Misc..DS..Sound..Physics..Gamepad..Buffers..Networking..Shaders..InitPushFunctions...YoYo..Fini
+Code_Load()
+VARI_Load()
+got 2687 global variables
+got 2687 instance variables
+got 39 local variables
+ID_STRG
+Create Window
+GAMEPAD: 40 axis values (last) at 0x1f6f900
+GAMEPAD: 40 axis values (last) at 0x1f6f700
+GAMEPAD: 40 axis values (last) at 0x1f6f500
+GAMEPAD: 40 axis values (last) at 0x1f6f300
+GAMEPAD: 40 axis values (last) at 0x1f6f100
+GAMEPAD: 40 axis values (last) at 0x1f6ef00
+GAMEPAD: 40 axis values (last) at 0x1f6ed00
+GAMEPAD: 40 axis values (last) at 0x1f6eb00
+AdjustWindowRectEx
+RegisterClassEx
+CreateWindowEx
+GAMEPAD: 4 axis values (last) at 0x34eb90
+GAMEPAD: 4 axis values (last) at 0x34eb70
+GAMEPAD: 4 axis values (last) at 0x34eb50
+GAMEPAD: 4 axis values (last) at 0x34eb30
+Init Graphics
+GR_D3D_Init()
+Enable DwmEnableMMCSS
+DirectX11: Using hardware device
+Background_InitTextures()
+Sprite_InitTextures()
+Font_InitTextures()
+IO Init
+Process Messages
+Splash!
+Start Frame
+Part Create Textures
+Debug Init Remote Interface
+VM Init
+Create Score Form
+Create Load Form
+Do The Work
+LoadGameData()
+initialise everything!
+Process Chunk: GEN8   784
+Process Chunk: OPTN   88
+Process Chunk: LANG   24
+Process Chunk: EXTN   8
+Process Chunk: SOND   6056
+Audio_Load()
+Process Chunk: AGRP   24
+AudioGroup_Load()
+Process Chunk: SPRT   1616152
+Process Chunk: BGND   9448
+Process Chunk: PATH   8
+Process Chunk: SCPT   3016
+Process Chunk: GLOB   24
+Process Chunk: SHDR   8
+Process Chunk: FONT   179176
+Process Chunk: TMLN   8
+Process Chunk: OBJT   163096
+Process Chunk: ROOM   1819064
+Process Chunk: DAFL   8
+Process Chunk: EMBI   8
+Process Chunk: TPAG   76472
+Process Chunk: CODE   1497432
+Process Chunk: VARI   90936
+Process Chunk: FUNC   32296
+Process Chunk: STRG   475592
+Process Chunk: TXTR   4830968
+Process Chunk: AUDO   6375940
+Audio_WAVs()
+PrepareGame()
+Extension_Prepare() 
+Code_Constant_Prepare() 
+Script_Prepare() 
+TimeLine_Prepare() 
+Object_Prepare() 
+Preparing 342 objects:
+	Objects 0: obj_choicer_old
+	Objects 1: obj_choicer_neo
+	Objects 2: obj_face
+	Objects 3: obj_face_parent
+	Objects 4: obj_smallface
+	Objects 5: obj_dialoguer
+	Objects 6: obj_writer
+	Objects 7: obj_fallpaper
+	Objects 8: obj_insideclosetcutscene
+	Objects 9: obj_darkdoor
+	Objects 10: obj_classscene
+	Objects 11: obj_schoollobbycutscene
+	Objects 12: obj_schooldesk
+	Objects 13: obj_tem_school
+	Objects 14: obj_torielclass_event
+	Objects 15: obj_unusedclassevent
+	Objects 16: obj_alphysdesk
+	Objects 17: obj_rudy
+	Objects 18: obj_church_event
+	Objects 19: obj_town_shelter_event
+	Objects 20: obj_town_event
+	Objects 21: obj_alphysalley_event
+	Objects 22: obj_flowershop_event
+	Objects 23: obj_onionbody
+	Objects 24: obj_onion_event
+	Objects 25: obj_carcutscene
+	Objects 26: obj_hallway_mirror
+	Objects 27: obj_krisroom
+	Objects 28: obj_rurus_checker_event
+	Objects 29: obj_cc_event
+	Objects 30: obj_jokerbattleevent
+	Objects 31: obj_elevatorcontroller
+	Objects 32: obj_lancerbakesale_event
+	Objects 33: obj_cloverpuzzle_event
+	Objects 34: obj_prisonevent
+	Objects 35: obj_lancerbattle2_event
+	Objects 36: obj_lancerchase2
+	Objects 37: obj_castlefront_event
+	Objects 38: obj_susieandlancer_event
+	Objects 39: obj_thrashcontroller
+	Objects 40: obj_thrashmachine
+	Objects 41: obj_thrashmaker_event
+	Objects 42: obj_suitspuzzle_event
+	Objects 43: obj_susiebadguy_event
+	Objects 44: obj_thrashafter_event
+	Objects 45: obj_thrashafter_follow
+	Objects 46: obj_rurus_appear
+	Objects 47: obj_rurus_event
+	Objects 48: obj_lancerscare2
+	Objects 49: obj_scarelancerevent
+	Objects 50: obj_getsusieevent
+	Objects 51: obj_boxpuzzle_event
+	Objects 52: obj_hathyfightevent
+	Objects 53: obj_darkdoorevent
+	Objects 54: obj_tutorialbattleevent
+	Objects 55: obj_ralsei_runevent
+	Objects 56: obj_lancerguide
+	Objects 57: obj_thrashzone_event
+	Objects 58: obj_insultzone_event
+	Objects 59: obj_preforest_event
+	Objects 60: obj_candytree_event
+	Objects 61: obj_cloverhole
+	Objects 62: obj_npc_hammerguy
+	Objects 63: obj_shortcut_door
+	Objects 64: obj_npc_puzzlemaster1
+	Objects 65: obj_npc_puzzlemaster2
+	Objects 66: obj_cakesmoke
+	Objects 67: obj_npc_susiedark
+	Objects 68: obj_darkcastle_event
+	Objects 69: obj_darklanding
+	Objects 70: obj_wobblything_slide
+	Objects 71: obj_lancerslideevent
+	Objects 72: obj_lancerchaseevent
+	Objects 73: obj_darkslide
+	Objects 74: obj_darkwakeevent
+	Objects 75: obj_savepoint
+	Objects 76: obj_readable
+	Objects 77: obj_animation
+	Objects 78: obj_marker
+	Objects 79: obj_marker2
+	Objects 80: obj_readable_room1
+	Objects 81: obj_interactablesolid
+	Objects 82: obj_npc_toriel
+	Objects 83: obj_npc_facing
+	Objects 84: obj_npc_room
+	Objects 85: obj_npc_room_animated
+	Objects 86: obj_treasure_room
+	Objects 87: obj_npc_sign
+	Objects 88: obj_event_room
+	Objects 89: obj_interactable
+	Objects 90: obj_doorA
+	Objects 91: obj_doorA_musfade
+	Objects 92: obj_doorB_musfade
+	Objects 93: obj_doorB
+	Objects 94: obj_doorC
+	Objects 95: obj_doorC_musfade
+	Objects 96: obj_doorD
+	Objects 97: obj_doorD_musfade
+	Objects 98: obj_doorE
+	Objects 99: obj_doorF
+	Objects 100: obj_doorX
+	Objects 101: obj_doorX_musfade
+	Objects 102: obj_doorw_musfade
+	Objects 103: obj_doorparent
+	Objects 104: obj_markerA
+	Objects 105: obj_markerB
+	Objects 106: obj_markerC
+	Objects 107: obj_markerD
+	Objects 108: obj_markerE
+	Objects 109: obj_markerF
+	Objects 110: obj_markerr
+	Objects 111: obj_markers
+	Objects 112: obj_markert
+	Objects 113: obj_markeru
+	Objects 114: obj_markerv
+	Objects 115: obj_markerw
+	Objects 116: obj_markerX
+	Objects 117: obj_doorW
+	Objects 118: obj_musicer
+	Objects 119: obj_musicer_darkcliff
+	Objects 120: obj_musicer_town
+	Objects 121: obj_musicer_field
+	Objects 122: obj_musicer_forest
+	Objects 123: obj_musicer_quietforest
+	Objects 124: obj_musicer_man
+	Objects 125: obj_musicer_darkcastle
+	Objects 126: obj_musicer_bird
+	Objects 127: obj_wave_fx
+	Objects 128: obj_astream
+	Objects 129: obj_gameover_init
+	Objects 130: obj_ralseibook
+	Objects 131: obj_jokerbg_triangle_real
+	Objects 132: obj_fieldmuslogo
+	Objects 133: obj_backgrounder_standard
+	Objects 134: obj_backgrounder_sprite
+	Objects 135: obj_backgrounderparent
+	Objects 136: obj_panner
+	Objects 137: obj_fadeout
+	Objects 138: obj_fadein
+	Objects 139: obj_persistentfadein
+	Objects 140: obj_shake
+	Objects 141: obj_castle_torch
+	Objects 142: obj_castle_house
+	Objects 143: obj_bluhpainting
+	Objects 144: obj_lightfairy
+	Objects 145: obj_blocktree_bg
+	Objects 146: obj_purplegrass
+	Objects 147: obj_slidedust
+	Objects 148: obj_darklancer
+	Objects 149: obj_dustball
+	Objects 150: obj_dustball_pilebreak
+	Objects 151: obj_dustpile
+	Objects 152: obj_dustpile_susie
+	Objects 153: obj_wobblything
+	Objects 154: obj_wobblything_evil
+	Objects 155: obj_anim
+	Objects 156: obj_kingcutscene
+	Objects 157: obj_shakeobj
+	Objects 158: obj_darkfountain
+	Objects 159: obj_darkfountain_event
+	Objects 160: obj_fountainkris
+	Objects 161: obj_chaseenemy
+	Objects 162: obj_excblcon
+	Objects 163: obj_testoverworldenemy
+	Objects 164: obj_encounterbasic
+	Objects 165: obj_caterpillarchara
+	Objects 166: obj_darkcontroller
+	Objects 167: obj_healwriter
+	Objects 168: obj_menuwriter
+	Objects 169: obj_battlealphaer
+	Objects 170: obj_starwalker_battle
+	Objects 171: obj_starwalker_overworld
+	Objects 172: obj_starwalker_offswitch
+	Objects 173: obj_overworldheart
+	Objects 174: obj_scissordancer
+	Objects 175: obj_dancer_gen
+	Objects 176: obj_darkponman_ow
+	Objects 177: obj_ob_gen
+	Objects 178: obj_ob_checkertile
+	Objects 179: obj_overworld_spade_homing
+	Objects 180: obj_overworld_spade
+	Objects 181: obj_overworld_spademaker
+	Objects 182: obj_overworldbulletparent
+	Objects 183: obj_afterimage
+	Objects 184: obj_afterimage_grow
+	Objects 185: obj_attackpress
+	Objects 186: obj_basicattack
+	Objects 187: obj_battlecontroller
+	Objects 188: obj_battlesolid
+	Objects 189: obj_bulletgenparent
+	Objects 190: obj_bulletparent
+	Objects 191: obj_burstbolt
+	Objects 192: obj_chasebullet
+	Objects 193: obj_collidebullet
+	Objects 194: obj_regularbullet_permanent
+	Objects 195: obj_darkener
+	Objects 196: obj_grazebox
+	Objects 197: obj_healeffect
+	Objects 198: obj_healsparkle
+	Objects 199: obj_heartburst
+	Objects 200: obj_heartmarker
+	Objects 201: obj_lancerbike
+	Objects 202: obj_herokris
+	Objects 203: obj_herosusie
+	Objects 204: obj_heroralsei
+	Objects 205: obj_heroparent
+	Objects 206: obj_initializer
+	Objects 207: obj_krisplace
+	Objects 208: obj_monster1
+	Objects 209: obj_moveheart
+	Objects 210: obj_regularbullet
+	Objects 211: obj_returnheart
+	Objects 212: obj_tensionbar
+	Objects 213: obj_whiteedge
+	Objects 214: obj_forest_area5_puzzle
+	Objects 215: obj_forestmaze_controller
+	Objects 216: obj_tempblock_room
+	Objects 217: obj_suitspuzz
+	Objects 218: obj_suitspuzz_button
+	Objects 219: obj_pushableblock
+	Objects 220: obj_glowtile
+	Objects 221: obj_blocktile
+	Objects 222: obj_glowtilepuzz
+	Objects 223: obj_darkeyepuzzle_switch
+	Objects 224: obj_darkeyepuzzle
+	Objects 225: obj_dicebul
+	Objects 226: obj_heartblcon
+	Objects 227: obj_clubsbullet
+	Objects 228: obj_clubsbullet_dark
+	Objects 229: obj_dbullet_maker
+	Objects 230: obj_dbullet_vert
+	Objects 231: obj_heartshaper
+	Objects 232: obj_spinheart
+	Objects 233: obj_dbulletcontroller
+	Objects 234: obj_monsterparent
+	Objects 235: obj_ralseibullet
+	Objects 236: obj_dummyenemy
+	Objects 237: obj_ralseienemy
+	Objects 238: obj_placeholderenemy
+	Objects 239: obj_chain_of_hell
+	Objects 240: obj_chainking
+	Objects 241: obj_chainpiece
+	Objects 242: obj_fadechain
+	Objects 243: obj_finalchain
+	Objects 244: obj_king_body
+	Objects 245: obj_growtangle_bouncer
+	Objects 246: obj_nonsolid_growtangle
+	Objects 247: obj_skychain
+	Objects 248: obj_wavechain
+	Objects 249: obj_dknight_slasher
+	Objects 250: obj_rudinnranger
+	Objects 251: obj_jigsawbullet
+	Objects 252: obj_jigsawryenemy
+	Objects 253: obj_checkers_enemy
+	Objects 254: obj_checker_animtest
+	Objects 255: obj_ralseithrown
+	Objects 256: obj_throwralsei
+	Objects 257: obj_throwtarget
+	Objects 258: obj_checkers_leap
+	Objects 259: obj_ponman_appear
+	Objects 260: obj_ponman_enemy
+	Objects 261: obj_heartbomb_blast
+	Objects 262: obj_suitbomb
+	Objects 263: obj_joker_body
+	Objects 264: obj_centerscythe
+	Objects 265: obj_laserscythe
+	Objects 266: obj_bigscythe
+	Objects 267: obj_carouselbullet
+	Objects 268: obj_joker_teleport
+	Objects 269: obj_spadering
+	Objects 270: obj_rabbick_bush
+	Objects 271: obj_carrotthrower
+	Objects 272: obj_rabbitbullet
+	Objects 273: obj_rabbick_enemy
+	Objects 274: obj_blockbullet_fall
+	Objects 275: obj_bloxer_enemy
+	Objects 276: obj_lancerbike_neo
+	Objects 277: obj_axebullet
+	Objects 278: obj_lancerboss
+	Objects 279: obj_lancerboss2
+	Objects 280: obj_diamondenemy
+	Objects 281: obj_susieenemy
+	Objects 282: obj_lancerboss3
+	Objects 283: obj_king_boss
+	Objects 284: obj_joker
+	Objects 285: obj_clubsenemy
+	Objects 286: obj_clubsenemy_old
+	Objects 287: obj_heartenemy
+	Objects 288: obj_headhathy
+	Objects 289: obj_smallcheckers_enemy
+	Objects 290: obj_pacifyspell
+	Objects 291: obj_deathanim
+	Objects 292: obj_defeatanim
+	Objects 293: obj_healanim
+	Objects 294: obj_oflash
+	Objects 295: obj_rudebuster_anim
+	Objects 296: obj_rudebuster_bolt
+	Objects 297: obj_hypnofx
+	Objects 298: obj_spareanim
+	Objects 299: obj_battleback
+	Objects 300: obj_spellphase
+	Objects 301: obj_battleblcon
+	Objects 302: obj_endbattle
+	Objects 303: obj_growtangle
+	Objects 304: obj_dmgwriter
+	Objects 305: obj_heart
+	Objects 306: obj_shop1
+	Objects 307: obj_shop2
+	Objects 308: DEVICE_APPEARANCE
+	Objects 309: DEVICE_CHOICE
+	Objects 310: DEVICE_CONTACT
+	Objects 311: DEVICE_FAILURE
+	Objects 312: DEVICE_GONERMAKER
+	Objects 313: DEVICE_MENU
+	Objects 314: DEVICE_OBACK_4
+	Objects 315: PROCESS_LOGO
+	Objects 316: PROCESS_DOG
+	Objects 317: obj_credits
+	Objects 318: obj_dkris_event
+	Objects 319: obj_darkphone_event
+	Objects 320: obj_time
+	Objects 321: obj_move_to_point
+	Objects 322: obj_legend
+	Objects 323: obj_savemenu
+	Objects 324: obj_initializer2
+	Objects 325: obj_overworldc
+	Objects 326: obj_mainchara
+	Objects 327: obj_sdl
+	Objects 328: obj_sdr
+	Objects 329: obj_sul
+	Objects 330: obj_sur
+	Objects 331: obj_soliddark
+	Objects 332: obj_sur_dark
+	Objects 333: obj_sdl_dark
+	Objects 334: obj_solidenemy
+	Objects 335: obj_solidenemy_2
+	Objects 336: obj_solidblock
+	Objects 337: obj_solidlong
+	Objects 338: obj_solidcircle
+	Objects 339: obj_diag
+	Objects 340: obj_diamond
+	Objects 341: obj_84_lang_helper
+Room_Prepare() 
+Sound_Prepare() 
+InitGraphics() 
+Finished PrepareGame() 
+Run_Start
+Audio group 1 -> Loading...
+Audio_WAVs()
+**********************************.
+Entering main loop.
+**********************************.
+Audio group 1 -> Loaded
+create stream 300000
+Resizing swap chain...create stream 300000
+create stream 300000
+create stream 300000
+create stream 300000
+create stream 300000
+create stream 300000
+create stream 300000
+create stream 300000
+create stream 300001
+create stream 300001
+create stream 300001
+create stream 300000
+create stream 300000
+create stream 300000
+create stream 300001
+create stream 300001
+create stream 300001
+create stream 300000
+Pause event has been registered for this frame
+Pause event has been unregistered
+Pause event has been registered for this frame
+Pause event has been unregistered
+create stream 300000
+create stream 300001
+Pause event has been registered for this frame
+Pause event has been unregistered
+Pause event has been registered for this frame
+Pause event has been unregistered
+Pause event has been registered for this frame
+Pause event has been unregistered
+Pause event has been registered for this frame
+Pause event has been unregistered
+Pause event has been registered for this frame
+Pause event has been unregistered
+Resizing swap chain...create stream 300000
+Pause event has been registered for this frame
+Pause event has been unregistered
+create stream 300000
+create stream 300000
+Pause event has been registered for this frame
+Pause event has been unregistered
+create stream 300000
+create stream 300000
+Pause event has been registered for this frame
+Pause event has been unregistered
+Pause event has been registered for this frame
+Pause event has been unregistered
+create stream 300000
+create stream 300000
+create stream 300000
+create stream 300000
+create stream 300000
+create stream 300000
+Pause event has been registered for this frame
+Pause event has been unregistered
+create stream 300000
+create stream 300000
+Pause event has been registered for this frame
+Pause event has been unregistered
+---------------------------------------------------------------
+minFPS, maxFPS, avgFPS
+-208, 1562, -8
+---------------------------------------------------------------
+---------------------------------------------------------------
+minFPS, maxFPS, avgFPS
+-208, 1562, -8
+---------------------------------------------------------------
+Create Error Form
+
+***************************************
+*     YoYo Games Runner v1.0(999)[r32908]    *
+***************************************	 
+RunnerLoadGame: C:\rof\rofout\data.win
+#########################################################################
+####!!!!$$$$$$ pwd - C:\rof\rofout\
+#########################################################################
+RunnerLoadGame() - C:\rof\rofout\data.win
+YYG Game launching. Game file: C:\rof\rofout\data.win
+Checking if INIFile exists at C:\rof\rofout/options.ini
+Reading File C:\rof\rofout\data.win
+Loaded File C:\rof\rofout\data.win(17176844)
+IFF wad found
+Get Resolution
+Get Header Information
+InitGMLFunctions
+HighScore..SavePrePend = C:\Users\555\AppData\Local\DELTARUNE\
+Game..Math..Graphic..Action..File..Resource..Interaction..3D..Particle..Misc..DS..Sound..Physics..Gamepad..Buffers..Networking..Shaders..InitPushFunctions...YoYo..Fini
+Code_Load()
+VARI_Load()
+got 2687 global variables
+got 2687 instance variables
+got 39 local variables
+ID_STRG
+Create Window
+GAMEPAD: 40 axis values (last) at 0x1c8f900
+GAMEPAD: 40 axis values (last) at 0x1c8f700
+GAMEPAD: 40 axis values (last) at 0x1c8f500
+GAMEPAD: 40 axis values (last) at 0x1c8f300
+GAMEPAD: 40 axis values (last) at 0x1c8f100
+GAMEPAD: 40 axis values (last) at 0x1c8ef00
+GAMEPAD: 40 axis values (last) at 0x1c8ed00
+GAMEPAD: 40 axis values (last) at 0x1c8eb00
+AdjustWindowRectEx
+RegisterClassEx
+CreateWindowEx
+GAMEPAD: 4 axis values (last) at 0xe4eb90
+GAMEPAD: 4 axis values (last) at 0xe4eb70
+GAMEPAD: 4 axis values (last) at 0xe4eb50
+GAMEPAD: 4 axis values (last) at 0xe4eb30
+Init Graphics
+GR_D3D_Init()
+Enable DwmEnableMMCSS
+DirectX11: Using hardware device
+Background_InitTextures()
+Sprite_InitTextures()
+Font_InitTextures()
+IO Init
+Process Messages
+Splash!
+Start Frame
+Part Create Textures
+Debug Init Remote Interface
+VM Init
+Create Score Form
+Create Load Form
+Do The Work
+LoadGameData()
+initialise everything!
+Process Chunk: GEN8   784
+Process Chunk: OPTN   88
+Process Chunk: LANG   24
+Process Chunk: EXTN   8
+Process Chunk: SOND   6056
+Audio_Load()
+Process Chunk: AGRP   24
+AudioGroup_Load()
+Process Chunk: SPRT   1616152
+Process Chunk: BGND   9448
+Process Chunk: PATH   8
+Process Chunk: SCPT   3016
+Process Chunk: GLOB   24
+Process Chunk: SHDR   8
+Process Chunk: FONT   179176
+Process Chunk: TMLN   8
+Process Chunk: OBJT   163096
+Process Chunk: ROOM   1819064
+Process Chunk: DAFL   8
+Process Chunk: EMBI   8
+Process Chunk: TPAG   76472
+Process Chunk: CODE   1497432
+Process Chunk: VARI   90936
+Process Chunk: FUNC   32296
+Process Chunk: STRG   475592
+Process Chunk: TXTR   4830968
+Process Chunk: AUDO   6375940
+Audio_WAVs()
+PrepareGame()
+Extension_Prepare() 
+Code_Constant_Prepare() 
+Script_Prepare() 
+TimeLine_Prepare() 
+Object_Prepare() 
+Preparing 342 objects:
+	Objects 0: obj_choicer_old
+	Objects 1: obj_choicer_neo
+	Objects 2: obj_face
+	Objects 3: obj_face_parent
+	Objects 4: obj_smallface
+	Objects 5: obj_dialoguer
+	Objects 6: obj_writer
+	Objects 7: obj_fallpaper
+	Objects 8: obj_insideclosetcutscene
+	Objects 9: obj_darkdoor
+	Objects 10: obj_classscene
+	Objects 11: obj_schoollobbycutscene
+	Objects 12: obj_schooldesk
+	Objects 13: obj_tem_school
+	Objects 14: obj_torielclass_event
+	Objects 15: obj_unusedclassevent
+	Objects 16: obj_alphysdesk
+	Objects 17: obj_rudy
+	Objects 18: obj_church_event
+	Objects 19: obj_town_shelter_event
+	Objects 20: obj_town_event
+	Objects 21: obj_alphysalley_event
+	Objects 22: obj_flowershop_event
+	Objects 23: obj_onionbody
+	Objects 24: obj_onion_event
+	Objects 25: obj_carcutscene
+	Objects 26: obj_hallway_mirror
+	Objects 27: obj_krisroom
+	Objects 28: obj_rurus_checker_event
+	Objects 29: obj_cc_event
+	Objects 30: obj_jokerbattleevent
+	Objects 31: obj_elevatorcontroller
+	Objects 32: obj_lancerbakesale_event
+	Objects 33: obj_cloverpuzzle_event
+	Objects 34: obj_prisonevent
+	Objects 35: obj_lancerbattle2_event
+	Objects 36: obj_lancerchase2
+	Objects 37: obj_castlefront_event
+	Objects 38: obj_susieandlancer_event
+	Objects 39: obj_thrashcontroller
+	Objects 40: obj_thrashmachine
+	Objects 41: obj_thrashmaker_event
+	Objects 42: obj_suitspuzzle_event
+	Objects 43: obj_susiebadguy_event
+	Objects 44: obj_thrashafter_event
+	Objects 45: obj_thrashafter_follow
+	Objects 46: obj_rurus_appear
+	Objects 47: obj_rurus_event
+	Objects 48: obj_lancerscare2
+	Objects 49: obj_scarelancerevent
+	Objects 50: obj_getsusieevent
+	Objects 51: obj_boxpuzzle_event
+	Objects 52: obj_hathyfightevent
+	Objects 53: obj_darkdoorevent
+	Objects 54: obj_tutorialbattleevent
+	Objects 55: obj_ralsei_runevent
+	Objects 56: obj_lancerguide
+	Objects 57: obj_thrashzone_event
+	Objects 58: obj_insultzone_event
+	Objects 59: obj_preforest_event
+	Objects 60: obj_candytree_event
+	Objects 61: obj_cloverhole
+	Objects 62: obj_npc_hammerguy
+	Objects 63: obj_shortcut_door
+	Objects 64: obj_npc_puzzlemaster1
+	Objects 65: obj_npc_puzzlemaster2
+	Objects 66: obj_cakesmoke
+	Objects 67: obj_npc_susiedark
+	Objects 68: obj_darkcastle_event
+	Objects 69: obj_darklanding
+	Objects 70: obj_wobblything_slide
+	Objects 71: obj_lancerslideevent
+	Objects 72: obj_lancerchaseevent
+	Objects 73: obj_darkslide
+	Objects 74: obj_darkwakeevent
+	Objects 75: obj_savepoint
+	Objects 76: obj_readable
+	Objects 77: obj_animation
+	Objects 78: obj_marker
+	Objects 79: obj_marker2
+	Objects 80: obj_readable_room1
+	Objects 81: obj_interactablesolid
+	Objects 82: obj_npc_toriel
+	Objects 83: obj_npc_facing
+	Objects 84: obj_npc_room
+	Objects 85: obj_npc_room_animated
+	Objects 86: obj_treasure_room
+	Objects 87: obj_npc_sign
+	Objects 88: obj_event_room
+	Objects 89: obj_interactable
+	Objects 90: obj_doorA
+	Objects 91: obj_doorA_musfade
+	Objects 92: obj_doorB_musfade
+	Objects 93: obj_doorB
+	Objects 94: obj_doorC
+	Objects 95: obj_doorC_musfade
+	Objects 96: obj_doorD
+	Objects 97: obj_doorD_musfade
+	Objects 98: obj_doorE
+	Objects 99: obj_doorF
+	Objects 100: obj_doorX
+	Objects 101: obj_doorX_musfade
+	Objects 102: obj_doorw_musfade
+	Objects 103: obj_doorparent
+	Objects 104: obj_markerA
+	Objects 105: obj_markerB
+	Objects 106: obj_markerC
+	Objects 107: obj_markerD
+	Objects 108: obj_markerE
+	Objects 109: obj_markerF
+	Objects 110: obj_markerr
+	Objects 111: obj_markers
+	Objects 112: obj_markert
+	Objects 113: obj_markeru
+	Objects 114: obj_markerv
+	Objects 115: obj_markerw
+	Objects 116: obj_markerX
+	Objects 117: obj_doorW
+	Objects 118: obj_musicer
+	Objects 119: obj_musicer_darkcliff
+	Objects 120: obj_musicer_town
+	Objects 121: obj_musicer_field
+	Objects 122: obj_musicer_forest
+	Objects 123: obj_musicer_quietforest
+	Objects 124: obj_musicer_man
+	Objects 125: obj_musicer_darkcastle
+	Objects 126: obj_musicer_bird
+	Objects 127: obj_wave_fx
+	Objects 128: obj_astream
+	Objects 129: obj_gameover_init
+	Objects 130: obj_ralseibook
+	Objects 131: obj_jokerbg_triangle_real
+	Objects 132: obj_fieldmuslogo
+	Objects 133: obj_backgrounder_standard
+	Objects 134: obj_backgrounder_sprite
+	Objects 135: obj_backgrounderparent
+	Objects 136: obj_panner
+	Objects 137: obj_fadeout
+	Objects 138: obj_fadein
+	Objects 139: obj_persistentfadein
+	Objects 140: obj_shake
+	Objects 141: obj_castle_torch
+	Objects 142: obj_castle_house
+	Objects 143: obj_bluhpainting
+	Objects 144: obj_lightfairy
+	Objects 145: obj_blocktree_bg
+	Objects 146: obj_purplegrass
+	Objects 147: obj_slidedust
+	Objects 148: obj_darklancer
+	Objects 149: obj_dustball
+	Objects 150: obj_dustball_pilebreak
+	Objects 151: obj_dustpile
+	Objects 152: obj_dustpile_susie
+	Objects 153: obj_wobblything
+	Objects 154: obj_wobblything_evil
+	Objects 155: obj_anim
+	Objects 156: obj_kingcutscene
+	Objects 157: obj_shakeobj
+	Objects 158: obj_darkfountain
+	Objects 159: obj_darkfountain_event
+	Objects 160: obj_fountainkris
+	Objects 161: obj_chaseenemy
+	Objects 162: obj_excblcon
+	Objects 163: obj_testoverworldenemy
+	Objects 164: obj_encounterbasic
+	Objects 165: obj_caterpillarchara
+	Objects 166: obj_darkcontroller
+	Objects 167: obj_healwriter
+	Objects 168: obj_menuwriter
+	Objects 169: obj_battlealphaer
+	Objects 170: obj_starwalker_battle
+	Objects 171: obj_starwalker_overworld
+	Objects 172: obj_starwalker_offswitch
+	Objects 173: obj_overworldheart
+	Objects 174: obj_scissordancer
+	Objects 175: obj_dancer_gen
+	Objects 176: obj_darkponman_ow
+	Objects 177: obj_ob_gen
+	Objects 178: obj_ob_checkertile
+	Objects 179: obj_overworld_spade_homing
+	Objects 180: obj_overworld_spade
+	Objects 181: obj_overworld_spademaker
+	Objects 182: obj_overworldbulletparent
+	Objects 183: obj_afterimage
+	Objects 184: obj_afterimage_grow
+	Objects 185: obj_attackpress
+	Objects 186: obj_basicattack
+	Objects 187: obj_battlecontroller
+	Objects 188: obj_battlesolid
+	Objects 189: obj_bulletgenparent
+	Objects 190: obj_bulletparent
+	Objects 191: obj_burstbolt
+	Objects 192: obj_chasebullet
+	Objects 193: obj_collidebullet
+	Objects 194: obj_regularbullet_permanent
+	Objects 195: obj_darkener
+	Objects 196: obj_grazebox
+	Objects 197: obj_healeffect
+	Objects 198: obj_healsparkle
+	Objects 199: obj_heartburst
+	Objects 200: obj_heartmarker
+	Objects 201: obj_lancerbike
+	Objects 202: obj_herokris
+	Objects 203: obj_herosusie
+	Objects 204: obj_heroralsei
+	Objects 205: obj_heroparent
+	Objects 206: obj_initializer
+	Objects 207: obj_krisplace
+	Objects 208: obj_monster1
+	Objects 209: obj_moveheart
+	Objects 210: obj_regularbullet
+	Objects 211: obj_returnheart
+	Objects 212: obj_tensionbar
+	Objects 213: obj_whiteedge
+	Objects 214: obj_forest_area5_puzzle
+	Objects 215: obj_forestmaze_controller
+	Objects 216: obj_tempblock_room
+	Objects 217: obj_suitspuzz
+	Objects 218: obj_suitspuzz_button
+	Objects 219: obj_pushableblock
+	Objects 220: obj_glowtile
+	Objects 221: obj_blocktile
+	Objects 222: obj_glowtilepuzz
+	Objects 223: obj_darkeyepuzzle_switch
+	Objects 224: obj_darkeyepuzzle
+	Objects 225: obj_dicebul
+	Objects 226: obj_heartblcon
+	Objects 227: obj_clubsbullet
+	Objects 228: obj_clubsbullet_dark
+	Objects 229: obj_dbullet_maker
+	Objects 230: obj_dbullet_vert
+	Objects 231: obj_heartshaper
+	Objects 232: obj_spinheart
+	Objects 233: obj_dbulletcontroller
+	Objects 234: obj_monsterparent
+	Objects 235: obj_ralseibullet
+	Objects 236: obj_dummyenemy
+	Objects 237: obj_ralseienemy
+	Objects 238: obj_placeholderenemy
+	Objects 239: obj_chain_of_hell
+	Objects 240: obj_chainking
+	Objects 241: obj_chainpiece
+	Objects 242: obj_fadechain
+	Objects 243: obj_finalchain
+	Objects 244: obj_king_body
+	Objects 245: obj_growtangle_bouncer
+	Objects 246: obj_nonsolid_growtangle
+	Objects 247: obj_skychain
+	Objects 248: obj_wavechain
+	Objects 249: obj_dknight_slasher
+	Objects 250: obj_rudinnranger
+	Objects 251: obj_jigsawbullet
+	Objects 252: obj_jigsawryenemy
+	Objects 253: obj_checkers_enemy
+	Objects 254: obj_checker_animtest
+	Objects 255: obj_ralseithrown
+	Objects 256: obj_throwralsei
+	Objects 257: obj_throwtarget
+	Objects 258: obj_checkers_leap
+	Objects 259: obj_ponman_appear
+	Objects 260: obj_ponman_enemy
+	Objects 261: obj_heartbomb_blast
+	Objects 262: obj_suitbomb
+	Objects 263: obj_joker_body
+	Objects 264: obj_centerscythe
+	Objects 265: obj_laserscythe
+	Objects 266: obj_bigscythe
+	Objects 267: obj_carouselbullet
+	Objects 268: obj_joker_teleport
+	Objects 269: obj_spadering
+	Objects 270: obj_rabbick_bush
+	Objects 271: obj_carrotthrower
+	Objects 272: obj_rabbitbullet
+	Objects 273: obj_rabbick_enemy
+	Objects 274: obj_blockbullet_fall
+	Objects 275: obj_bloxer_enemy
+	Objects 276: obj_lancerbike_neo
+	Objects 277: obj_axebullet
+	Objects 278: obj_lancerboss
+	Objects 279: obj_lancerboss2
+	Objects 280: obj_diamondenemy
+	Objects 281: obj_susieenemy
+	Objects 282: obj_lancerboss3
+	Objects 283: obj_king_boss
+	Objects 284: obj_joker
+	Objects 285: obj_clubsenemy
+	Objects 286: obj_clubsenemy_old
+	Objects 287: obj_heartenemy
+	Objects 288: obj_headhathy
+	Objects 289: obj_smallcheckers_enemy
+	Objects 290: obj_pacifyspell
+	Objects 291: obj_deathanim
+	Objects 292: obj_defeatanim
+	Objects 293: obj_healanim
+	Objects 294: obj_oflash
+	Objects 295: obj_rudebuster_anim
+	Objects 296: obj_rudebuster_bolt
+	Objects 297: obj_hypnofx
+	Objects 298: obj_spareanim
+	Objects 299: obj_battleback
+	Objects 300: obj_spellphase
+	Objects 301: obj_battleblcon
+	Objects 302: obj_endbattle
+	Objects 303: obj_growtangle
+	Objects 304: obj_dmgwriter
+	Objects 305: obj_heart
+	Objects 306: obj_shop1
+	Objects 307: obj_shop2
+	Objects 308: DEVICE_APPEARANCE
+	Objects 309: DEVICE_CHOICE
+	Objects 310: DEVICE_CONTACT
+	Objects 311: DEVICE_FAILURE
+	Objects 312: DEVICE_GONERMAKER
+	Objects 313: DEVICE_MENU
+	Objects 314: DEVICE_OBACK_4
+	Objects 315: PROCESS_LOGO
+	Objects 316: PROCESS_DOG
+	Objects 317: obj_credits
+	Objects 318: obj_dkris_event
+	Objects 319: obj_darkphone_event
+	Objects 320: obj_time
+	Objects 321: obj_move_to_point
+	Objects 322: obj_legend
+	Objects 323: obj_savemenu
+	Objects 324: obj_initializer2
+	Objects 325: obj_overworldc
+	Objects 326: obj_mainchara
+	Objects 327: obj_sdl
+	Objects 328: obj_sdr
+	Objects 329: obj_sul
+	Objects 330: obj_sur
+	Objects 331: obj_soliddark
+	Objects 332: obj_sur_dark
+	Objects 333: obj_sdl_dark
+	Objects 334: obj_solidenemy
+	Objects 335: obj_solidenemy_2
+	Objects 336: obj_solidblock
+	Objects 337: obj_solidlong
+	Objects 338: obj_solidcircle
+	Objects 339: obj_diag
+	Objects 340: obj_diamond
+	Objects 341: obj_84_lang_helper
+Room_Prepare() 
+Sound_Prepare() 
+InitGraphics() 
+Finished PrepareGame() 
+Run_Start
+Audio group 1 -> Loading...
+Audio_WAVs()
+**********************************.
+Entering main loop.
+**********************************.
+Audio group 1 -> Loaded
+create stream 300000
+Resizing swap chain...create stream 300001
+---------------------------------------------------------------
+minFPS, maxFPS, avgFPS
+-70, 227, -4
+---------------------------------------------------------------
+---------------------------------------------------------------
+minFPS, maxFPS, avgFPS
+-70, 227, -4
+---------------------------------------------------------------
+Create Error Form
+
+***************************************
+*     YoYo Games Runner v1.0(999)[r32908]    *
+***************************************	 
+RunnerLoadGame: C:\rof\rofout\data.win
+#########################################################################
+####!!!!$$$$$$ pwd - C:\rof\rofout\
+#########################################################################
+RunnerLoadGame() - C:\rof\rofout\data.win
+YYG Game launching. Game file: C:\rof\rofout\data.win
+Checking if INIFile exists at C:\rof\rofout/options.ini
+Reading File C:\rof\rofout\data.win
+Loaded File C:\rof\rofout\data.win(17176844)
+IFF wad found
+Get Resolution
+Get Header Information
+InitGMLFunctions
+HighScore..SavePrePend = C:\Users\555\AppData\Local\DELTARUNE\
+Game..Math..Graphic..Action..File..Resource..Interaction..3D..Particle..Misc..DS..Sound..Physics..Gamepad..Buffers..Networking..Shaders..InitPushFunctions...YoYo..Fini
+Code_Load()
+VARI_Load()
+got 2687 global variables
+got 2687 instance variables
+got 39 local variables
+ID_STRG
+Create Window
+GAMEPAD: 40 axis values (last) at 0x1ebf900
+GAMEPAD: 40 axis values (last) at 0x1ebf700
+GAMEPAD: 40 axis values (last) at 0x1ebf500
+GAMEPAD: 40 axis values (last) at 0x1ebf300
+GAMEPAD: 40 axis values (last) at 0x1ebf100
+GAMEPAD: 40 axis values (last) at 0x1ebef00
+GAMEPAD: 40 axis values (last) at 0x1ebed00
+GAMEPAD: 40 axis values (last) at 0x1ebeb00
+AdjustWindowRectEx
+RegisterClassEx
+CreateWindowEx
+GAMEPAD: 4 axis values (last) at 0x3aeb90
+GAMEPAD: 4 axis values (last) at 0x3aeb70
+GAMEPAD: 4 axis values (last) at 0x3aeb50
+GAMEPAD: 4 axis values (last) at 0x3aeb30
+Init Graphics
+GR_D3D_Init()
+Enable DwmEnableMMCSS
+DirectX11: Using hardware device
+Background_InitTextures()
+Sprite_InitTextures()
+Font_InitTextures()
+IO Init
+Process Messages
+Splash!
+Start Frame
+Part Create Textures
+Debug Init Remote Interface
+VM Init
+Create Score Form
+Create Load Form
+Do The Work
+LoadGameData()
+initialise everything!
+Process Chunk: GEN8   784
+Process Chunk: OPTN   88
+Process Chunk: LANG   24
+Process Chunk: EXTN   8
+Process Chunk: SOND   6056
+Audio_Load()
+Process Chunk: AGRP   24
+AudioGroup_Load()
+Process Chunk: SPRT   1616152
+Process Chunk: BGND   9448
+Process Chunk: PATH   8
+Process Chunk: SCPT   3016
+Process Chunk: GLOB   24
+Process Chunk: SHDR   8
+Process Chunk: FONT   179176
+Process Chunk: TMLN   8
+Process Chunk: OBJT   163096
+Process Chunk: ROOM   1819064
+Process Chunk: DAFL   8
+Process Chunk: EMBI   8
+Process Chunk: TPAG   76472
+Process Chunk: CODE   1497432
+Process Chunk: VARI   90936
+Process Chunk: FUNC   32296
+Process Chunk: STRG   475592
+Process Chunk: TXTR   4830968
+Process Chunk: AUDO   6375940
+Audio_WAVs()
+PrepareGame()
+Extension_Prepare() 
+Code_Constant_Prepare() 
+Script_Prepare() 
+TimeLine_Prepare() 
+Object_Prepare() 
+Preparing 342 objects:
+	Objects 0: obj_choicer_old
+	Objects 1: obj_choicer_neo
+	Objects 2: obj_face
+	Objects 3: obj_face_parent
+	Objects 4: obj_smallface
+	Objects 5: obj_dialoguer
+	Objects 6: obj_writer
+	Objects 7: obj_fallpaper
+	Objects 8: obj_insideclosetcutscene
+	Objects 9: obj_darkdoor
+	Objects 10: obj_classscene
+	Objects 11: obj_schoollobbycutscene
+	Objects 12: obj_schooldesk
+	Objects 13: obj_tem_school
+	Objects 14: obj_torielclass_event
+	Objects 15: obj_unusedclassevent
+	Objects 16: obj_alphysdesk
+	Objects 17: obj_rudy
+	Objects 18: obj_church_event
+	Objects 19: obj_town_shelter_event
+	Objects 20: obj_town_event
+	Objects 21: obj_alphysalley_event
+	Objects 22: obj_flowershop_event
+	Objects 23: obj_onionbody
+	Objects 24: obj_onion_event
+	Objects 25: obj_carcutscene
+	Objects 26: obj_hallway_mirror
+	Objects 27: obj_krisroom
+	Objects 28: obj_rurus_checker_event
+	Objects 29: obj_cc_event
+	Objects 30: obj_jokerbattleevent
+	Objects 31: obj_elevatorcontroller
+	Objects 32: obj_lancerbakesale_event
+	Objects 33: obj_cloverpuzzle_event
+	Objects 34: obj_prisonevent
+	Objects 35: obj_lancerbattle2_event
+	Objects 36: obj_lancerchase2
+	Objects 37: obj_castlefront_event
+	Objects 38: obj_susieandlancer_event
+	Objects 39: obj_thrashcontroller
+	Objects 40: obj_thrashmachine
+	Objects 41: obj_thrashmaker_event
+	Objects 42: obj_suitspuzzle_event
+	Objects 43: obj_susiebadguy_event
+	Objects 44: obj_thrashafter_event
+	Objects 45: obj_thrashafter_follow
+	Objects 46: obj_rurus_appear
+	Objects 47: obj_rurus_event
+	Objects 48: obj_lancerscare2
+	Objects 49: obj_scarelancerevent
+	Objects 50: obj_getsusieevent
+	Objects 51: obj_boxpuzzle_event
+	Objects 52: obj_hathyfightevent
+	Objects 53: obj_darkdoorevent
+	Objects 54: obj_tutorialbattleevent
+	Objects 55: obj_ralsei_runevent
+	Objects 56: obj_lancerguide
+	Objects 57: obj_thrashzone_event
+	Objects 58: obj_insultzone_event
+	Objects 59: obj_preforest_event
+	Objects 60: obj_candytree_event
+	Objects 61: obj_cloverhole
+	Objects 62: obj_npc_hammerguy
+	Objects 63: obj_shortcut_door
+	Objects 64: obj_npc_puzzlemaster1
+	Objects 65: obj_npc_puzzlemaster2
+	Objects 66: obj_cakesmoke
+	Objects 67: obj_npc_susiedark
+	Objects 68: obj_darkcastle_event
+	Objects 69: obj_darklanding
+	Objects 70: obj_wobblything_slide
+	Objects 71: obj_lancerslideevent
+	Objects 72: obj_lancerchaseevent
+	Objects 73: obj_darkslide
+	Objects 74: obj_darkwakeevent
+	Objects 75: obj_savepoint
+	Objects 76: obj_readable
+	Objects 77: obj_animation
+	Objects 78: obj_marker
+	Objects 79: obj_marker2
+	Objects 80: obj_readable_room1
+	Objects 81: obj_interactablesolid
+	Objects 82: obj_npc_toriel
+	Objects 83: obj_npc_facing
+	Objects 84: obj_npc_room
+	Objects 85: obj_npc_room_animated
+	Objects 86: obj_treasure_room
+	Objects 87: obj_npc_sign
+	Objects 88: obj_event_room
+	Objects 89: obj_interactable
+	Objects 90: obj_doorA
+	Objects 91: obj_doorA_musfade
+	Objects 92: obj_doorB_musfade
+	Objects 93: obj_doorB
+	Objects 94: obj_doorC
+	Objects 95: obj_doorC_musfade
+	Objects 96: obj_doorD
+	Objects 97: obj_doorD_musfade
+	Objects 98: obj_doorE
+	Objects 99: obj_doorF
+	Objects 100: obj_doorX
+	Objects 101: obj_doorX_musfade
+	Objects 102: obj_doorw_musfade
+	Objects 103: obj_doorparent
+	Objects 104: obj_markerA
+	Objects 105: obj_markerB
+	Objects 106: obj_markerC
+	Objects 107: obj_markerD
+	Objects 108: obj_markerE
+	Objects 109: obj_markerF
+	Objects 110: obj_markerr
+	Objects 111: obj_markers
+	Objects 112: obj_markert
+	Objects 113: obj_markeru
+	Objects 114: obj_markerv
+	Objects 115: obj_markerw
+	Objects 116: obj_markerX
+	Objects 117: obj_doorW
+	Objects 118: obj_musicer
+	Objects 119: obj_musicer_darkcliff
+	Objects 120: obj_musicer_town
+	Objects 121: obj_musicer_field
+	Objects 122: obj_musicer_forest
+	Objects 123: obj_musicer_quietforest
+	Objects 124: obj_musicer_man
+	Objects 125: obj_musicer_darkcastle
+	Objects 126: obj_musicer_bird
+	Objects 127: obj_wave_fx
+	Objects 128: obj_astream
+	Objects 129: obj_gameover_init
+	Objects 130: obj_ralseibook
+	Objects 131: obj_jokerbg_triangle_real
+	Objects 132: obj_fieldmuslogo
+	Objects 133: obj_backgrounder_standard
+	Objects 134: obj_backgrounder_sprite
+	Objects 135: obj_backgrounderparent
+	Objects 136: obj_panner
+	Objects 137: obj_fadeout
+	Objects 138: obj_fadein
+	Objects 139: obj_persistentfadein
+	Objects 140: obj_shake
+	Objects 141: obj_castle_torch
+	Objects 142: obj_castle_house
+	Objects 143: obj_bluhpainting
+	Objects 144: obj_lightfairy
+	Objects 145: obj_blocktree_bg
+	Objects 146: obj_purplegrass
+	Objects 147: obj_slidedust
+	Objects 148: obj_darklancer
+	Objects 149: obj_dustball
+	Objects 150: obj_dustball_pilebreak
+	Objects 151: obj_dustpile
+	Objects 152: obj_dustpile_susie
+	Objects 153: obj_wobblything
+	Objects 154: obj_wobblything_evil
+	Objects 155: obj_anim
+	Objects 156: obj_kingcutscene
+	Objects 157: obj_shakeobj
+	Objects 158: obj_darkfountain
+	Objects 159: obj_darkfountain_event
+	Objects 160: obj_fountainkris
+	Objects 161: obj_chaseenemy
+	Objects 162: obj_excblcon
+	Objects 163: obj_testoverworldenemy
+	Objects 164: obj_encounterbasic
+	Objects 165: obj_caterpillarchara
+	Objects 166: obj_darkcontroller
+	Objects 167: obj_healwriter
+	Objects 168: obj_menuwriter
+	Objects 169: obj_battlealphaer
+	Objects 170: obj_starwalker_battle
+	Objects 171: obj_starwalker_overworld
+	Objects 172: obj_starwalker_offswitch
+	Objects 173: obj_overworldheart
+	Objects 174: obj_scissordancer
+	Objects 175: obj_dancer_gen
+	Objects 176: obj_darkponman_ow
+	Objects 177: obj_ob_gen
+	Objects 178: obj_ob_checkertile
+	Objects 179: obj_overworld_spade_homing
+	Objects 180: obj_overworld_spade
+	Objects 181: obj_overworld_spademaker
+	Objects 182: obj_overworldbulletparent
+	Objects 183: obj_afterimage
+	Objects 184: obj_afterimage_grow
+	Objects 185: obj_attackpress
+	Objects 186: obj_basicattack
+	Objects 187: obj_battlecontroller
+	Objects 188: obj_battlesolid
+	Objects 189: obj_bulletgenparent
+	Objects 190: obj_bulletparent
+	Objects 191: obj_burstbolt
+	Objects 192: obj_chasebullet
+	Objects 193: obj_collidebullet
+	Objects 194: obj_regularbullet_permanent
+	Objects 195: obj_darkener
+	Objects 196: obj_grazebox
+	Objects 197: obj_healeffect
+	Objects 198: obj_healsparkle
+	Objects 199: obj_heartburst
+	Objects 200: obj_heartmarker
+	Objects 201: obj_lancerbike
+	Objects 202: obj_herokris
+	Objects 203: obj_herosusie
+	Objects 204: obj_heroralsei
+	Objects 205: obj_heroparent
+	Objects 206: obj_initializer
+	Objects 207: obj_krisplace
+	Objects 208: obj_monster1
+	Objects 209: obj_moveheart
+	Objects 210: obj_regularbullet
+	Objects 211: obj_returnheart
+	Objects 212: obj_tensionbar
+	Objects 213: obj_whiteedge
+	Objects 214: obj_forest_area5_puzzle
+	Objects 215: obj_forestmaze_controller
+	Objects 216: obj_tempblock_room
+	Objects 217: obj_suitspuzz
+	Objects 218: obj_suitspuzz_button
+	Objects 219: obj_pushableblock
+	Objects 220: obj_glowtile
+	Objects 221: obj_blocktile
+	Objects 222: obj_glowtilepuzz
+	Objects 223: obj_darkeyepuzzle_switch
+	Objects 224: obj_darkeyepuzzle
+	Objects 225: obj_dicebul
+	Objects 226: obj_heartblcon
+	Objects 227: obj_clubsbullet
+	Objects 228: obj_clubsbullet_dark
+	Objects 229: obj_dbullet_maker
+	Objects 230: obj_dbullet_vert
+	Objects 231: obj_heartshaper
+	Objects 232: obj_spinheart
+	Objects 233: obj_dbulletcontroller
+	Objects 234: obj_monsterparent
+	Objects 235: obj_ralseibullet
+	Objects 236: obj_dummyenemy
+	Objects 237: obj_ralseienemy
+	Objects 238: obj_placeholderenemy
+	Objects 239: obj_chain_of_hell
+	Objects 240: obj_chainking
+	Objects 241: obj_chainpiece
+	Objects 242: obj_fadechain
+	Objects 243: obj_finalchain
+	Objects 244: obj_king_body
+	Objects 245: obj_growtangle_bouncer
+	Objects 246: obj_nonsolid_growtangle
+	Objects 247: obj_skychain
+	Objects 248: obj_wavechain
+	Objects 249: obj_dknight_slasher
+	Objects 250: obj_rudinnranger
+	Objects 251: obj_jigsawbullet
+	Objects 252: obj_jigsawryenemy
+	Objects 253: obj_checkers_enemy
+	Objects 254: obj_checker_animtest
+	Objects 255: obj_ralseithrown
+	Objects 256: obj_throwralsei
+	Objects 257: obj_throwtarget
+	Objects 258: obj_checkers_leap
+	Objects 259: obj_ponman_appear
+	Objects 260: obj_ponman_enemy
+	Objects 261: obj_heartbomb_blast
+	Objects 262: obj_suitbomb
+	Objects 263: obj_joker_body
+	Objects 264: obj_centerscythe
+	Objects 265: obj_laserscythe
+	Objects 266: obj_bigscythe
+	Objects 267: obj_carouselbullet
+	Objects 268: obj_joker_teleport
+	Objects 269: obj_spadering
+	Objects 270: obj_rabbick_bush
+	Objects 271: obj_carrotthrower
+	Objects 272: obj_rabbitbullet
+	Objects 273: obj_rabbick_enemy
+	Objects 274: obj_blockbullet_fall
+	Objects 275: obj_bloxer_enemy
+	Objects 276: obj_lancerbike_neo
+	Objects 277: obj_axebullet
+	Objects 278: obj_lancerboss
+	Objects 279: obj_lancerboss2
+	Objects 280: obj_diamondenemy
+	Objects 281: obj_susieenemy
+	Objects 282: obj_lancerboss3
+	Objects 283: obj_king_boss
+	Objects 284: obj_joker
+	Objects 285: obj_clubsenemy
+	Objects 286: obj_clubsenemy_old
+	Objects 287: obj_heartenemy
+	Objects 288: obj_headhathy
+	Objects 289: obj_smallcheckers_enemy
+	Objects 290: obj_pacifyspell
+	Objects 291: obj_deathanim
+	Objects 292: obj_defeatanim
+	Objects 293: obj_healanim
+	Objects 294: obj_oflash
+	Objects 295: obj_rudebuster_anim
+	Objects 296: obj_rudebuster_bolt
+	Objects 297: obj_hypnofx
+	Objects 298: obj_spareanim
+	Objects 299: obj_battleback
+	Objects 300: obj_spellphase
+	Objects 301: obj_battleblcon
+	Objects 302: obj_endbattle
+	Objects 303: obj_growtangle
+	Objects 304: obj_dmgwriter
+	Objects 305: obj_heart
+	Objects 306: obj_shop1
+	Objects 307: obj_shop2
+	Objects 308: DEVICE_APPEARANCE
+	Objects 309: DEVICE_CHOICE
+	Objects 310: DEVICE_CONTACT
+	Objects 311: DEVICE_FAILURE
+	Objects 312: DEVICE_GONERMAKER
+	Objects 313: DEVICE_MENU
+	Objects 314: DEVICE_OBACK_4
+	Objects 315: PROCESS_LOGO
+	Objects 316: PROCESS_DOG
+	Objects 317: obj_credits
+	Objects 318: obj_dkris_event
+	Objects 319: obj_darkphone_event
+	Objects 320: obj_time
+	Objects 321: obj_move_to_point
+	Objects 322: obj_legend
+	Objects 323: obj_savemenu
+	Objects 324: obj_initializer2
+	Objects 325: obj_overworldc
+	Objects 326: obj_mainchara
+	Objects 327: obj_sdl
+	Objects 328: obj_sdr
+	Objects 329: obj_sul
+	Objects 330: obj_sur
+	Objects 331: obj_soliddark
+	Objects 332: obj_sur_dark
+	Objects 333: obj_sdl_dark
+	Objects 334: obj_solidenemy
+	Objects 335: obj_solidenemy_2
+	Objects 336: obj_solidblock
+	Objects 337: obj_solidlong
+	Objects 338: obj_solidcircle
+	Objects 339: obj_diag
+	Objects 340: obj_diamond
+	Objects 341: obj_84_lang_helper
+Room_Prepare() 
+Sound_Prepare() 
+InitGraphics() 
+Finished PrepareGame() 
+Run_Start
+Audio group 1 -> Loading...
+Audio_WAVs()
+**********************************.
+Entering main loop.
+**********************************.
+Audio group 1 -> Loaded
+create stream 300000
+Resizing swap chain...create stream 300001
+Pause event has been registered for this frame
+Pause event has been unregistered
+Pause event has been registered for this frame
+Pause event has been unregistered
+Pause event has been registered for this frame
+Pause event has been unregistered
+create stream 300000
+create stream 300000
+Pause event has been registered for this frame
+Pause event has been unregistered
+create stream 300000
+create stream 300000
+Pause event has been registered for this frame
+Pause event has been unregistered
+create stream 300000
+Pause event has been registered for this frame
+Pause event has been unregistered
+Pause event has been registered for this frame
+Pause event has been unregistered
+Pause event has been registered for this frame
+Pause event has been unregistered
+Pause event has been registered for this frame
+Pause event has been unregistered
+Pause event has been registered for this frame
+Pause event has been unregistered
+Pause event has been registered for this frame
+Pause event has been unregistered
+Pause event has been registered for this frame
+Pause event has been unregistered
+create stream 300000
+create stream 300001
+Pause event has been registered for this frame
+Pause event has been unregistered
+Pause event has been registered for this frame
+Pause event has been unregistered
+create stream 300001
+Pause event has been registered for this frame
+Pause event has been unregistered
+create stream 300000
+Pause event has been registered for this frame
+Pause event has been unregistered
+create stream 300000
+create stream 300000
+create stream 300000
+create stream 300001
+Pause event has been registered for this frame
+Pause event has been unregistered
+create stream 300000
+Pause event has been registered for this frame
+Pause event has been unregistered
+Resizing swap chain...create stream 300001
+Resizing swap chain...create stream 300000
+Pause event has been registered for this frame
+Pause event has been unregistered
+Resizing swap chain...Pause event has been registered for this frame
+Pause event has been unregistered
+create stream 300000
+Pause event has been registered for this frame
+Pause event has been unregistered
+Pause event has been registered for this frame
+Pause event has been unregistered
+Pause event has been registered for this frame
+Pause event has been unregistered
+Pause event has been registered for this frame
+Pause event has been unregistered
+create stream 300000
+create stream 300001
+Pause event has been registered for this frame
+Pause event has been unregistered
+Pause event has been registered for this frame
+Pause event has been unregistered
+Pause event has been registered for this frame
+Pause event has been unregistered
+Pause event has been registered for this frame
+Pause event has been unregistered
+Pause event has been registered for this frame
+Pause event has been unregistered
+Pause event has been registered for this frame
+Pause event has been unregistered
+Pause event has been registered for this frame
+Pause event has been unregistered
+---------------------------------------------------------------
+minFPS, maxFPS, avgFPS
+-1353, 1039, -6
+---------------------------------------------------------------
+---------------------------------------------------------------
+minFPS, maxFPS, avgFPS
+-1353, 1039, -6
+---------------------------------------------------------------
+Create Error Form
+
+***************************************
+*     YoYo Games Runner v1.0(999)[r32908]    *
+***************************************	 
+RunnerLoadGame: C:\rof\rofout\data.win
+#########################################################################
+####!!!!$$$$$$ pwd - C:\rof\rofout\
+#########################################################################
+RunnerLoadGame() - C:\rof\rofout\data.win
+YYG Game launching. Game file: C:\rof\rofout\data.win
+Checking if INIFile exists at C:\rof\rofout/options.ini
+Reading File C:\rof\rofout\data.win
+Loaded File C:\rof\rofout\data.win(17177356)
+IFF wad found
+Get Resolution
+Get Header Information
+InitGMLFunctions
+HighScore..SavePrePend = C:\Users\555\AppData\Local\DELTARUNE\
+Game..Math..Graphic..Action..File..Resource..Interaction..3D..Particle..Misc..DS..Sound..Physics..Gamepad..Buffers..Networking..Shaders..InitPushFunctions...YoYo..Fini
+Code_Load()
+VARI_Load()
+got 2687 global variables
+got 2687 instance variables
+got 39 local variables
+ID_STRG
+Create Window
+GAMEPAD: 40 axis values (last) at 0x1c5f900
+GAMEPAD: 40 axis values (last) at 0x1c5f700
+GAMEPAD: 40 axis values (last) at 0x1c5f500
+GAMEPAD: 40 axis values (last) at 0x1c5f300
+GAMEPAD: 40 axis values (last) at 0x1c5f100
+GAMEPAD: 40 axis values (last) at 0x1c5ef00
+GAMEPAD: 40 axis values (last) at 0x1c5ed00
+GAMEPAD: 40 axis values (last) at 0x1c5eb00
+AdjustWindowRectEx
+RegisterClassEx
+CreateWindowEx
+GAMEPAD: 4 axis values (last) at 0x3beb90
+GAMEPAD: 4 axis values (last) at 0x3beb70
+GAMEPAD: 4 axis values (last) at 0x3beb50
+GAMEPAD: 4 axis values (last) at 0x3beb30
+Init Graphics
+GR_D3D_Init()
+Enable DwmEnableMMCSS
+DirectX11: Using hardware device
+Background_InitTextures()
+Sprite_InitTextures()
+Font_InitTextures()
+IO Init
+Process Messages
+Splash!
+Start Frame
+Part Create Textures
+Debug Init Remote Interface
+VM Init
+Create Score Form
+Create Load Form
+Do The Work
+LoadGameData()
+initialise everything!
+Process Chunk: GEN8   784
+Process Chunk: OPTN   88
+Process Chunk: LANG   24
+Process Chunk: EXTN   8
+Process Chunk: SOND   6056
+Audio_Load()
+Process Chunk: AGRP   24
+AudioGroup_Load()
+Process Chunk: SPRT   1616152
+Process Chunk: BGND   9448
+Process Chunk: PATH   8
+Process Chunk: SCPT   3016
+Process Chunk: GLOB   24
+Process Chunk: SHDR   8
+Process Chunk: FONT   179176
+Process Chunk: TMLN   8
+Process Chunk: OBJT   163096
+Process Chunk: ROOM   1819064
+Process Chunk: DAFL   8
+Process Chunk: EMBI   8
+Process Chunk: TPAG   76472
+Process Chunk: CODE   1497432
+Process Chunk: VARI   90936
+Process Chunk: FUNC   32296
+Process Chunk: STRG   475592
+Process Chunk: TXTR   4831480
+Process Chunk: AUDO   6375940
+Audio_WAVs()
+PrepareGame()
+Extension_Prepare() 
+Code_Constant_Prepare() 
+Script_Prepare() 
+TimeLine_Prepare() 
+Object_Prepare() 
+Preparing 342 objects:
+	Objects 0: obj_choicer_old
+	Objects 1: obj_choicer_neo
+	Objects 2: obj_face
+	Objects 3: obj_face_parent
+	Objects 4: obj_smallface
+	Objects 5: obj_dialoguer
+	Objects 6: obj_writer
+	Objects 7: obj_fallpaper
+	Objects 8: obj_insideclosetcutscene
+	Objects 9: obj_darkdoor
+	Objects 10: obj_classscene
+	Objects 11: obj_schoollobbycutscene
+	Objects 12: obj_schooldesk
+	Objects 13: obj_tem_school
+	Objects 14: obj_torielclass_event
+	Objects 15: obj_unusedclassevent
+	Objects 16: obj_alphysdesk
+	Objects 17: obj_rudy
+	Objects 18: obj_church_event
+	Objects 19: obj_town_shelter_event
+	Objects 20: obj_town_event
+	Objects 21: obj_alphysalley_event
+	Objects 22: obj_flowershop_event
+	Objects 23: obj_onionbody
+	Objects 24: obj_onion_event
+	Objects 25: obj_carcutscene
+	Objects 26: obj_hallway_mirror
+	Objects 27: obj_krisroom
+	Objects 28: obj_rurus_checker_event
+	Objects 29: obj_cc_event
+	Objects 30: obj_jokerbattleevent
+	Objects 31: obj_elevatorcontroller
+	Objects 32: obj_lancerbakesale_event
+	Objects 33: obj_cloverpuzzle_event
+	Objects 34: obj_prisonevent
+	Objects 35: obj_lancerbattle2_event
+	Objects 36: obj_lancerchase2
+	Objects 37: obj_castlefront_event
+	Objects 38: obj_susieandlancer_event
+	Objects 39: obj_thrashcontroller
+	Objects 40: obj_thrashmachine
+	Objects 41: obj_thrashmaker_event
+	Objects 42: obj_suitspuzzle_event
+	Objects 43: obj_susiebadguy_event
+	Objects 44: obj_thrashafter_event
+	Objects 45: obj_thrashafter_follow
+	Objects 46: obj_rurus_appear
+	Objects 47: obj_rurus_event
+	Objects 48: obj_lancerscare2
+	Objects 49: obj_scarelancerevent
+	Objects 50: obj_getsusieevent
+	Objects 51: obj_boxpuzzle_event
+	Objects 52: obj_hathyfightevent
+	Objects 53: obj_darkdoorevent
+	Objects 54: obj_tutorialbattleevent
+	Objects 55: obj_ralsei_runevent
+	Objects 56: obj_lancerguide
+	Objects 57: obj_thrashzone_event
+	Objects 58: obj_insultzone_event
+	Objects 59: obj_preforest_event
+	Objects 60: obj_candytree_event
+	Objects 61: obj_cloverhole
+	Objects 62: obj_npc_hammerguy
+	Objects 63: obj_shortcut_door
+	Objects 64: obj_npc_puzzlemaster1
+	Objects 65: obj_npc_puzzlemaster2
+	Objects 66: obj_cakesmoke
+	Objects 67: obj_npc_susiedark
+	Objects 68: obj_darkcastle_event
+	Objects 69: obj_darklanding
+	Objects 70: obj_wobblything_slide
+	Objects 71: obj_lancerslideevent
+	Objects 72: obj_lancerchaseevent
+	Objects 73: obj_darkslide
+	Objects 74: obj_darkwakeevent
+	Objects 75: obj_savepoint
+	Objects 76: obj_readable
+	Objects 77: obj_animation
+	Objects 78: obj_marker
+	Objects 79: obj_marker2
+	Objects 80: obj_readable_room1
+	Objects 81: obj_interactablesolid
+	Objects 82: obj_npc_toriel
+	Objects 83: obj_npc_facing
+	Objects 84: obj_npc_room
+	Objects 85: obj_npc_room_animated
+	Objects 86: obj_treasure_room
+	Objects 87: obj_npc_sign
+	Objects 88: obj_event_room
+	Objects 89: obj_interactable
+	Objects 90: obj_doorA
+	Objects 91: obj_doorA_musfade
+	Objects 92: obj_doorB_musfade
+	Objects 93: obj_doorB
+	Objects 94: obj_doorC
+	Objects 95: obj_doorC_musfade
+	Objects 96: obj_doorD
+	Objects 97: obj_doorD_musfade
+	Objects 98: obj_doorE
+	Objects 99: obj_doorF
+	Objects 100: obj_doorX
+	Objects 101: obj_doorX_musfade
+	Objects 102: obj_doorw_musfade
+	Objects 103: obj_doorparent
+	Objects 104: obj_markerA
+	Objects 105: obj_markerB
+	Objects 106: obj_markerC
+	Objects 107: obj_markerD
+	Objects 108: obj_markerE
+	Objects 109: obj_markerF
+	Objects 110: obj_markerr
+	Objects 111: obj_markers
+	Objects 112: obj_markert
+	Objects 113: obj_markeru
+	Objects 114: obj_markerv
+	Objects 115: obj_markerw
+	Objects 116: obj_markerX
+	Objects 117: obj_doorW
+	Objects 118: obj_musicer
+	Objects 119: obj_musicer_darkcliff
+	Objects 120: obj_musicer_town
+	Objects 121: obj_musicer_field
+	Objects 122: obj_musicer_forest
+	Objects 123: obj_musicer_quietforest
+	Objects 124: obj_musicer_man
+	Objects 125: obj_musicer_darkcastle
+	Objects 126: obj_musicer_bird
+	Objects 127: obj_wave_fx
+	Objects 128: obj_astream
+	Objects 129: obj_gameover_init
+	Objects 130: obj_ralseibook
+	Objects 131: obj_jokerbg_triangle_real
+	Objects 132: obj_fieldmuslogo
+	Objects 133: obj_backgrounder_standard
+	Objects 134: obj_backgrounder_sprite
+	Objects 135: obj_backgrounderparent
+	Objects 136: obj_panner
+	Objects 137: obj_fadeout
+	Objects 138: obj_fadein
+	Objects 139: obj_persistentfadein
+	Objects 140: obj_shake
+	Objects 141: obj_castle_torch
+	Objects 142: obj_castle_house
+	Objects 143: obj_bluhpainting
+	Objects 144: obj_lightfairy
+	Objects 145: obj_blocktree_bg
+	Objects 146: obj_purplegrass
+	Objects 147: obj_slidedust
+	Objects 148: obj_darklancer
+	Objects 149: obj_dustball
+	Objects 150: obj_dustball_pilebreak
+	Objects 151: obj_dustpile
+	Objects 152: obj_dustpile_susie
+	Objects 153: obj_wobblything
+	Objects 154: obj_wobblything_evil
+	Objects 155: obj_anim
+	Objects 156: obj_kingcutscene
+	Objects 157: obj_shakeobj
+	Objects 158: obj_darkfountain
+	Objects 159: obj_darkfountain_event
+	Objects 160: obj_fountainkris
+	Objects 161: obj_chaseenemy
+	Objects 162: obj_excblcon
+	Objects 163: obj_testoverworldenemy
+	Objects 164: obj_encounterbasic
+	Objects 165: obj_caterpillarchara
+	Objects 166: obj_darkcontroller
+	Objects 167: obj_healwriter
+	Objects 168: obj_menuwriter
+	Objects 169: obj_battlealphaer
+	Objects 170: obj_starwalker_battle
+	Objects 171: obj_starwalker_overworld
+	Objects 172: obj_starwalker_offswitch
+	Objects 173: obj_overworldheart
+	Objects 174: obj_scissordancer
+	Objects 175: obj_dancer_gen
+	Objects 176: obj_darkponman_ow
+	Objects 177: obj_ob_gen
+	Objects 178: obj_ob_checkertile
+	Objects 179: obj_overworld_spade_homing
+	Objects 180: obj_overworld_spade
+	Objects 181: obj_overworld_spademaker
+	Objects 182: obj_overworldbulletparent
+	Objects 183: obj_afterimage
+	Objects 184: obj_afterimage_grow
+	Objects 185: obj_attackpress
+	Objects 186: obj_basicattack
+	Objects 187: obj_battlecontroller
+	Objects 188: obj_battlesolid
+	Objects 189: obj_bulletgenparent
+	Objects 190: obj_bulletparent
+	Objects 191: obj_burstbolt
+	Objects 192: obj_chasebullet
+	Objects 193: obj_collidebullet
+	Objects 194: obj_regularbullet_permanent
+	Objects 195: obj_darkener
+	Objects 196: obj_grazebox
+	Objects 197: obj_healeffect
+	Objects 198: obj_healsparkle
+	Objects 199: obj_heartburst
+	Objects 200: obj_heartmarker
+	Objects 201: obj_lancerbike
+	Objects 202: obj_herokris
+	Objects 203: obj_herosusie
+	Objects 204: obj_heroralsei
+	Objects 205: obj_heroparent
+	Objects 206: obj_initializer
+	Objects 207: obj_krisplace
+	Objects 208: obj_monster1
+	Objects 209: obj_moveheart
+	Objects 210: obj_regularbullet
+	Objects 211: obj_returnheart
+	Objects 212: obj_tensionbar
+	Objects 213: obj_whiteedge
+	Objects 214: obj_forest_area5_puzzle
+	Objects 215: obj_forestmaze_controller
+	Objects 216: obj_tempblock_room
+	Objects 217: obj_suitspuzz
+	Objects 218: obj_suitspuzz_button
+	Objects 219: obj_pushableblock
+	Objects 220: obj_glowtile
+	Objects 221: obj_blocktile
+	Objects 222: obj_glowtilepuzz
+	Objects 223: obj_darkeyepuzzle_switch
+	Objects 224: obj_darkeyepuzzle
+	Objects 225: obj_dicebul
+	Objects 226: obj_heartblcon
+	Objects 227: obj_clubsbullet
+	Objects 228: obj_clubsbullet_dark
+	Objects 229: obj_dbullet_maker
+	Objects 230: obj_dbullet_vert
+	Objects 231: obj_heartshaper
+	Objects 232: obj_spinheart
+	Objects 233: obj_dbulletcontroller
+	Objects 234: obj_monsterparent
+	Objects 235: obj_ralseibullet
+	Objects 236: obj_dummyenemy
+	Objects 237: obj_ralseienemy
+	Objects 238: obj_placeholderenemy
+	Objects 239: obj_chain_of_hell
+	Objects 240: obj_chainking
+	Objects 241: obj_chainpiece
+	Objects 242: obj_fadechain
+	Objects 243: obj_finalchain
+	Objects 244: obj_king_body
+	Objects 245: obj_growtangle_bouncer
+	Objects 246: obj_nonsolid_growtangle
+	Objects 247: obj_skychain
+	Objects 248: obj_wavechain
+	Objects 249: obj_dknight_slasher
+	Objects 250: obj_rudinnranger
+	Objects 251: obj_jigsawbullet
+	Objects 252: obj_jigsawryenemy
+	Objects 253: obj_checkers_enemy
+	Objects 254: obj_checker_animtest
+	Objects 255: obj_ralseithrown
+	Objects 256: obj_throwralsei
+	Objects 257: obj_throwtarget
+	Objects 258: obj_checkers_leap
+	Objects 259: obj_ponman_appear
+	Objects 260: obj_ponman_enemy
+	Objects 261: obj_heartbomb_blast
+	Objects 262: obj_suitbomb
+	Objects 263: obj_joker_body
+	Objects 264: obj_centerscythe
+	Objects 265: obj_laserscythe
+	Objects 266: obj_bigscythe
+	Objects 267: obj_carouselbullet
+	Objects 268: obj_joker_teleport
+	Objects 269: obj_spadering
+	Objects 270: obj_rabbick_bush
+	Objects 271: obj_carrotthrower
+	Objects 272: obj_rabbitbullet
+	Objects 273: obj_rabbick_enemy
+	Objects 274: obj_blockbullet_fall
+	Objects 275: obj_bloxer_enemy
+	Objects 276: obj_lancerbike_neo
+	Objects 277: obj_axebullet
+	Objects 278: obj_lancerboss
+	Objects 279: obj_lancerboss2
+	Objects 280: obj_diamondenemy
+	Objects 281: obj_susieenemy
+	Objects 282: obj_lancerboss3
+	Objects 283: obj_king_boss
+	Objects 284: obj_joker
+	Objects 285: obj_clubsenemy
+	Objects 286: obj_clubsenemy_old
+	Objects 287: obj_heartenemy
+	Objects 288: obj_headhathy
+	Objects 289: obj_smallcheckers_enemy
+	Objects 290: obj_pacifyspell
+	Objects 291: obj_deathanim
+	Objects 292: obj_defeatanim
+	Objects 293: obj_healanim
+	Objects 294: obj_oflash
+	Objects 295: obj_rudebuster_anim
+	Objects 296: obj_rudebuster_bolt
+	Objects 297: obj_hypnofx
+	Objects 298: obj_spareanim
+	Objects 299: obj_battleback
+	Objects 300: obj_spellphase
+	Objects 301: obj_battleblcon
+	Objects 302: obj_endbattle
+	Objects 303: obj_growtangle
+	Objects 304: obj_dmgwriter
+	Objects 305: obj_heart
+	Objects 306: obj_shop1
+	Objects 307: obj_shop2
+	Objects 308: DEVICE_APPEARANCE
+	Objects 309: DEVICE_CHOICE
+	Objects 310: DEVICE_CONTACT
+	Objects 311: DEVICE_FAILURE
+	Objects 312: DEVICE_GONERMAKER
+	Objects 313: DEVICE_MENU
+	Objects 314: DEVICE_OBACK_4
+	Objects 315: PROCESS_LOGO
+	Objects 316: PROCESS_DOG
+	Objects 317: obj_credits
+	Objects 318: obj_dkris_event
+	Objects 319: obj_darkphone_event
+	Objects 320: obj_time
+	Objects 321: obj_move_to_point
+	Objects 322: obj_legend
+	Objects 323: obj_savemenu
+	Objects 324: obj_initializer2
+	Objects 325: obj_overworldc
+	Objects 326: obj_mainchara
+	Objects 327: obj_sdl
+	Objects 328: obj_sdr
+	Objects 329: obj_sul
+	Objects 330: obj_sur
+	Objects 331: obj_soliddark
+	Objects 332: obj_sur_dark
+	Objects 333: obj_sdl_dark
+	Objects 334: obj_solidenemy
+	Objects 335: obj_solidenemy_2
+	Objects 336: obj_solidblock
+	Objects 337: obj_solidlong
+	Objects 338: obj_solidcircle
+	Objects 339: obj_diag
+	Objects 340: obj_diamond
+	Objects 341: obj_84_lang_helper
+Room_Prepare() 
+Sound_Prepare() 
+InitGraphics() 
+Finished PrepareGame() 
+Run_Start
+Audio group 1 -> Loading...
+Audio_WAVs()
+**********************************.
+Entering main loop.
+**********************************.
+Audio group 1 -> Loaded
+create stream 300000
+Resizing swap chain...create stream 300001
+create stream 300000
+create stream 300000
+Pause event has been registered for this frame
+Pause event has been unregistered
+Pause event has been registered for this frame
+Pause event has been unregistered
+Pause event has been registered for this frame
+Pause event has been unregistered
+Pause event has been registered for this frame
+Pause event has been unregistered
+Pause event has been registered for this frame
+Pause event has been unregistered
+Pause event has been registered for this frame
+Pause event has been unregistered
+Pause event has been registered for this frame
+Pause event has been unregistered
+create stream 300000
+---------------------------------------------------------------
+minFPS, maxFPS, avgFPS
+-70, 1564, -5
+---------------------------------------------------------------
+---------------------------------------------------------------
+minFPS, maxFPS, avgFPS
+-70, 1564, -5
+---------------------------------------------------------------
+Create Error Form
+
+***************************************
+*     YoYo Games Runner v1.0(999)[r32908]    *
+***************************************	 
+RunnerLoadGame: C:\rof\rofout\data.win
+#########################################################################
+####!!!!$$$$$$ pwd - C:\rof\rofout\
+#########################################################################
+RunnerLoadGame() - C:\rof\rofout\data.win
+YYG Game launching. Game file: C:\rof\rofout\data.win
+Checking if INIFile exists at C:\rof\rofout/options.ini
+Reading File C:\rof\rofout\data.win
+Loaded File C:\rof\rofout\data.win(17178380)
+IFF wad found
+Get Resolution
+Get Header Information
+InitGMLFunctions
+HighScore..SavePrePend = C:\Users\555\AppData\Local\DELTARUNE\
+Game..Math..Graphic..Action..File..Resource..Interaction..3D..Particle..Misc..DS..Sound..Physics..Gamepad..Buffers..Networking..Shaders..InitPushFunctions...YoYo..Fini
+Code_Load()
+VARI_Load()
+got 2687 global variables
+got 2687 instance variables
+got 39 local variables
+ID_STRG
+Create Window
+GAMEPAD: 40 axis values (last) at 0x1c5f900
+GAMEPAD: 40 axis values (last) at 0x1c5f700
+GAMEPAD: 40 axis values (last) at 0x1c5f500
+GAMEPAD: 40 axis values (last) at 0x1c5f300
+GAMEPAD: 40 axis values (last) at 0x1c5f100
+GAMEPAD: 40 axis values (last) at 0x1c5ef00
+GAMEPAD: 40 axis values (last) at 0x1c5ed00
+GAMEPAD: 40 axis values (last) at 0x1c5eb00
+AdjustWindowRectEx
+RegisterClassEx
+CreateWindowEx
+GAMEPAD: 4 axis values (last) at 0xe1eb90
+GAMEPAD: 4 axis values (last) at 0xe1eb70
+GAMEPAD: 4 axis values (last) at 0xe1eb50
+GAMEPAD: 4 axis values (last) at 0xe1eb30
+Init Graphics
+GR_D3D_Init()
+Enable DwmEnableMMCSS
+DirectX11: Using hardware device
+Background_InitTextures()
+Sprite_InitTextures()
+Font_InitTextures()
+IO Init
+Process Messages
+Splash!
+Start Frame
+Part Create Textures
+Debug Init Remote Interface
+VM Init
+Create Score Form
+Create Load Form
+Do The Work
+LoadGameData()
+initialise everything!
+Process Chunk: GEN8   784
+Process Chunk: OPTN   88
+Process Chunk: LANG   24
+Process Chunk: EXTN   8
+Process Chunk: SOND   6056
+Audio_Load()
+Process Chunk: AGRP   24
+AudioGroup_Load()
+Process Chunk: SPRT   1616152
+Process Chunk: BGND   9448
+Process Chunk: PATH   8
+Process Chunk: SCPT   3016
+Process Chunk: GLOB   24
+Process Chunk: SHDR   8
+Process Chunk: FONT   179176
+Process Chunk: TMLN   8
+Process Chunk: OBJT   163096
+Process Chunk: ROOM   1819064
+Process Chunk: DAFL   8
+Process Chunk: EMBI   8
+Process Chunk: TPAG   76472
+Process Chunk: CODE   1497432
+Process Chunk: VARI   90936
+Process Chunk: FUNC   32296
+Process Chunk: STRG   475592
+Process Chunk: TXTR   4832504
+Process Chunk: AUDO   6375940
+Audio_WAVs()
+PrepareGame()
+Extension_Prepare() 
+Code_Constant_Prepare() 
+Script_Prepare() 
+TimeLine_Prepare() 
+Object_Prepare() 
+Preparing 342 objects:
+	Objects 0: obj_choicer_old
+	Objects 1: obj_choicer_neo
+	Objects 2: obj_face
+	Objects 3: obj_face_parent
+	Objects 4: obj_smallface
+	Objects 5: obj_dialoguer
+	Objects 6: obj_writer
+	Objects 7: obj_fallpaper
+	Objects 8: obj_insideclosetcutscene
+	Objects 9: obj_darkdoor
+	Objects 10: obj_classscene
+	Objects 11: obj_schoollobbycutscene
+	Objects 12: obj_schooldesk
+	Objects 13: obj_tem_school
+	Objects 14: obj_torielclass_event
+	Objects 15: obj_unusedclassevent
+	Objects 16: obj_alphysdesk
+	Objects 17: obj_rudy
+	Objects 18: obj_church_event
+	Objects 19: obj_town_shelter_event
+	Objects 20: obj_town_event
+	Objects 21: obj_alphysalley_event
+	Objects 22: obj_flowershop_event
+	Objects 23: obj_onionbody
+	Objects 24: obj_onion_event
+	Objects 25: obj_carcutscene
+	Objects 26: obj_hallway_mirror
+	Objects 27: obj_krisroom
+	Objects 28: obj_rurus_checker_event
+	Objects 29: obj_cc_event
+	Objects 30: obj_jokerbattleevent
+	Objects 31: obj_elevatorcontroller
+	Objects 32: obj_lancerbakesale_event
+	Objects 33: obj_cloverpuzzle_event
+	Objects 34: obj_prisonevent
+	Objects 35: obj_lancerbattle2_event
+	Objects 36: obj_lancerchase2
+	Objects 37: obj_castlefront_event
+	Objects 38: obj_susieandlancer_event
+	Objects 39: obj_thrashcontroller
+	Objects 40: obj_thrashmachine
+	Objects 41: obj_thrashmaker_event
+	Objects 42: obj_suitspuzzle_event
+	Objects 43: obj_susiebadguy_event
+	Objects 44: obj_thrashafter_event
+	Objects 45: obj_thrashafter_follow
+	Objects 46: obj_rurus_appear
+	Objects 47: obj_rurus_event
+	Objects 48: obj_lancerscare2
+	Objects 49: obj_scarelancerevent
+	Objects 50: obj_getsusieevent
+	Objects 51: obj_boxpuzzle_event
+	Objects 52: obj_hathyfightevent
+	Objects 53: obj_darkdoorevent
+	Objects 54: obj_tutorialbattleevent
+	Objects 55: obj_ralsei_runevent
+	Objects 56: obj_lancerguide
+	Objects 57: obj_thrashzone_event
+	Objects 58: obj_insultzone_event
+	Objects 59: obj_preforest_event
+	Objects 60: obj_candytree_event
+	Objects 61: obj_cloverhole
+	Objects 62: obj_npc_hammerguy
+	Objects 63: obj_shortcut_door
+	Objects 64: obj_npc_puzzlemaster1
+	Objects 65: obj_npc_puzzlemaster2
+	Objects 66: obj_cakesmoke
+	Objects 67: obj_npc_susiedark
+	Objects 68: obj_darkcastle_event
+	Objects 69: obj_darklanding
+	Objects 70: obj_wobblything_slide
+	Objects 71: obj_lancerslideevent
+	Objects 72: obj_lancerchaseevent
+	Objects 73: obj_darkslide
+	Objects 74: obj_darkwakeevent
+	Objects 75: obj_savepoint
+	Objects 76: obj_readable
+	Objects 77: obj_animation
+	Objects 78: obj_marker
+	Objects 79: obj_marker2
+	Objects 80: obj_readable_room1
+	Objects 81: obj_interactablesolid
+	Objects 82: obj_npc_toriel
+	Objects 83: obj_npc_facing
+	Objects 84: obj_npc_room
+	Objects 85: obj_npc_room_animated
+	Objects 86: obj_treasure_room
+	Objects 87: obj_npc_sign
+	Objects 88: obj_event_room
+	Objects 89: obj_interactable
+	Objects 90: obj_doorA
+	Objects 91: obj_doorA_musfade
+	Objects 92: obj_doorB_musfade
+	Objects 93: obj_doorB
+	Objects 94: obj_doorC
+	Objects 95: obj_doorC_musfade
+	Objects 96: obj_doorD
+	Objects 97: obj_doorD_musfade
+	Objects 98: obj_doorE
+	Objects 99: obj_doorF
+	Objects 100: obj_doorX
+	Objects 101: obj_doorX_musfade
+	Objects 102: obj_doorw_musfade
+	Objects 103: obj_doorparent
+	Objects 104: obj_markerA
+	Objects 105: obj_markerB
+	Objects 106: obj_markerC
+	Objects 107: obj_markerD
+	Objects 108: obj_markerE
+	Objects 109: obj_markerF
+	Objects 110: obj_markerr
+	Objects 111: obj_markers
+	Objects 112: obj_markert
+	Objects 113: obj_markeru
+	Objects 114: obj_markerv
+	Objects 115: obj_markerw
+	Objects 116: obj_markerX
+	Objects 117: obj_doorW
+	Objects 118: obj_musicer
+	Objects 119: obj_musicer_darkcliff
+	Objects 120: obj_musicer_town
+	Objects 121: obj_musicer_field
+	Objects 122: obj_musicer_forest
+	Objects 123: obj_musicer_quietforest
+	Objects 124: obj_musicer_man
+	Objects 125: obj_musicer_darkcastle
+	Objects 126: obj_musicer_bird
+	Objects 127: obj_wave_fx
+	Objects 128: obj_astream
+	Objects 129: obj_gameover_init
+	Objects 130: obj_ralseibook
+	Objects 131: obj_jokerbg_triangle_real
+	Objects 132: obj_fieldmuslogo
+	Objects 133: obj_backgrounder_standard
+	Objects 134: obj_backgrounder_sprite
+	Objects 135: obj_backgrounderparent
+	Objects 136: obj_panner
+	Objects 137: obj_fadeout
+	Objects 138: obj_fadein
+	Objects 139: obj_persistentfadein
+	Objects 140: obj_shake
+	Objects 141: obj_castle_torch
+	Objects 142: obj_castle_house
+	Objects 143: obj_bluhpainting
+	Objects 144: obj_lightfairy
+	Objects 145: obj_blocktree_bg
+	Objects 146: obj_purplegrass
+	Objects 147: obj_slidedust
+	Objects 148: obj_darklancer
+	Objects 149: obj_dustball
+	Objects 150: obj_dustball_pilebreak
+	Objects 151: obj_dustpile
+	Objects 152: obj_dustpile_susie
+	Objects 153: obj_wobblything
+	Objects 154: obj_wobblything_evil
+	Objects 155: obj_anim
+	Objects 156: obj_kingcutscene
+	Objects 157: obj_shakeobj
+	Objects 158: obj_darkfountain
+	Objects 159: obj_darkfountain_event
+	Objects 160: obj_fountainkris
+	Objects 161: obj_chaseenemy
+	Objects 162: obj_excblcon
+	Objects 163: obj_testoverworldenemy
+	Objects 164: obj_encounterbasic
+	Objects 165: obj_caterpillarchara
+	Objects 166: obj_darkcontroller
+	Objects 167: obj_healwriter
+	Objects 168: obj_menuwriter
+	Objects 169: obj_battlealphaer
+	Objects 170: obj_starwalker_battle
+	Objects 171: obj_starwalker_overworld
+	Objects 172: obj_starwalker_offswitch
+	Objects 173: obj_overworldheart
+	Objects 174: obj_scissordancer
+	Objects 175: obj_dancer_gen
+	Objects 176: obj_darkponman_ow
+	Objects 177: obj_ob_gen
+	Objects 178: obj_ob_checkertile
+	Objects 179: obj_overworld_spade_homing
+	Objects 180: obj_overworld_spade
+	Objects 181: obj_overworld_spademaker
+	Objects 182: obj_overworldbulletparent
+	Objects 183: obj_afterimage
+	Objects 184: obj_afterimage_grow
+	Objects 185: obj_attackpress
+	Objects 186: obj_basicattack
+	Objects 187: obj_battlecontroller
+	Objects 188: obj_battlesolid
+	Objects 189: obj_bulletgenparent
+	Objects 190: obj_bulletparent
+	Objects 191: obj_burstbolt
+	Objects 192: obj_chasebullet
+	Objects 193: obj_collidebullet
+	Objects 194: obj_regularbullet_permanent
+	Objects 195: obj_darkener
+	Objects 196: obj_grazebox
+	Objects 197: obj_healeffect
+	Objects 198: obj_healsparkle
+	Objects 199: obj_heartburst
+	Objects 200: obj_heartmarker
+	Objects 201: obj_lancerbike
+	Objects 202: obj_herokris
+	Objects 203: obj_herosusie
+	Objects 204: obj_heroralsei
+	Objects 205: obj_heroparent
+	Objects 206: obj_initializer
+	Objects 207: obj_krisplace
+	Objects 208: obj_monster1
+	Objects 209: obj_moveheart
+	Objects 210: obj_regularbullet
+	Objects 211: obj_returnheart
+	Objects 212: obj_tensionbar
+	Objects 213: obj_whiteedge
+	Objects 214: obj_forest_area5_puzzle
+	Objects 215: obj_forestmaze_controller
+	Objects 216: obj_tempblock_room
+	Objects 217: obj_suitspuzz
+	Objects 218: obj_suitspuzz_button
+	Objects 219: obj_pushableblock
+	Objects 220: obj_glowtile
+	Objects 221: obj_blocktile
+	Objects 222: obj_glowtilepuzz
+	Objects 223: obj_darkeyepuzzle_switch
+	Objects 224: obj_darkeyepuzzle
+	Objects 225: obj_dicebul
+	Objects 226: obj_heartblcon
+	Objects 227: obj_clubsbullet
+	Objects 228: obj_clubsbullet_dark
+	Objects 229: obj_dbullet_maker
+	Objects 230: obj_dbullet_vert
+	Objects 231: obj_heartshaper
+	Objects 232: obj_spinheart
+	Objects 233: obj_dbulletcontroller
+	Objects 234: obj_monsterparent
+	Objects 235: obj_ralseibullet
+	Objects 236: obj_dummyenemy
+	Objects 237: obj_ralseienemy
+	Objects 238: obj_placeholderenemy
+	Objects 239: obj_chain_of_hell
+	Objects 240: obj_chainking
+	Objects 241: obj_chainpiece
+	Objects 242: obj_fadechain
+	Objects 243: obj_finalchain
+	Objects 244: obj_king_body
+	Objects 245: obj_growtangle_bouncer
+	Objects 246: obj_nonsolid_growtangle
+	Objects 247: obj_skychain
+	Objects 248: obj_wavechain
+	Objects 249: obj_dknight_slasher
+	Objects 250: obj_rudinnranger
+	Objects 251: obj_jigsawbullet
+	Objects 252: obj_jigsawryenemy
+	Objects 253: obj_checkers_enemy
+	Objects 254: obj_checker_animtest
+	Objects 255: obj_ralseithrown
+	Objects 256: obj_throwralsei
+	Objects 257: obj_throwtarget
+	Objects 258: obj_checkers_leap
+	Objects 259: obj_ponman_appear
+	Objects 260: obj_ponman_enemy
+	Objects 261: obj_heartbomb_blast
+	Objects 262: obj_suitbomb
+	Objects 263: obj_joker_body
+	Objects 264: obj_centerscythe
+	Objects 265: obj_laserscythe
+	Objects 266: obj_bigscythe
+	Objects 267: obj_carouselbullet
+	Objects 268: obj_joker_teleport
+	Objects 269: obj_spadering
+	Objects 270: obj_rabbick_bush
+	Objects 271: obj_carrotthrower
+	Objects 272: obj_rabbitbullet
+	Objects 273: obj_rabbick_enemy
+	Objects 274: obj_blockbullet_fall
+	Objects 275: obj_bloxer_enemy
+	Objects 276: obj_lancerbike_neo
+	Objects 277: obj_axebullet
+	Objects 278: obj_lancerboss
+	Objects 279: obj_lancerboss2
+	Objects 280: obj_diamondenemy
+	Objects 281: obj_susieenemy
+	Objects 282: obj_lancerboss3
+	Objects 283: obj_king_boss
+	Objects 284: obj_joker
+	Objects 285: obj_clubsenemy
+	Objects 286: obj_clubsenemy_old
+	Objects 287: obj_heartenemy
+	Objects 288: obj_headhathy
+	Objects 289: obj_smallcheckers_enemy
+	Objects 290: obj_pacifyspell
+	Objects 291: obj_deathanim
+	Objects 292: obj_defeatanim
+	Objects 293: obj_healanim
+	Objects 294: obj_oflash
+	Objects 295: obj_rudebuster_anim
+	Objects 296: obj_rudebuster_bolt
+	Objects 297: obj_hypnofx
+	Objects 298: obj_spareanim
+	Objects 299: obj_battleback
+	Objects 300: obj_spellphase
+	Objects 301: obj_battleblcon
+	Objects 302: obj_endbattle
+	Objects 303: obj_growtangle
+	Objects 304: obj_dmgwriter
+	Objects 305: obj_heart
+	Objects 306: obj_shop1
+	Objects 307: obj_shop2
+	Objects 308: DEVICE_APPEARANCE
+	Objects 309: DEVICE_CHOICE
+	Objects 310: DEVICE_CONTACT
+	Objects 311: DEVICE_FAILURE
+	Objects 312: DEVICE_GONERMAKER
+	Objects 313: DEVICE_MENU
+	Objects 314: DEVICE_OBACK_4
+	Objects 315: PROCESS_LOGO
+	Objects 316: PROCESS_DOG
+	Objects 317: obj_credits
+	Objects 318: obj_dkris_event
+	Objects 319: obj_darkphone_event
+	Objects 320: obj_time
+	Objects 321: obj_move_to_point
+	Objects 322: obj_legend
+	Objects 323: obj_savemenu
+	Objects 324: obj_initializer2
+	Objects 325: obj_overworldc
+	Objects 326: obj_mainchara
+	Objects 327: obj_sdl
+	Objects 328: obj_sdr
+	Objects 329: obj_sul
+	Objects 330: obj_sur
+	Objects 331: obj_soliddark
+	Objects 332: obj_sur_dark
+	Objects 333: obj_sdl_dark
+	Objects 334: obj_solidenemy
+	Objects 335: obj_solidenemy_2
+	Objects 336: obj_solidblock
+	Objects 337: obj_solidlong
+	Objects 338: obj_solidcircle
+	Objects 339: obj_diag
+	Objects 340: obj_diamond
+	Objects 341: obj_84_lang_helper
+Room_Prepare() 
+Sound_Prepare() 
+InitGraphics() 
+Finished PrepareGame() 
+Run_Start
+Audio group 1 -> Loading...
+Audio_WAVs()
+**********************************.
+Entering main loop.
+**********************************.
+Audio group 1 -> Loaded
+create stream 300000
+Resizing swap chain...create stream 300001
+create stream 300000
+create stream 300000
+create stream 300000
+---------------------------------------------------------------
+minFPS, maxFPS, avgFPS
+-114, 302, -3
+---------------------------------------------------------------
+---------------------------------------------------------------
+minFPS, maxFPS, avgFPS
+-114, 302, -3
+---------------------------------------------------------------
+Create Error Form
+
+***************************************
+*     YoYo Games Runner v1.0(999)[r32908]    *
+***************************************	 
+RunnerLoadGame: C:\rof\rofout\data.win
+#########################################################################
+####!!!!$$$$$$ pwd - C:\rof\rofout\
+#########################################################################
+RunnerLoadGame() - C:\rof\rofout\data.win
+YYG Game launching. Game file: C:\rof\rofout\data.win
+Checking if INIFile exists at C:\rof\rofout/options.ini
+Reading File C:\rof\rofout\data.win
+Loaded File C:\rof\rofout\data.win(17180044)
+IFF wad found
+Get Resolution
+Get Header Information
+InitGMLFunctions
+HighScore..SavePrePend = C:\Users\555\AppData\Local\DELTARUNE\
+Game..Math..Graphic..Action..File..Resource..Interaction..3D..Particle..Misc..DS..Sound..Physics..Gamepad..Buffers..Networking..Shaders..InitPushFunctions...YoYo..Fini
+Code_Load()
+VARI_Load()
+got 2687 global variables
+got 2687 instance variables
+got 39 local variables
+ID_STRG
+Create Window
+GAMEPAD: 40 axis values (last) at 0x1f8f900
+GAMEPAD: 40 axis values (last) at 0x1f8f700
+GAMEPAD: 40 axis values (last) at 0x1f8f500
+GAMEPAD: 40 axis values (last) at 0x1f8f300
+GAMEPAD: 40 axis values (last) at 0x1f8f100
+GAMEPAD: 40 axis values (last) at 0x1f8ef00
+GAMEPAD: 40 axis values (last) at 0x1f8ed00
+GAMEPAD: 40 axis values (last) at 0x1f8eb00
+AdjustWindowRectEx
+RegisterClassEx
+CreateWindowEx
+GAMEPAD: 4 axis values (last) at 0x33eb90
+GAMEPAD: 4 axis values (last) at 0x33eb70
+GAMEPAD: 4 axis values (last) at 0x33eb50
+GAMEPAD: 4 axis values (last) at 0x33eb30
+Init Graphics
+GR_D3D_Init()
+Enable DwmEnableMMCSS
+DirectX11: Using hardware device
+Background_InitTextures()
+Sprite_InitTextures()
+Font_InitTextures()
+IO Init
+Process Messages
+Splash!
+Start Frame
+Part Create Textures
+Debug Init Remote Interface
+VM Init
+Create Score Form
+Create Load Form
+Do The Work
+LoadGameData()
+initialise everything!
+Process Chunk: GEN8   784
+Process Chunk: OPTN   88
+Process Chunk: LANG   24
+Process Chunk: EXTN   8
+Process Chunk: SOND   6056
+Audio_Load()
+Process Chunk: AGRP   24
+AudioGroup_Load()
+Process Chunk: SPRT   1616152
+Process Chunk: BGND   9448
+Process Chunk: PATH   8
+Process Chunk: SCPT   3016
+Process Chunk: GLOB   24
+Process Chunk: SHDR   8
+Process Chunk: FONT   179176
+Process Chunk: TMLN   8
+Process Chunk: OBJT   163096
+Process Chunk: ROOM   1819064
+Process Chunk: DAFL   8
+Process Chunk: EMBI   8
+Process Chunk: TPAG   76472
+Process Chunk: CODE   1497432
+Process Chunk: VARI   90936
+Process Chunk: FUNC   32296
+Process Chunk: STRG   475592
+Process Chunk: TXTR   4834168
+Process Chunk: AUDO   6375940
+Audio_WAVs()
+PrepareGame()
+Extension_Prepare() 
+Code_Constant_Prepare() 
+Script_Prepare() 
+TimeLine_Prepare() 
+Object_Prepare() 
+Preparing 342 objects:
+	Objects 0: obj_choicer_old
+	Objects 1: obj_choicer_neo
+	Objects 2: obj_face
+	Objects 3: obj_face_parent
+	Objects 4: obj_smallface
+	Objects 5: obj_dialoguer
+	Objects 6: obj_writer
+	Objects 7: obj_fallpaper
+	Objects 8: obj_insideclosetcutscene
+	Objects 9: obj_darkdoor
+	Objects 10: obj_classscene
+	Objects 11: obj_schoollobbycutscene
+	Objects 12: obj_schooldesk
+	Objects 13: obj_tem_school
+	Objects 14: obj_torielclass_event
+	Objects 15: obj_unusedclassevent
+	Objects 16: obj_alphysdesk
+	Objects 17: obj_rudy
+	Objects 18: obj_church_event
+	Objects 19: obj_town_shelter_event
+	Objects 20: obj_town_event
+	Objects 21: obj_alphysalley_event
+	Objects 22: obj_flowershop_event
+	Objects 23: obj_onionbody
+	Objects 24: obj_onion_event
+	Objects 25: obj_carcutscene
+	Objects 26: obj_hallway_mirror
+	Objects 27: obj_krisroom
+	Objects 28: obj_rurus_checker_event
+	Objects 29: obj_cc_event
+	Objects 30: obj_jokerbattleevent
+	Objects 31: obj_elevatorcontroller
+	Objects 32: obj_lancerbakesale_event
+	Objects 33: obj_cloverpuzzle_event
+	Objects 34: obj_prisonevent
+	Objects 35: obj_lancerbattle2_event
+	Objects 36: obj_lancerchase2
+	Objects 37: obj_castlefront_event
+	Objects 38: obj_susieandlancer_event
+	Objects 39: obj_thrashcontroller
+	Objects 40: obj_thrashmachine
+	Objects 41: obj_thrashmaker_event
+	Objects 42: obj_suitspuzzle_event
+	Objects 43: obj_susiebadguy_event
+	Objects 44: obj_thrashafter_event
+	Objects 45: obj_thrashafter_follow
+	Objects 46: obj_rurus_appear
+	Objects 47: obj_rurus_event
+	Objects 48: obj_lancerscare2
+	Objects 49: obj_scarelancerevent
+	Objects 50: obj_getsusieevent
+	Objects 51: obj_boxpuzzle_event
+	Objects 52: obj_hathyfightevent
+	Objects 53: obj_darkdoorevent
+	Objects 54: obj_tutorialbattleevent
+	Objects 55: obj_ralsei_runevent
+	Objects 56: obj_lancerguide
+	Objects 57: obj_thrashzone_event
+	Objects 58: obj_insultzone_event
+	Objects 59: obj_preforest_event
+	Objects 60: obj_candytree_event
+	Objects 61: obj_cloverhole
+	Objects 62: obj_npc_hammerguy
+	Objects 63: obj_shortcut_door
+	Objects 64: obj_npc_puzzlemaster1
+	Objects 65: obj_npc_puzzlemaster2
+	Objects 66: obj_cakesmoke
+	Objects 67: obj_npc_susiedark
+	Objects 68: obj_darkcastle_event
+	Objects 69: obj_darklanding
+	Objects 70: obj_wobblything_slide
+	Objects 71: obj_lancerslideevent
+	Objects 72: obj_lancerchaseevent
+	Objects 73: obj_darkslide
+	Objects 74: obj_darkwakeevent
+	Objects 75: obj_savepoint
+	Objects 76: obj_readable
+	Objects 77: obj_animation
+	Objects 78: obj_marker
+	Objects 79: obj_marker2
+	Objects 80: obj_readable_room1
+	Objects 81: obj_interactablesolid
+	Objects 82: obj_npc_toriel
+	Objects 83: obj_npc_facing
+	Objects 84: obj_npc_room
+	Objects 85: obj_npc_room_animated
+	Objects 86: obj_treasure_room
+	Objects 87: obj_npc_sign
+	Objects 88: obj_event_room
+	Objects 89: obj_interactable
+	Objects 90: obj_doorA
+	Objects 91: obj_doorA_musfade
+	Objects 92: obj_doorB_musfade
+	Objects 93: obj_doorB
+	Objects 94: obj_doorC
+	Objects 95: obj_doorC_musfade
+	Objects 96: obj_doorD
+	Objects 97: obj_doorD_musfade
+	Objects 98: obj_doorE
+	Objects 99: obj_doorF
+	Objects 100: obj_doorX
+	Objects 101: obj_doorX_musfade
+	Objects 102: obj_doorw_musfade
+	Objects 103: obj_doorparent
+	Objects 104: obj_markerA
+	Objects 105: obj_markerB
+	Objects 106: obj_markerC
+	Objects 107: obj_markerD
+	Objects 108: obj_markerE
+	Objects 109: obj_markerF
+	Objects 110: obj_markerr
+	Objects 111: obj_markers
+	Objects 112: obj_markert
+	Objects 113: obj_markeru
+	Objects 114: obj_markerv
+	Objects 115: obj_markerw
+	Objects 116: obj_markerX
+	Objects 117: obj_doorW
+	Objects 118: obj_musicer
+	Objects 119: obj_musicer_darkcliff
+	Objects 120: obj_musicer_town
+	Objects 121: obj_musicer_field
+	Objects 122: obj_musicer_forest
+	Objects 123: obj_musicer_quietforest
+	Objects 124: obj_musicer_man
+	Objects 125: obj_musicer_darkcastle
+	Objects 126: obj_musicer_bird
+	Objects 127: obj_wave_fx
+	Objects 128: obj_astream
+	Objects 129: obj_gameover_init
+	Objects 130: obj_ralseibook
+	Objects 131: obj_jokerbg_triangle_real
+	Objects 132: obj_fieldmuslogo
+	Objects 133: obj_backgrounder_standard
+	Objects 134: obj_backgrounder_sprite
+	Objects 135: obj_backgrounderparent
+	Objects 136: obj_panner
+	Objects 137: obj_fadeout
+	Objects 138: obj_fadein
+	Objects 139: obj_persistentfadein
+	Objects 140: obj_shake
+	Objects 141: obj_castle_torch
+	Objects 142: obj_castle_house
+	Objects 143: obj_bluhpainting
+	Objects 144: obj_lightfairy
+	Objects 145: obj_blocktree_bg
+	Objects 146: obj_purplegrass
+	Objects 147: obj_slidedust
+	Objects 148: obj_darklancer
+	Objects 149: obj_dustball
+	Objects 150: obj_dustball_pilebreak
+	Objects 151: obj_dustpile
+	Objects 152: obj_dustpile_susie
+	Objects 153: obj_wobblything
+	Objects 154: obj_wobblything_evil
+	Objects 155: obj_anim
+	Objects 156: obj_kingcutscene
+	Objects 157: obj_shakeobj
+	Objects 158: obj_darkfountain
+	Objects 159: obj_darkfountain_event
+	Objects 160: obj_fountainkris
+	Objects 161: obj_chaseenemy
+	Objects 162: obj_excblcon
+	Objects 163: obj_testoverworldenemy
+	Objects 164: obj_encounterbasic
+	Objects 165: obj_caterpillarchara
+	Objects 166: obj_darkcontroller
+	Objects 167: obj_healwriter
+	Objects 168: obj_menuwriter
+	Objects 169: obj_battlealphaer
+	Objects 170: obj_starwalker_battle
+	Objects 171: obj_starwalker_overworld
+	Objects 172: obj_starwalker_offswitch
+	Objects 173: obj_overworldheart
+	Objects 174: obj_scissordancer
+	Objects 175: obj_dancer_gen
+	Objects 176: obj_darkponman_ow
+	Objects 177: obj_ob_gen
+	Objects 178: obj_ob_checkertile
+	Objects 179: obj_overworld_spade_homing
+	Objects 180: obj_overworld_spade
+	Objects 181: obj_overworld_spademaker
+	Objects 182: obj_overworldbulletparent
+	Objects 183: obj_afterimage
+	Objects 184: obj_afterimage_grow
+	Objects 185: obj_attackpress
+	Objects 186: obj_basicattack
+	Objects 187: obj_battlecontroller
+	Objects 188: obj_battlesolid
+	Objects 189: obj_bulletgenparent
+	Objects 190: obj_bulletparent
+	Objects 191: obj_burstbolt
+	Objects 192: obj_chasebullet
+	Objects 193: obj_collidebullet
+	Objects 194: obj_regularbullet_permanent
+	Objects 195: obj_darkener
+	Objects 196: obj_grazebox
+	Objects 197: obj_healeffect
+	Objects 198: obj_healsparkle
+	Objects 199: obj_heartburst
+	Objects 200: obj_heartmarker
+	Objects 201: obj_lancerbike
+	Objects 202: obj_herokris
+	Objects 203: obj_herosusie
+	Objects 204: obj_heroralsei
+	Objects 205: obj_heroparent
+	Objects 206: obj_initializer
+	Objects 207: obj_krisplace
+	Objects 208: obj_monster1
+	Objects 209: obj_moveheart
+	Objects 210: obj_regularbullet
+	Objects 211: obj_returnheart
+	Objects 212: obj_tensionbar
+	Objects 213: obj_whiteedge
+	Objects 214: obj_forest_area5_puzzle
+	Objects 215: obj_forestmaze_controller
+	Objects 216: obj_tempblock_room
+	Objects 217: obj_suitspuzz
+	Objects 218: obj_suitspuzz_button
+	Objects 219: obj_pushableblock
+	Objects 220: obj_glowtile
+	Objects 221: obj_blocktile
+	Objects 222: obj_glowtilepuzz
+	Objects 223: obj_darkeyepuzzle_switch
+	Objects 224: obj_darkeyepuzzle
+	Objects 225: obj_dicebul
+	Objects 226: obj_heartblcon
+	Objects 227: obj_clubsbullet
+	Objects 228: obj_clubsbullet_dark
+	Objects 229: obj_dbullet_maker
+	Objects 230: obj_dbullet_vert
+	Objects 231: obj_heartshaper
+	Objects 232: obj_spinheart
+	Objects 233: obj_dbulletcontroller
+	Objects 234: obj_monsterparent
+	Objects 235: obj_ralseibullet
+	Objects 236: obj_dummyenemy
+	Objects 237: obj_ralseienemy
+	Objects 238: obj_placeholderenemy
+	Objects 239: obj_chain_of_hell
+	Objects 240: obj_chainking
+	Objects 241: obj_chainpiece
+	Objects 242: obj_fadechain
+	Objects 243: obj_finalchain
+	Objects 244: obj_king_body
+	Objects 245: obj_growtangle_bouncer
+	Objects 246: obj_nonsolid_growtangle
+	Objects 247: obj_skychain
+	Objects 248: obj_wavechain
+	Objects 249: obj_dknight_slasher
+	Objects 250: obj_rudinnranger
+	Objects 251: obj_jigsawbullet
+	Objects 252: obj_jigsawryenemy
+	Objects 253: obj_checkers_enemy
+	Objects 254: obj_checker_animtest
+	Objects 255: obj_ralseithrown
+	Objects 256: obj_throwralsei
+	Objects 257: obj_throwtarget
+	Objects 258: obj_checkers_leap
+	Objects 259: obj_ponman_appear
+	Objects 260: obj_ponman_enemy
+	Objects 261: obj_heartbomb_blast
+	Objects 262: obj_suitbomb
+	Objects 263: obj_joker_body
+	Objects 264: obj_centerscythe
+	Objects 265: obj_laserscythe
+	Objects 266: obj_bigscythe
+	Objects 267: obj_carouselbullet
+	Objects 268: obj_joker_teleport
+	Objects 269: obj_spadering
+	Objects 270: obj_rabbick_bush
+	Objects 271: obj_carrotthrower
+	Objects 272: obj_rabbitbullet
+	Objects 273: obj_rabbick_enemy
+	Objects 274: obj_blockbullet_fall
+	Objects 275: obj_bloxer_enemy
+	Objects 276: obj_lancerbike_neo
+	Objects 277: obj_axebullet
+	Objects 278: obj_lancerboss
+	Objects 279: obj_lancerboss2
+	Objects 280: obj_diamondenemy
+	Objects 281: obj_susieenemy
+	Objects 282: obj_lancerboss3
+	Objects 283: obj_king_boss
+	Objects 284: obj_joker
+	Objects 285: obj_clubsenemy
+	Objects 286: obj_clubsenemy_old
+	Objects 287: obj_heartenemy
+	Objects 288: obj_headhathy
+	Objects 289: obj_smallcheckers_enemy
+	Objects 290: obj_pacifyspell
+	Objects 291: obj_deathanim
+	Objects 292: obj_defeatanim
+	Objects 293: obj_healanim
+	Objects 294: obj_oflash
+	Objects 295: obj_rudebuster_anim
+	Objects 296: obj_rudebuster_bolt
+	Objects 297: obj_hypnofx
+	Objects 298: obj_spareanim
+	Objects 299: obj_battleback
+	Objects 300: obj_spellphase
+	Objects 301: obj_battleblcon
+	Objects 302: obj_endbattle
+	Objects 303: obj_growtangle
+	Objects 304: obj_dmgwriter
+	Objects 305: obj_heart
+	Objects 306: obj_shop1
+	Objects 307: obj_shop2
+	Objects 308: DEVICE_APPEARANCE
+	Objects 309: DEVICE_CHOICE
+	Objects 310: DEVICE_CONTACT
+	Objects 311: DEVICE_FAILURE
+	Objects 312: DEVICE_GONERMAKER
+	Objects 313: DEVICE_MENU
+	Objects 314: DEVICE_OBACK_4
+	Objects 315: PROCESS_LOGO
+	Objects 316: PROCESS_DOG
+	Objects 317: obj_credits
+	Objects 318: obj_dkris_event
+	Objects 319: obj_darkphone_event
+	Objects 320: obj_time
+	Objects 321: obj_move_to_point
+	Objects 322: obj_legend
+	Objects 323: obj_savemenu
+	Objects 324: obj_initializer2
+	Objects 325: obj_overworldc
+	Objects 326: obj_mainchara
+	Objects 327: obj_sdl
+	Objects 328: obj_sdr
+	Objects 329: obj_sul
+	Objects 330: obj_sur
+	Objects 331: obj_soliddark
+	Objects 332: obj_sur_dark
+	Objects 333: obj_sdl_dark
+	Objects 334: obj_solidenemy
+	Objects 335: obj_solidenemy_2
+	Objects 336: obj_solidblock
+	Objects 337: obj_solidlong
+	Objects 338: obj_solidcircle
+	Objects 339: obj_diag
+	Objects 340: obj_diamond
+	Objects 341: obj_84_lang_helper
+Room_Prepare() 
+Sound_Prepare() 
+InitGraphics() 
+Finished PrepareGame() 
+Run_Start
+Audio group 1 -> Loading...
+Audio_WAVs()
+**********************************.
+Entering main loop.
+**********************************.
+Audio group 1 -> Loaded
+create stream 300000
+Resizing swap chain...create stream 300001
+create stream 300000
+create stream 300001
+create stream 300000
+create stream 300000
+Pause event has been registered for this frame
+Pause event has been unregistered
+Pause event has been registered for this frame
+Pause event has been unregistered
+create stream 300000
+create stream 300000
+create stream 300000
+create stream 300000
+create stream 300000
+create stream 300000
+Pause event has been registered for this frame
+Pause event has been unregistered
+Pause event has been registered for this frame
+Pause event has been unregistered
+Pause event has been registered for this frame
+Pause event has been unregistered
+Pause event has been registered for this frame
+Pause event has been unregistered
+---------------------------------------------------------------
+minFPS, maxFPS, avgFPS
+-97, 575, -6
+---------------------------------------------------------------
+---------------------------------------------------------------
+minFPS, maxFPS, avgFPS
+-97, 575, -6
+---------------------------------------------------------------
